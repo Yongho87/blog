@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "How to resolve expo eject could not locate a valid AppDelegate at root issue"
+title:  "expo eject could not locate a valid AppDelegate at root issue"
 date:   2021-02-14 11:32:41 +0900
 ---
 
