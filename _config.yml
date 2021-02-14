@@ -28,10 +28,25 @@ url: "yongho87.github.io" # the base hostname & protocol for your site, e.g. htt
 # github_username:  Yongho87
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
+defaults:
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
+
+include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -51,3 +66,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-02-14T12:08:19+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">생각과 의식의 기록</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">How to resolve expo eject could not locate a valid AppDelegate at root issue</title><link href="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" rel="alternate" type="text/html" title="How to resolve expo eject could not locate a valid AppDelegate at root issue" /><published>2021-02-14T11:32:41+09:00</published><updated>2021-02-14T11:32:41+09:00</updated><id>http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html">&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-02-14T13:25:34+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">생각과 의식의 기록</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">How to resolve expo eject could not locate a valid AppDelegate at root issue</title><link href="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" rel="alternate" type="text/html" title="How to resolve expo eject could not locate a valid AppDelegate at root issue" /><published>2021-02-14T11:32:41+09:00</published><updated>2021-02-14T11:32:41+09:00</updated><id>http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html">&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;There are two possible solutions depending on your case.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -11,16 +11,13 @@
 
 &lt;p&gt;But I didn’t even have the folders before ejecting expo. So the solution didn’t work for my case.&lt;/p&gt;
 
-&lt;p&gt;The real soluition for me was very simple. If you assigned your expo.name field value as non-english character in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.json&lt;/code&gt;, that is the real culprit. You should &lt;strong&gt;change the filed value in English&lt;/strong&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expo eject&lt;/code&gt; to work.&lt;/p&gt;
+&lt;p&gt;The real soluition for me was very simple. If you assigned your expo.name field value as non-english character in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.json&lt;/code&gt;, that is the real culprit. You should &lt;strong&gt;change the field value in English&lt;/strong&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expo eject&lt;/code&gt; to work.&lt;/p&gt;
 
 &lt;p&gt;That’s it.&lt;/p&gt;
 
 &lt;p&gt;Hope anyone can get a bit of help from my lost 5 hours.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;React Native를 expo를 통해 개발하다 expo eject할때가 되어 명령을 수행했는데 제목과 같은 문제에 봉착.&lt;/p&gt;
 
@@ -39,7 +36,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;이 문제말고도 다른 문제 때문에 동일한 에러가 나오는 경우가 있는데 이러한 상황에서의 근본문제는 기존 폴더에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ios&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;android&lt;/code&gt;폴더가 존재하기 때문이라고 한다. (expo github issue에 찾으면 나옴) 따라서 해결책은 이 폴더들을 삭제하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expo eject&lt;/code&gt;을 해주면 됩니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">TL;DR There are two possible solutions depending on your case.</summary></entry><entry><title type="html">첫번째 글</title><link href="http://localhost:4000/blog/jekyll/update/2021/02/14/%EC%B2%AB%EB%B2%88%EC%A7%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80.html" rel="alternate" type="text/html" title="첫번째 글" /><published>2021-02-14T10:17:41+09:00</published><updated>2021-02-14T10:17:41+09:00</updated><id>http://localhost:4000/blog/jekyll/update/2021/02/14/%EC%B2%AB%EB%B2%88%EC%A7%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2021/02/14/%EC%B2%AB%EB%B2%88%EC%A7%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80.html">&lt;p&gt;다시 온라인 상에 내 생각과 관련된 글을 작성하는 일을 시작해보려고 한다.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Yongho</name></author><summary type="html">TL;DR There are two possible solutions depending on your case.</summary></entry><entry><title type="html">첫번째 글</title><link href="http://localhost:4000/blog/jekyll/update/2021/02/14/%EC%B2%AB%EB%B2%88%EC%A7%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80.html" rel="alternate" type="text/html" title="첫번째 글" /><published>2021-02-14T10:17:41+09:00</published><updated>2021-02-14T10:17:41+09:00</updated><id>http://localhost:4000/blog/jekyll/update/2021/02/14/%EC%B2%AB%EB%B2%88%EC%A7%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2021/02/14/%EC%B2%AB%EB%B2%88%EC%A7%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80.html">&lt;p&gt;다시 온라인 상에 내 생각과 관련된 글을 작성하는 일을 시작해보려고 한다.&lt;/p&gt;
 
 &lt;p&gt;어떠한 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;플랫폼&lt;/code&gt;에 종속되지 않고 내 100%의 영향력 안에서 만들어지고
 운영될 수 있는 블로그로 시작하려고 했는데 github page를 통해서
@@ -49,4 +46,4 @@
 
 &lt;p&gt;또는 혼자서 스타트업을 꾸려나가는 입장에서 해결해야 하는 기술적인 문제들의 문제와 해결방법등을
 공유하려고 한다. 누군가가 보고 시간과 에너지를 절약할 수 있다면 그 또한 내가 원하는 좋은가치를
-창출하는 것이라고 생각하므로&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">다시 온라인 상에 내 생각과 관련된 글을 작성하는 일을 시작해보려고 한다.</summary></entry></feed>
+창출하는 것이라고 생각하므로&lt;/p&gt;</content><author><name>Yongho</name></author><category term="jekyll" /><category term="update" /><summary type="html">다시 온라인 상에 내 생각과 관련된 글을 작성하는 일을 시작해보려고 한다.</summary></entry></feed>

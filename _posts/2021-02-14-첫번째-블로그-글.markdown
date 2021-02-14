@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+author: Yongho
 title:  "첫번째 글"
 date:   2021-02-14 10:17:41 +0900
 categories: jekyll update

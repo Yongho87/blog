@@ -1,0 +1,7 @@
+Yongho:
+  name        : "Yongho"
+  bio         : "Be calm and clear. Whenever you realized you are distracted, gently bring your attention and be mindfulness."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sssonly87@gmail.com"

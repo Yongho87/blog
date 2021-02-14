@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: single
+author: Yongho
 title: About
 permalink: /about/
 ---

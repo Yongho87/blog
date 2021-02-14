@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+author: Yongho
 title:  "How to resolve expo eject could not locate a valid AppDelegate at root issue"
 date:   2021-02-14 11:32:41 +0900
 ---
@@ -16,15 +17,15 @@ I encountered this weird issue and wasted about 5 hours on Saturday. There are f
 
 But I didn't even have the folders before ejecting expo. So the solution didn't work for my case. 
 
-The real soluition for me was very simple. If you assigned your expo.name field value as non-english character in `app.json`, that is the real culprit. You should **change the filed value in English** for `expo eject` to work.
+The real soluition for me was very simple. If you assigned your expo.name field value as non-english character in `app.json`, that is the real culprit. You should **change the field value in English** for `expo eject` to work.
 
 That's it. 
 
 Hope anyone can get a bit of help from my lost 5 hours.
 
-<br/>
+
 <hr>
-<br/>
+
 
 React Native를 expo를 통해 개발하다 expo eject할때가 되어 명령을 수행했는데 제목과 같은 문제에 봉착.
 
