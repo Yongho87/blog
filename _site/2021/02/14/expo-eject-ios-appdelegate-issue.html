@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>How to resolve expo eject could not locate a valid AppDelegate at root issue | 생각과 의식의 기록</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="How to resolve expo eject could not locate a valid AppDelegate at root issue" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="TL;DR There are two possible solutions depending on your case." />
+<meta property="og:description" content="TL;DR There are two possible solutions depending on your case." />
+<link rel="canonical" href="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" />
+<meta property="og:site_name" content="생각과 의식의 기록" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-14T11:32:41+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How to resolve expo eject could not locate a valid AppDelegate at root issue" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html","headline":"How to resolve expo eject could not locate a valid AppDelegate at root issue","dateModified":"2021-02-14T11:32:41+09:00","datePublished":"2021-02-14T11:32:41+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html"},"description":"TL;DR There are two possible solutions depending on your case.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/feed.xml" title="생각과 의식의 기록" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">생각과 의식의 기록</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to resolve expo eject could not locate a valid AppDelegate at root issue</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-02-14T11:32:41+09:00" itemprop="datePublished">Feb 14, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="tldr">TL;DR</h2>
+<p>There are two possible solutions depending on your case.</p>
+
+<ol>
+  <li>delete <code class="language-plaintext highlighter-rouge">android</code> and <code class="language-plaintext highlighter-rouge">ios</code> folders before <code class="language-plaintext highlighter-rouge">expo eject</code></li>
+  <li>In <code class="language-plaintext highlighter-rouge">app.json</code>, change your <code class="language-plaintext highlighter-rouge">expo.name</code> field value to English value.</li>
+</ol>
+
+<h2 id="a-little-longer-version">a little longer version</h2>
+<p>I encountered this weird issue and wasted about 5 hours on Saturday. There are few google search results relevant to this. The only solution you can get from google is to delete the existing <code class="language-plaintext highlighter-rouge">android</code> and <code class="language-plaintext highlighter-rouge">ios</code> folders from the official expo github issue repository.</p>
+
+<p>But I didn’t even have the folders before ejecting expo. So the solution didn’t work for my case.</p>
+
+<p>The real soluition for me was very simple. If you assigned your expo.name field value as non-english character in <code class="language-plaintext highlighter-rouge">app.json</code>, that is the real culprit. You should <strong>change the filed value in English</strong> for <code class="language-plaintext highlighter-rouge">expo eject</code> to work.</p>
+
+<p>That’s it.</p>
+
+<p>Hope anyone can get a bit of help from my lost 5 hours.</p>
+
+<p><br /></p>
+<hr />
+
+<p><br /></p>
+
+<p>React Native를 expo를 통해 개발하다 expo eject할때가 되어 명령을 수행했는데 제목과 같은 문제에 봉착.</p>
+
+<p>다른 프로젝트에서는 아무 문제 없이 되었는데 특정 프로젝트에서 위에 문제가 생기는게 이상하여 이런 저런 방법을 통해 해결해보려고 하다가 의미없이 약 5시간은 날린것 같다.</p>
+
+<p>어이없게도 해결책은 다음과 같이 굉장히 간단하다.</p>
+<ul>
+  <li>expo 설정을 해주는 <code class="language-plaintext highlighter-rouge">app.json</code>에 <strong>expo.name field가 한글</strong>로 되어 있으면 위의 문제가 발생하므로 이것을 영어로 변경해준다.</li>
+</ul>
+
+<p>근본적인 원인은 expo에서 expo.name을 기반으로 <code class="language-plaintext highlighter-rouge">ios</code>와 <code class="language-plaintext highlighter-rouge">android</code>폴더를 생성해주는데 이 안에 저 필드이름을 기반으로 하는 서브폴더들이 생기게 된다. 이때 한글이라면 인식을 못하여 폴더를 생성해주지 못한다. 이런 저런 디버깅을 통해 힌트를 발견하고 겨우 해결했다. 윈도우10도 안되고 macOS Big Sur 11.0.1에서도 안됨.</p>
+
+<p>구체적인 것은 모르겠지만 expo내의 자동으로 폴더 생성하는 코드가 utf-8로 되어 있지 않아 한글을 처리하지 못하는 것으로 보인다. 우리나라가 first world 나라가 아닌 것을 다시 한번 상기시켜주는 문제였음.</p>
+
+<p>혹시 비슷한 문제에 봉착하는 사람들은 구글링이 이 글을 상위에 랭크시켜줄것 같으니 이것을 보고 도움이 되었으면 합니다.</p>
+
+<ul>
+  <li>이 문제말고도 다른 문제 때문에 동일한 에러가 나오는 경우가 있는데 이러한 상황에서의 근본문제는 기존 폴더에 <code class="language-plaintext highlighter-rouge">ios</code>와 <code class="language-plaintext highlighter-rouge">android</code>폴더가 존재하기 때문이라고 한다. (expo github issue에 찾으면 나옴) 따라서 해결책은 이 폴더들을 삭제하고 <code class="language-plaintext highlighter-rouge">expo eject</code>을 해주면 됩니다.</li>
+</ul>
+
+
+  </div><a class="u-url" href="/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">생각과 의식의 기록</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">생각과 의식의 기록</li><li><a class="u-email" href="mailto:yhson87@gmail.com">yhson87@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>부트스트래핑 1인 스타트업</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
