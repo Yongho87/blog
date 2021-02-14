@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+2021년 2월 시점에 이익이 전혀 나지 않고 있는 1인 부트스트래핑 스타트업을 운영하고 있습니다.
+- 스타트업, 과학기술, 경제 그리고 심리학, 의식, mindfulness등이 저의 주요 관심사 입니다. 일론 머스크의 스페이스 엑스 설립이유인 인류가 지구뿐만이 아닌 다른 여러행성에서 거주 할 수 있도록 만드는 비젼에 매력을 느낍니다.
+- 일론 머스크의 테슬라의 설립 이유이자 명명된 비젼인 화석연료 기반에서 신재생에너지로 기반의 생산과 소비의 전환을 동의합니다.
+- 지구상에 존재하는 경험을 느낄 수 있는 모든 생명체들의 웰빙을 높이는것이 절대적 도덕적 가치가 될 수 있다는 샘해리스의 의견에 동의합니다.
+- 다른 사람들에게 피해를 주고 남을 속이고 안좋은 행동을 하지 않고 인류와 사회에 긍정적인 영향을 줄 수 있는 좋은 비즈니스를 만들 수 있다는 것을 실현하고 싶은 사람입니다.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
