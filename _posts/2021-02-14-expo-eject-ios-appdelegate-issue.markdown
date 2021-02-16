@@ -2,7 +2,7 @@
 layout: single
 author: Yongho
 title:  "expo eject could not locate a valid AppDelegate at root issue"
-date:   2021-02-14 11:32:41 +0900
+date:   2021-02-14 10:17:41 +0900
 ---
 
 
