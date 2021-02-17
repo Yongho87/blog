@@ -28,6 +28,7 @@ url: "yongho87.github.io" # the base hostname & protocol for your site, e.g. htt
 # github_username:  Yongho87
 
 # Build settings
+future: true
 remote_theme: mmistakes/minimal-mistakes@4.22.0
 minimal_mistakes_skin: "air"
 plugins:

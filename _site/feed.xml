@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-02-17T08:04:50+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">생각과 의식의 기록</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">expo eject could not locate a valid AppDelegate at root issue</title><link href="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" rel="alternate" type="text/html" title="expo eject could not locate a valid AppDelegate at root issue" /><published>2021-02-14T10:17:41+09:00</published><updated>2021-02-14T10:17:41+09:00</updated><id>http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html">&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-02-17T09:00:14+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">생각과 의식의 기록</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">경제의 기본적 이해 1편</title><link href="http://localhost:4000/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1%ED%8E%B8.html" rel="alternate" type="text/html" title="경제의 기본적 이해 1편" /><published>2021-02-17T07:17:41+09:00</published><updated>2021-02-17T07:17:41+09:00</updated><id>http://localhost:4000/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1%ED%8E%B8</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1%ED%8E%B8.html">&lt;p&gt;전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명.&lt;/p&gt;
+
+&lt;p&gt;크게 다음과 같은 순서로 설명&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;신용과 부채란 무엇인가&lt;/li&gt;
+  &lt;li&gt;전형적인 큰 부채 사이클&lt;/li&gt;
+  &lt;li&gt;디플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
+  &lt;li&gt;인플레이션적인 침체와 통화위기&lt;/li&gt;
+  &lt;li&gt;인플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;오늘은 &lt;strong&gt;신용과 부채란 무엇인가&lt;/strong&gt;에 대해 핵심 개념들을 누구나 이해할 수 있게 얘기해보려고 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;신용과-부채빚이란-무엇인가&quot;&gt;신용과 부채(빚)이란 무엇인가?&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;신용&lt;/code&gt;이란 &lt;strong&gt;무엇인가를 살 수 있는 능력을 주는 것&lt;/strong&gt;. 당신이 현재 가진 돈이 없는데 테슬라3를 5000만원 주고 사고 싶을때 누군가가 당신에게 5000만원의 신용을 준다면 당신은 테슬라3를 살 수 있다. 누군가 당신에게 주는 이 5천만원의 신용은 그냥 공짜로 주는 것이 아니라 &lt;strong&gt;나중에 그 돈을 갚는다는 약속&lt;/strong&gt;과 교환된다. 여기서 나중에 돈을 갚는 다는 약속을 우리는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부채(빚)&lt;/code&gt;라고 부른다. 즉 통장에 잔고가 0원인 상태에서 누군가로부터 신용을 받으면 당신은 뭔가를 사거나 할 수 있고 그 대가로 미래에 당신은 그만큼의 돈을 다시 갚아야 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;신용을-통해-뭔가를-살-수-있게-하는-것은-좋은-것&quot;&gt;신용을 통해 뭔가를 살 수 있게 하는 것은 좋은 것&lt;/h2&gt;
+&lt;p&gt;신용을 제공하는 것은 돈이 없는 사람이 무엇인가를 사거나 하게 해주는 구매력을 주므로 그 자체로 좋은 것이라고 할 수 있다. 왜냐하면 신용을 통해 전체 경제의 파이가 커질 수 있기 때문(흔히 우리가 얘기하는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;경제의 성장&lt;/code&gt;)이다. 반대로 신용을 제공하지 않는 것은 성장이 거의 없을 수 있기 때문에 안좋은 것이 될 수 있다. 만약 잔고가 0인 사람에게 어떠한 신용도 주어지지 않는다면 그 사람은 지금 당장 아무것도 할 수 있는게 없을 것이다. 하지만 이 사람에게 1억의 신용을 제공했을때 그것을 바탕으로 구글을 설립하여 2천조 이상의 가치를 가지는 회사로 성장시킨다면 그 창업자는 물론이거니와 전체 사회는 이로 인해 엄청난 경제적 이익을 볼 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;신용과-부채의-단점은-빚을-못-갚았을때-발생한다&quot;&gt;신용과 부채의 단점은 빚을 못 갚았을때 발생한다.&lt;/h2&gt;
+&lt;p&gt;1억의 신용을 제공받은 사람이 만들라는 구글은 안만들고 술과 유흥에 5천만원을 탕진하고 나머지 5천만원은 상장폐지 되는 주식에 투자해 돈을 다 날리면 1억의 갚기로 한 약속을 지키지 못하게 될 것이고 이것은 문제가 될 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;신용과-부채는-좋은-것인가-나쁜-것인가&quot;&gt;신용과 부채는 좋은 것인가 나쁜 것인가?&lt;/h2&gt;
+&lt;p&gt;이 질문의 대답은 다른 모든 복잡한 주제들이 그렇듯이 단순하게 예 아니오로 대답할 수 없다. 상황에 따라 답이 예일 수도 있고 아니오일 수도 있다. 즉, 신용으로 무엇을 하는가 그리고 신용으로 발생한 부채가 어떻게 갚아지는지에 따라서 답은 달라진다. 위에서 얘기한 것처럼 신용으로 얻은 구매력을 통해 실제적으로 경제가 성장하는 방향의 결과가 얻어지고 부채가 제대로 갚아진다면 신용과 부채를 통한 성장은 좋은 것이다. 뱐대로 신용으로 생산성이 없는 짓을 하고 돈을 갚지 못한다면 이것은 안좋은 것이 될 수 있다.&lt;/p&gt;
+
+&lt;p&gt;한명의 개인이 아니라 전체 사회의 관점에서 봤을때 신용과 부채가 거의 없는 것은 너무 과도한 신용과 부채가 있는 것 보다 더 안좋은 결과를 낳을 수 있다. 왜냐하면 너무 적은 신용때문에 신용을 통해 전체 경제성장을 이룰 수도 있었던 기회를 날려버릴 수도 있기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;정리하면, 신용이 구매력과 부채를 만들어내므로 더 많은 신용이 좋은가 아닌가에 대한 질문은 그 신용으로 생산적인 일을 하여 충분한 수입을 창출하고 갚기로 했던 부채를 어느정도 갚을 수 있냐에 달려 있다.&lt;/p&gt;
+
+&lt;p&gt;신용이 생산적으로 잘 사용된다면 돈이라는 한정된 자원이 효율적으로 잘 사용된것이고 신용을 준 사람들과 신용을 받은 사람들 모두 경제적으로 이익을 볼 수 있다. 그게 아니라면 자원이 제대로 사용되지 못한 것이다.&lt;/p&gt;
+
+&lt;p&gt;이것을 전체 사회로 보았을때 우리는 신용의 직접적인 영향 뿐만아니라 2차적이고 간접적인 영향도 고려해야 한다. 예를들어 재정적인 보수주의를 주장하는 사람들(국가가 교육/사회기반시설에 투자하기 위해 돈을 빌려쓰는 것은 사회에 안좋다)로 인해 충분한 신용과 돈이 명백하게 사회에 도움이 되는 아이들을 교육시키는 것, 비효율적인 교통을 유발하는 도로나 다리 공공시설들을 교체하는 것에 사용되지 않는다면 이것은 사회에 안좋은 것이 될 수 있다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html">전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명.</summary></entry><entry><title type="html">expo eject could not locate a valid AppDelegate at root issue</title><link href="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" rel="alternate" type="text/html" title="expo eject could not locate a valid AppDelegate at root issue" /><published>2021-02-14T10:17:41+09:00</published><updated>2021-02-14T10:17:41+09:00</updated><id>http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html">&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;There are two possible solutions depending on your case.&lt;/p&gt;
 
 &lt;ol&gt;
