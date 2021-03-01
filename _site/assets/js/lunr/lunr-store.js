@@ -16,4 +16,10 @@ var store = [{
         "tags": [],
         "url": "/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1%ED%8E%B8.html",
         "teaser": null
+      },{
+        "title": "찰리멍거의 심리학",
+        "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 거의 인정을 안해주는 시절에 교육을 받았었다. 대신 그 당시 심리학이 관심...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html",
+        "teaser": null
       }]
