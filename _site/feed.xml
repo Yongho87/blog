@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-03-06T10:24:38+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">생각과 의식의 기록</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html" rel="alternate" type="text/html" title="찰리멍거의 심리학" /><published>2021-02-26T06:00:00+09:00</published><updated>2021-02-26T06:00:00+09:00</updated><id>http://localhost:4000/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-03-06T11:18:19+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">생각과 의식의 기록</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">경제의 기본적 이해 2편</title><link href="http://localhost:4000/blog/2021/03/05/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-2%ED%8E%B8.html" rel="alternate" type="text/html" title="경제의 기본적 이해 2편" /><published>2021-03-05T20:00:00+09:00</published><updated>2021-03-05T20:00:00+09:00</updated><id>http://localhost:4000/blog/2021/03/05/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-2%ED%8E%B8</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/05/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-2%ED%8E%B8.html">&lt;p&gt;전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명.&lt;/p&gt;
+
+&lt;p&gt;크게 다음과 같은 순서로 설명&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;신용과 부채란 무엇인가&lt;/li&gt;
+  &lt;li&gt;전형적인 큰 부채 사이클&lt;/li&gt;
+  &lt;li&gt;디플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
+  &lt;li&gt;인플레이션적인 침체와 통화위기&lt;/li&gt;
+  &lt;li&gt;인플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;오늘은 &lt;strong&gt;전형적인 큰 부채 사이클&lt;/strong&gt;에 대해 핵심 개념들을 누구나 이해할 수 있게 얘기해보려고 한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;참고: Big Debt Crises by Ray Dalio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;전형적인-장기간의-부채사이클의-견본&quot;&gt;전형적인 장기간의 부채사이클의 견본&lt;/h2&gt;
+&lt;p&gt;과거 100년간 세계에서 일어난 총 48번의 큰 부채 사이클을 분석한 결과들을 기반으로 만든 견본으로 모든 부채 사이클은 GDP의 3% 이상을 감소시켰다 (3%는 경제침체의 나름의 기준). 좀 더 명확하게 각각의 부채 사이클을 겪은 나라를 크게 2가지로 나뉠 수 있는데 하나는 외환부채가 없어 가격이 상승하는 불황을 겪지 않은 경우들 다른 하나는 많은 양의 부채가 외환으로 되어있어 가격상승의 불황을 겪은 경우이다. 외환부채의 양과 가격상승의 정도에는 75% 정도의 상관관계가 존재하기 때문에 외환부채가 많은 나라가 가격 상승적인 불황을 겪는 것은 말이 된다.&lt;/p&gt;
+
+&lt;p&gt;전형적으로 부채 위기는 수입의 증가보다 갚아야 하는 대출 및 부채가 증가하는 속도가 더 크기 때문에 발생한다. 이렇게 되면 부채를 줄여야 하기 때문에 지출과 투자가 자연스럽게 줄어든다. 이러한 부채 위기에 중앙은행은 금리를 낮춤으로써 어느정도 해결 할 수 있지만 심각한 부채 위기는 더 이상 금리를 낮출 수 없을때 발생하게 된다. 일반적으로 많은 단기간의 부채 주기들이 장기간의 부채 주기를 만들어낸다. 부채의 크기가 점점 커지더라도 금리를 낮추게 되면 부채상환에 필요한 금액인 이자가 일정하게 유지되거나 부채증가 속도보다 더 작아질 수 있기 때문에 금리의 조정을 통해 어느정도 부채의 부담을 줄일 수 있다. 하지만 더 이상 금리를 낮출 수 없는 경우에는 실제 부채의 크기를 낮춰야 하는 디레버리징이 시작된다.&lt;/p&gt;
+
+&lt;p&gt;2가지 추가적으로 알아야 하는 사실이 있는데,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;경제안의 다양한 주체들은 서로 다른 부채 부담을 갖고 있다는 것&lt;/li&gt;
+  &lt;li&gt;여기서 부채라고 하는 것은 연금과 건강보험과 같은 더 큰 금액의 부채는 포함하지 않는다는 것&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;한 나라의 경제적인 취약성을 파악하기 위해서는 이 2가지도 포함하여 분석해야 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;부채-주기에-대한-분석&quot;&gt;부채 주기에 대한 분석&lt;/h2&gt;
+&lt;h2 id=&quot;일반적인-디플레이션-부채-주기의-단계들&quot;&gt;일반적인 디플레이션 부채 주기의 단계들&lt;/h2&gt;
+&lt;h3 id=&quot;1-초기&quot;&gt;1. 초기&lt;/h3&gt;
+&lt;h3 id=&quot;2-버블&quot;&gt;2. 버블&lt;/h3&gt;
+&lt;h3 id=&quot;3-정점&quot;&gt;3. 정점&lt;/h3&gt;
+&lt;h3 id=&quot;4-불황&quot;&gt;4. 불황&lt;/h3&gt;
+&lt;h3 id=&quot;5-아름다운-디레버리징&quot;&gt;5. 아름다운 디레버리징&lt;/h3&gt;
+&lt;h3 id=&quot;6-무리한-정책&quot;&gt;6. 무리한 정책&lt;/h3&gt;
+&lt;h3 id=&quot;7-정상화&quot;&gt;7. 정상화&lt;/h3&gt;</content><author><name>Yongho</name></author><summary type="html">전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명.</summary></entry><entry><title type="html">찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html" rel="alternate" type="text/html" title="찰리멍거의 심리학" /><published>2021-02-26T06:00:00+09:00</published><updated>2021-02-26T06:00:00+09:00</updated><id>http://localhost:4000/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html">&lt;blockquote&gt;
   &lt;p&gt;출처: Poor Charlie’s Almanack By Charlies T. Munger&lt;/p&gt;
 &lt;/blockquote&gt;
 
