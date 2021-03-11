@@ -1,11 +1,11 @@
 ---
 layout: single
 author: Yongho
-title:  "찰리멍거의 심리학"
+title:  "찰리멍거의 심리학 #1"
 date:   2021-02-25 21:00:00 +0000
 ---
 
-> 출처: Poor Charlie's Almanack By Charlies T. Munger
+> 출처: Poor Charlie's Almanack By Charlies T. Munger를 번역+의역한 내용 입니다.
 
 # 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment)
 

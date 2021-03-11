@@ -1,31 +1,55 @@
 var store = [{
-        "title": "expo eject could not locate a valid AppDelegate at root issue",
+        "title": "Problem & Solution #1 - expo eject could not locate a valid AppDelegate at root issue",
         "excerpt":"TL;DR There are two possible solutions depending on your case. delete android and ios folders before expo eject In app.json, change your expo.name field value to English value. a little longer version I encountered this weird issue and wasted about 5 hours on Saturday. There are few google search results...","categories": [],
         "tags": [],
         "url": "/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html",
         "teaser": null
       },{
-        "title": "첫번째 글",
-        "excerpt":"다시 온라인 상에 내 생각과 관련된 글을 작성하는 일을 시작해보려고 한다. 어떠한 플랫폼에 종속되지 않고 내 100%의 영향력 안에서 만들어지고 운영될 수 있는 블로그로 시작하려고 했는데 github page를 통해서 아주 쉽게 유지/보수/호스팅할 수 있어서 github 아니 마이크로소프트에 종속되기로. 아무튼 내가 평상시에 하는 생각중에 정리하거나 기억하고 싶은 사항들을 정리해놓는게 목적. 또는...","categories": [],
+        "title": "경제의 기본적 이해 #1",
+        "excerpt":"출처: Big Debt Crises by Ray Dalio를 번역+의역한 내용입니다. 전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명. 크게 다음과 같은 순서로 설명 신용과 부채란 무엇인가 전형적인 큰 부채 사이클 디플레이션 부채 사이클을 구성하는 단계들 인플레이션적인 침체와 통화위기 인플레이션 부채 사이클을 구성하는 단계들...","categories": [],
         "tags": [],
-        "url": "/blog/2021/02/14/%EC%B2%AB%EB%B2%88%EC%A7%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80.html",
+        "url": "/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1.html",
         "teaser": null
       },{
-        "title": "경제의 기본적 이해 1편",
-        "excerpt":"전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명. 크게 다음과 같은 순서로 설명 신용과 부채란 무엇인가 전형적인 큰 부채 사이클 디플레이션 부채 사이클을 구성하는 단계들 인플레이션적인 침체와 통화위기 인플레이션 부채 사이클을 구성하는 단계들 오늘은 신용과 부채란 무엇인가에 대해 핵심 개념들을 누구나 이해할...","categories": [],
+        "title": "찰리멍거의 심리학 #1",
+        "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다. 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 거의 인정을 안해주는 시절에 교육을 받았었다. 대신 그...","categories": [],
         "tags": [],
-        "url": "/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1%ED%8E%B8.html",
+        "url": "/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99-1.html",
         "teaser": null
       },{
-        "title": "찰리멍거의 심리학",
-        "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 거의 인정을 안해주는 시절에 교육을 받았었다. 대신 그 당시 심리학이 관심...","categories": [],
+        "title": "경제의 기본적 이해 #2",
+        "excerpt":"출처: Big Debt Crises by Ray Dalio를 번역+의역한 내용입니다. 전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명. 크게 다음과 같은 순서로 설명 신용과 부채란 무엇인가 전형적인 큰 부채 사이클 디플레이션 부채 사이클을 구성하는 단계들 인플레이션적인 침체와 통화위기 인플레이션 부채 사이클을 구성하는 단계들...","categories": [],
         "tags": [],
-        "url": "/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html",
+        "url": "/blog/2021/03/05/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-2.html",
         "teaser": null
       },{
-        "title": "경제의 기본적 이해 2편",
-        "excerpt":"전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명. 크게 다음과 같은 순서로 설명 신용과 부채란 무엇인가 전형적인 큰 부채 사이클 디플레이션 부채 사이클을 구성하는 단계들 인플레이션적인 침체와 통화위기 인플레이션 부채 사이클을 구성하는 단계들 오늘은 전형적인 큰 부채 사이클에 대해 핵심 개념들을 누구나...","categories": [],
+        "title": "성장을 위한 지식 #1",
+        "excerpt":"경제 2021.03.09 시장의 중요한 흐름 시장의 분위기는 코로나 백신 접종 시작과 더불어 코로나 시대가 곧 끝날 것이라는 기대가 증가하는 중. 미국은 추가적인 2000조 부양책을 대통령 서명만 남겨놓고 있는 상태. 10년물 미국 국채 수익률의 가파른 상승 (=국채 가격의 하락). 2021년 초에 1% 이하였던 수익률이 현재 1.6%까지 상승. 기술주/언택트주(아마존, 애플, 테슬라, 줌)...","categories": [],
         "tags": [],
-        "url": "/blog/2021/03/05/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-2%ED%8E%B8.html",
+        "url": "/blog/2021/03/09/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-1.html",
+        "teaser": null
+      },{
+        "title": "성장을 위한 지식 #2",
+        "excerpt":"Business &amp; Startup 사업을 구성하는 5가지 요소 가치생산: 사람들이 필요로 하거나 원하는 것을 만드는 것 마케팅: 만든 것을 알리는 것 판매: 잠재고객을 실제고객으로 만드는 것 가치전달: 약속한 것을 전달하고 실제로 사람들이 만족하는지 확인하는 것 재무: 이것을 계속할 수 있을만큼 충분한 돈을 충당하는 것 예1) 구글 가치생산: 필요한 정보를 인터넷에서 쉽고...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/03/10/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-2.html",
+        "teaser": null
+      },{
+        "title": "성장을 위한 지식 #3",
+        "excerpt":"Business &amp; Startup 인간의 기본적인 욕구 &amp; 행동의 동기와 관련한 유명한 내용들 메슬로의 계층적인 욕구 (5대 욕구) Physiology (생리학 = 생존) Safety (안전) Beloging/love (소속감 &amp; 사랑) Esteem (존중) Self-actualization (자아실현) 클레이튼의 ERG 이론 (3대 욕구) Existence (생존) Relatedness (관계) Growth (성장) 폴 로렌스 &amp; 니친 노리아의 저서 Driven (5대...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/03/11/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-3.html",
+        "teaser": null
+      },{
+        "title": "성장을 위한 지식 #4",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/blog/2021/03/12/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-4.html",
+        "teaser": null
+      },{
+        "title": "컴퓨터 공학 및 프로그래밍 지식 #1",
+        "excerpt":"출처: Computer Systems - A Programmer’s Perspective 2nd edition by Bryant &amp; O’Hallaron Data alignment 프로세서가 메모리에서 값을 가져올 때 특정 배수단위로 주소를 기반으로 가져 오기 때문에 성능 최적화를 위해서는 메모리에 저장되는 각 타입(short, int, double)의 주소도 메모리상에 배수형태(2, 4, 8)로 저장되어야 함. 이를 위해 struct type과 같은 경우 내부에...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/03/12/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-1.html",
         "teaser": null
       }]

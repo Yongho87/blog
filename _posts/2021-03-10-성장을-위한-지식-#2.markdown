@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "성장을 위한 지식 #2 - 21년 3월 10일 (수)"
+title:  "성장을 위한 지식 #2"
 date:   2021-03-10 06:00:00 +0000
 ---
 
@@ -26,5 +26,8 @@ date:   2021-03-10 06:00:00 +0000
 3. 판매:
 4. 가치전달: 
 5. 재무: 
+
+**참고자료**
+1. The Personal MBA 10th Anniversary Edition by Josh Kaufman
 
 
