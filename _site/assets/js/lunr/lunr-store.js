@@ -42,7 +42,7 @@ var store = [{
         "teaser": null
       },{
         "title": "성장을 위한 지식 #4",
-        "excerpt":" ","categories": [],
+        "excerpt":"Business &amp; Startup 사회적 지위(Social status)를 제품/서비스에 반영하는 것 사람은 사회적인 동물이기 때문에 본인이 속한 사회와 집단안에서의 상대적인 지위 및 서열에 민감하게 반응하는 특성이 있다. 이러한 특성이 존재하는 이유는 진화적인 관점에서 이해할 수 있는데, 과거 음식과 안전한 거처가 풍족하지 않은 시대에서는 더 높은 지위를 가질 수록 이런 생존에 중요한 자원들을...","categories": [],
         "tags": [],
         "url": "/blog/2021/03/12/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-4.html",
         "teaser": null
