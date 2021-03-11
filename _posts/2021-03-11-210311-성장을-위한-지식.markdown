@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "210311 오늘"
+title:  "성장을 위한 지식 #3 - 21년 3월 11일 (목)"
 date:   2021-03-11 08:00:00 +0000
 ---
 
