@@ -27,6 +27,9 @@ url: "yongho87.github.io" # the base hostname & protocol for your site, e.g. htt
 # twitter_username: none
 # github_username:  Yongho87
 
+# Google Analytics
+google_anayltics: G-1CQ63P7HR5
+
 # Build settings
 future: true
 remote_theme: mmistakes/minimal-mistakes@4.22.0

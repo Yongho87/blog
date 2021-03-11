@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/blog/sitemap.xml
+Sitemap: yongho87.github.io/blog/sitemap.xml
