@@ -50,6 +50,12 @@ var store = [{
         "title": "컴퓨터 공학 및 프로그래밍 지식 #1",
         "excerpt":"출처: Computer Systems - A Programmer’s Perspective 2nd edition by Bryant &amp; O’Hallaron Data alignment 프로세서가 메모리에서 값을 가져올 때 특정 배수단위로 주소를 기반으로 가져 오기 때문에 성능 최적화를 위해서는 메모리에 저장되는 각 타입(short, int, double)의 주소도 메모리상에 배수형태(2, 4, 8)로 저장되어야 함. 이를 위해 struct type과 같은 경우 내부에...","categories": [],
         "tags": [],
-        "url": "/blog/2021/03/12/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-1.html",
+        "url": "/blog/2021/03/13/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-1.html",
+        "teaser": null
+      },{
+        "title": "성장을 위한 지식 #5",
+        "excerpt":"심리학 - 직업 타이틀(권위)에 순응하는 경향 사람들은 권위 및 사회적으로 지위가 높은 타이틀을 가지는 사람들의 말에 순응하는 경향이 존재한다. 자기보다 사회적 서열이 높거나 높은 자리에 있는 사람들(선생님, 교수, 의사, 검사, 정치인, 대통령, 고위공무원 등)이 하는 말을 스스로 생각해서 합리적인지 분석하지 않고 있는 그대로 따르는 현상이다. 대부분의 경우에는 이들의 이야기는 더...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html",
         "teaser": null
       }]
