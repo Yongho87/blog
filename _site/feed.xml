@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-03-13T07:40:45+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">성장을 위한 지식</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">성장을 위한 지식 #5</title><link href="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html" rel="alternate" type="text/html" title="성장을 위한 지식 #5" /><published>2021-03-13T16:20:00+09:00</published><updated>2021-03-13T16:20:00+09:00</updated><id>http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-#5</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html">&lt;h2 id=&quot;심리학---직업-타이틀권위에-순응하는-경향&quot;&gt;심리학 - 직업 타이틀(권위)에 순응하는 경향&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-03-13T09:41:37+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">성장을 위한 지식</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">성장을 위한 지식 #5</title><link href="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html" rel="alternate" type="text/html" title="성장을 위한 지식 #5" /><published>2021-03-13T16:20:00+09:00</published><updated>2021-03-13T16:20:00+09:00</updated><id>http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-#5</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html">&lt;h2 id=&quot;심리학&quot;&gt;심리학&lt;/h2&gt;
+
+&lt;h3 id=&quot;직업-타이틀권위에-순응하는-경향&quot;&gt;직업 타이틀(권위)에 순응하는 경향&lt;/h3&gt;
 &lt;p&gt;사람들은 권위 및 사회적으로 지위가 높은 타이틀을 가지는 사람들의 말에 순응하는 경향이 존재한다. 자기보다 사회적 서열이 높거나 높은 자리에 있는 사람들(선생님, 교수, 의사, 검사, 정치인, 대통령, 고위공무원 등)이 하는 말을 스스로 생각해서 합리적인지 분석하지 않고 있는 그대로 따르는 현상이다. 대부분의 경우에는 이들의 이야기는 더 객관적이고 정확하며 따르는게 이득이 되지만, 복잡한 문제가 얽혀있는 곳은 언제나 그런것처럼 모든 상황에서 이것이 옳은행동은 아니다. 몇 가지 상황에서 이들의 말이 옮다는 것을 경험하게 되면 우리들은 그 후부터는 추가적인 인지적인 노력을 하지 않고 모든 의사결정과 판단을 이들의 말에만 의존하여 내리게 된다. 그리고 드문 몇 가지 상황에서 이러한 행동은 우리에게 굉장히 좋지 않은 결과를 낳을 수도 있다.&lt;/p&gt;
 
-&lt;p&gt;이것을 보여주는 유명한 실험 중에 하나로 의사(인척하는 연기자)가 간호사에게 전화를 통해 특정 환자의 약의 처방을 지시하는 것이 있다. 의사는 이때 몇 가지 의료행위에서 하면 안되는 잘못을 침범하면서 (실험을 위해 의도된 상황) 약을 처방하게 되는데&lt;/p&gt;
+&lt;p&gt;이것을 보여주는 유명한 실험 중에 의사가 간호사에게 전화를 통해 특정 환자의 약의 처방을 지시하는 것이 있다. 의사는 이때 몇 가지 의료행위에서 하면 안되는 잘못을 침범하면서 (실험을 위해 의도된 상황) 약을 처방하게 되는데&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;간호사가 전혀 알지 못하는 의사였고&lt;/li&gt;
@@ -12,10 +14,24 @@
 
 &lt;p&gt;숙련되고 전문성이 있는 간호사들도 실험에 많이 포함되었었는데 거의 대부분이 의사의 명령대로 약을 처방하게 된다 (당연히 실제로 간호사가 약을 처방하려고 할때 병원에 숨어서 지켜보던 실험 관계자가 제지하고 상황을 설명해준다). 의료행위는 전문성이 높은 의사와 간호사의 상호적인 소통과 관계를 통해 더 정확하고 덜 위험한 방식으로 행해질수 있는데 이러한 심리학적인 영향으로 인해 실질적으로는 간호사의 역할이 거의 제대로 작동하지 않는 것으로 볼 수 있다. 미국에서는 약을 잘못 처방하는 비율이 약 12%&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;가 되는데 이 비율은 우리가 일주일동안 병원에 머물면서 약을 처방받을시에 그 중 하루는 잘못된 약을 처방받을 수 있는 확률이다.&lt;/p&gt;
 
+&lt;h2 id=&quot;비즈니스와-스타트업&quot;&gt;비즈니스와 스타트업&lt;/h2&gt;
+
+&lt;h3 id=&quot;경쟁의-숨겨진-이익&quot;&gt;경쟁의 숨겨진 이익&lt;/h3&gt;
+&lt;p&gt;일반적인 인식과는 다르게 경쟁이 없는 시장과 경쟁이 있는 시장 중에 경쟁이 있는 시장에서 사업을 시작하는게 더 좋은 결과를 만들수 있다. 일단 경쟁이 있다는 것은 해당 시장이 존재한다는 반증이기 때문에 가장 큰 비즈니스의 문제(=구메자가 존재하지 않는 시장)가 해결되기 때문이다. 또한 이러한 시장안에서 이미 존재하는 서비스/제품을 직접 구매하고 사용해보면서 기존 경쟁자들이 어떠한 가치를 제공하는지 그리고 어떻게 고객들을 대우하는지등을 직접 경험해볼수도 있고 이들이 제공하지 못하는 고객들의 니즈를 파악할 수 있다. 이것을 본인의 서비스와 제품에 반영하여 고객들에게 더 높은 가치를 제공한다면 기존 시장의 경쟁자들과 차별화하면서 어느 정도의 시장 점유율을 획득할 수도 있을 것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;용병mercenary-법칙&quot;&gt;용병(Mercenary) 법칙&lt;/h3&gt;
+&lt;p&gt;단순히 사업을 하는 목적이 돈만 되어서는 안된다. 그 이유는 어떤 사업이든 우리가 생각하는 것 보다 더 많은 노력과 에너지가 들어가기 때문이다. 행동의 동기가 오로지 돈이라면 많은 노력과 에너지를 들이기전에 포기할 가능성이 높아진다(돈에 엄청나게 동기부여가 되는 사람은 제외). 따라서 여러가지 시장 중에서 나의 흥미와 다른 가치가 같이 느껴지는 곳을 선택하는 것이 사업의 잘될 가능성을 높여줄 수 있다. 겉으로 봤을때는 따분하고 지루해보이는 사업이라고 후보에서 제외하고 그냥 무시하면 안된다. 그 사업안에 내가 충분히 흥미롭게 느끼고 가치가 있다고 생각된다면 그것을 최대화하여 사업화를 하다보면 예기치 못한 금광을 발견할 수도 있다.&lt;/p&gt;
+
+&lt;!-- ## 경제 --&gt;
+
+&lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;참고자료&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Influence by Robert B. Cialdini&lt;/li&gt;
+  &lt;li&gt;The Personal MBA 10th Anniversary Edition by Josh Kaufman&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
@@ -24,7 +40,7 @@
 과거(1984년)에 쓰여진 책이라 현재는 이 비율이 바뀌었을 가능성이 있습니다. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Yongho</name></author><summary type="html">심리학 - 직업 타이틀(권위)에 순응하는 경향 사람들은 권위 및 사회적으로 지위가 높은 타이틀을 가지는 사람들의 말에 순응하는 경향이 존재한다. 자기보다 사회적 서열이 높거나 높은 자리에 있는 사람들(선생님, 교수, 의사, 검사, 정치인, 대통령, 고위공무원 등)이 하는 말을 스스로 생각해서 합리적인지 분석하지 않고 있는 그대로 따르는 현상이다. 대부분의 경우에는 이들의 이야기는 더 객관적이고 정확하며 따르는게 이득이 되지만, 복잡한 문제가 얽혀있는 곳은 언제나 그런것처럼 모든 상황에서 이것이 옳은행동은 아니다. 몇 가지 상황에서 이들의 말이 옮다는 것을 경험하게 되면 우리들은 그 후부터는 추가적인 인지적인 노력을 하지 않고 모든 의사결정과 판단을 이들의 말에만 의존하여 내리게 된다. 그리고 드문 몇 가지 상황에서 이러한 행동은 우리에게 굉장히 좋지 않은 결과를 낳을 수도 있다.</summary></entry><entry><title type="html">컴퓨터 공학 및 프로그래밍 지식 #1</title><link href="http://localhost:4000/blog/2021/03/13/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-1.html" rel="alternate" type="text/html" title="컴퓨터 공학 및 프로그래밍 지식 #1" /><published>2021-03-13T15:20:00+09:00</published><updated>2021-03-13T15:20:00+09:00</updated><id>http://localhost:4000/blog/2021/03/13/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-#1</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/13/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-1.html">&lt;blockquote&gt;
+&lt;/div&gt;</content><author><name>Yongho</name></author><summary type="html">심리학</summary></entry><entry><title type="html">컴퓨터 공학 및 프로그래밍 지식 #1</title><link href="http://localhost:4000/blog/2021/03/13/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-1.html" rel="alternate" type="text/html" title="컴퓨터 공학 및 프로그래밍 지식 #1" /><published>2021-03-13T15:20:00+09:00</published><updated>2021-03-13T15:20:00+09:00</updated><id>http://localhost:4000/blog/2021/03/13/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-#1</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/13/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B3%B5%ED%95%99-%EB%B0%8F-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%A7%80%EC%8B%9D-1.html">&lt;blockquote&gt;
   &lt;p&gt;출처: Computer Systems - A Programmer’s Perspective 2nd edition by Bryant &amp;amp; O’Hallaron&lt;/p&gt;
 &lt;/blockquote&gt;
 
