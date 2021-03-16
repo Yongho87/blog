@@ -1,7 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-03-13T09:41:37+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">성장을 위한 지식</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">성장을 위한 지식 #5</title><link href="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html" rel="alternate" type="text/html" title="성장을 위한 지식 #5" /><published>2021-03-13T16:20:00+09:00</published><updated>2021-03-13T16:20:00+09:00</updated><id>http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-#5</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html">&lt;h2 id=&quot;심리학&quot;&gt;심리학&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2021-03-17T08:15:29+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">성장을 위한 지식</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">비트코인과 암호화폐 #1</title><link href="http://localhost:4000/blog/2021/03/17/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EA%B3%BC-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-1.html" rel="alternate" type="text/html" title="비트코인과 암호화폐 #1" /><published>2021-03-17T16:00:00+09:00</published><updated>2021-03-17T16:00:00+09:00</updated><id>http://localhost:4000/blog/2021/03/17/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EA%B3%BC-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-#1</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/17/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EA%B3%BC-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-1.html">&lt;blockquote&gt;
+  &lt;p&gt;참고문서: &lt;a href=&quot;https://www.bridgewater.com/research-and-insights/our-thoughts-on-bitcoin&quot;&gt;레이달리오와 브릿지워터의 비트코인에 대한 관점&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;비트코인의-최근의-상승은-비트코인이-재산과-부의-저장공간으로-사용할-될-수-있을지에-대한-논의를-다시-불붙이고-있다&quot;&gt;비트코인의 최근의 상승은 비트코인이 재산과 부의 저장공간으로 사용할 될 수 있을지에 대한 논의를 다시 불붙이고 있다&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;비트코인은 2020년에만 약 4배가 상승&lt;/li&gt;
+  &lt;li&gt;현재 비트코인은 전체 암호화폐 시장중에 약 80%의 점유율을 가짐.&lt;/li&gt;
+  &lt;li&gt;2017년 초반의 상승기때는 다른 코인들이(리플, 이더리움) 주도적으로 상승을 견인했으나 2020년부터 지금까지의 상승에서는 비트코인이 상승을 주도함.&lt;/li&gt;
+  &lt;li&gt;비트코인의 &lt;strong&gt;디지털 금&lt;/strong&gt;(포트폴리오의 인플레이션 헷지역할 및 경제적 가치를 보관할 수 있는 대체재)이 될 수 있는 잠재성이 최근의 상승을 주도함.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;각국의-중앙은행들이-공격적으로-돈을-찍어내고-있는-와중에-정해진-공급량을-가진-비트코인이-더-매력적으로-되고-있다&quot;&gt;각국의 중앙은행들이 공격적으로 돈을 찍어내고 있는 와중에 정해진 공급량을 가진 비트코인이 더 매력적으로 되고 있다&lt;/h3&gt;
+
+&lt;h3 id=&quot;금과-유사하게-비트코인은-상품과-서비스를-교환하는-매개체-용도로-사용하기에는-한계가-있다&quot;&gt;금과 유사하게 비트코인은 상품과 서비스를 교환하는 매개체 용도로 사용하기에는 한계가 있다.&lt;/h3&gt;
+
+&lt;h3 id=&quot;그러나-금과-유사하게-비트코인의-안정적이고-제한된-공급량으로-인해-중앙은행의-돈찍어내기에-의한-가치의-하락에-영향을-받지-않는다&quot;&gt;그러나 금과 유사하게 비트코인의 안정적이고 제한된 공급량으로 인해 중앙은행의 돈찍어내기에 의한 가치의 하락에 영향을 받지 않는다.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;비트코인의 총 공급양은 2천백만개&lt;/li&gt;
+  &lt;li&gt;비트코인의 발행 속도(채굴속도)는 몇 년마다 반으로 감소&lt;/li&gt;
+  &lt;li&gt;금의 연간 현재 총 공급량 대비 공급량의 증가 비율은 약 1.6%인 반면 비트코인은 2010년 초반에 3.5%였다가 2020년에는 약 0.3%로 감소&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;비트코인은-지난-몇-년간-금이-그랬던것처럼-몇몇의-투자자들에게는-꽤-매력적으로-보일-수-있다-금이나-비트코인-모두-명시된-비율로-수익률을-제공하지-않지만-다른-자산의-수익률이-붕괴되는-와중에-이-사실은-중요하지-않다&quot;&gt;비트코인은 지난 몇 년간 금이 그랬던것처럼 몇몇의 투자자들에게는 꽤 매력적으로 보일 수 있다. 금이나 비트코인 모두 명시된 비율로 수익률을 제공하지 않지만 다른 자산의 수익률이 붕괴되는 와중에 이 사실은 중요하지 않다.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;금은 스태그플레이션 상황(충분히 일어날 수 있고 어느정도는 준비가 되어 있어야 하는상황)에서 가장 좋은 자산이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;비트코인은-전-세계적으로-접근-가능하고-쉽게-소유-가능하다---부와-재산의-저장공간에-필요한-유용한-특성들&quot;&gt;비트코인은 전 세계적으로 접근 가능하고 쉽게 소유 가능하다 - 부와 재산의 저장공간에 필요한 유용한 특성들.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;단순한 희소성만으로는 가치의 저장공간으로 사용되기에 부족하다. (비트코인이외 및 다른 주류 암호화폐 이외의 다른 코인들이 현재 상승에 주도적인 역할을 하지 못하는 부분적인 이유)&lt;/li&gt;
+  &lt;li&gt;비트코인은 상대적으로 더 긴 역사를 갖고있고 규모가 더 크며 더 많은 사람들이 인식하고 수용하고 있다는 점이 비트코인에게 더 명백한 이점을 제공한다.&lt;/li&gt;
+  &lt;li&gt;달러에 고정된 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stablecoins&lt;/code&gt;과 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;담보부 암화화폐 토큰&lt;/code&gt;에 대한 사용이 증가하고 있지만 이들은 달러에 고정되어 있기 때문에 부의 저장공간의 대체재로 사용될 수는 없다. 이들은 디지털 금이라 불릴 수 없고 디지털 달러와 유사하다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;시간이-흘러도-구매력을-유지할-수-있는-것을-넘어서-좋은-부와-재산의-저장공간이-되려면-쉽게-교환가능하고-접근가능해야-한다-현재와-미래-모두-기존의-부의-저장공간으로-사용되었던-금-부동산-예술품들과-비교해보았을때-비트코인은-특히-개인-보유자들-관점에서-훨씬-더-쉽게-교환가능하다-비트코인의-디지털-특성을-고려해본다면-비트코인이-물리적인-현금보다도-더-휴대성이-간편한-가장-휴대성-높은-부의-저장소일-수도-있다&quot;&gt;시간이 흘러도 구매력을 유지할 수 있는 것을 넘어서 좋은 부와 재산의 저장공간이 되려면 쉽게 교환가능하고 접근가능해야 한다 (현재와 미래 모두). 기존의 부의 저장공간으로 사용되었던 금, 부동산, 예술품들과 비교해보았을때 비트코인은 특히 개인 보유자들 관점에서 훨씬 더 쉽게 교환가능하다. 비트코인의 디지털 특성을 고려해본다면 비트코인이 물리적인 현금보다도 더 휴대성이 간편한 가장 휴대성 높은 부의 저장소일 수도 있다.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;현재 80개 이상의 나라에서 비트코인을 그 나라의 화폐로 교환가능한 ATM이 존재한다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Yongho</name></author><summary type="html">참고문서: 레이달리오와 브릿지워터의 비트코인에 대한 관점</summary></entry><entry><title type="html">성장을 위한 지식 #6</title><link href="http://localhost:4000/blog/2021/03/14/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-6.html" rel="alternate" type="text/html" title="성장을 위한 지식 #6" /><published>2021-03-14T19:00:00+09:00</published><updated>2021-03-14T19:00:00+09:00</updated><id>http://localhost:4000/blog/2021/03/14/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-#6</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/14/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-6.html">&lt;h2 id=&quot;business--startup&quot;&gt;Business &amp;amp; Startup&lt;/h2&gt;
+&lt;h3 id=&quot;12가지-일반적인-가치의-형태-경제적-가치를-제공할-수-있는&quot;&gt;12가지 일반적인 가치의 형태 (경제적 가치를 제공할 수 있는)&lt;/h3&gt;
+&lt;p&gt;우리들의 사업이 성공하기 위해서는 사람들에게 가치를 주어야 하고 이것은 사람들이 돈을 지불할 수 있도록 어떠한 형태를 갖고 있어야 한다. 다음은 12가지의 일반적인 가치의 형태와 이것들에 단순화된 개념이다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;제품: 유형의 물건 (물리적일 수도 디지털 형태일 수도 있음)을 만들어서 파는것. 만드는 비용보다 더 높은 가격에 판매. (마이크로소프트, 삼성전자, 애플, 테슬라)&lt;/li&gt;
+  &lt;li&gt;서비스: 어떠한 도움이나 지원을 제공하고 이로 인해 발생한 이익에 대하여 사용료를 받는 것. (베인앤컴퍼니, 김앤장)&lt;/li&gt;
+  &lt;li&gt;공유자원: 많은 사람들에게 사용될 수 있는 것을 만들고 이것에 이용/접근할 수 있는 권한을 파는 것. (헬스장, CGV, 디즈니랜드, 에버랜드)&lt;/li&gt;
+  &lt;li&gt;구독: 지속적으로 발생할 수 있는 어떠한 혜택을 제공하고 이것에 대해 반복적인 사용료를 받는 것. (핸드폰요금, 블룸버그 디지털 구독)&lt;/li&gt;
+  &lt;li&gt;재판매: 도매상에게 물건을 사서 이것보다 좀 더 비싼가격에 소매상들에게 물것을 팔아 그 차익을 남기는 것. (중간상인)&lt;/li&gt;
+  &lt;li&gt;임대: 자산을 구매하고 이 자산을 특정 기간동안에 사용할 수 있도록 하고 이에 대한 사용료를 받는 것. (건물임대인)&lt;/li&gt;
+  &lt;li&gt;에이전시: 본인이 소유하지 않은 제3자의 자산이나 서비스를 대신 판매해주고 판매가격의 퍼센트로 이것에 대한 커미션을 받는 것. (앱스토어, 구글플레이, 아마존, 알리바바, 쿠팡)&lt;/li&gt;
+  &lt;li&gt;사람들: 유사한 특성을 가지는 여러 사람들의 주의를 끌어서 그룹을 형성하고 이 그룹에 접근하고 싶은 다른 사업체들에게 광고형태로 접근할 수 있는 권한을 파는 것. (페이스북, 트위터, 카카오톡)&lt;/li&gt;
+  &lt;li&gt;대출: 다른 데에서 돈을 빌려와서 이것보다 더 높은 이자로 또 다른 곳에 돈을 빌려줘서 이 차익을 얻는 것. (은행)&lt;/li&gt;
+  &lt;li&gt;옵션: 정해진 기간동안에만 미리 합의한 거래 및 행동을 하게 할 수 있는 능력을 파는 것. (원유옵션거래)&lt;/li&gt;
+  &lt;li&gt;보험: 특정한 사건이 일어나는 것에 대한 위험을 대신부담해주고 돈을 받는 것. (보험회사)&lt;/li&gt;
+  &lt;li&gt;자본: 어떠한 사업체와 회사의 오너쉽을 구매하는 것. 매년 배당금 형태 혹은 회사매각시의 지분만큼의 이익을 얻는 것. (투자은행, M&amp;amp;A되는 스타트업/회사들)&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Yongho</name></author><summary type="html">Business &amp;amp; Startup 12가지 일반적인 가치의 형태 (경제적 가치를 제공할 수 있는) 우리들의 사업이 성공하기 위해서는 사람들에게 가치를 주어야 하고 이것은 사람들이 돈을 지불할 수 있도록 어떠한 형태를 갖고 있어야 한다. 다음은 12가지의 일반적인 가치의 형태와 이것들에 단순화된 개념이다.</summary></entry><entry><title type="html">성장을 위한 지식 #5</title><link href="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html" rel="alternate" type="text/html" title="성장을 위한 지식 #5" /><published>2021-03-13T16:20:00+09:00</published><updated>2021-03-13T16:20:00+09:00</updated><id>http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-#5</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/13/%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A7%80%EC%8B%9D-5.html">&lt;h2 id=&quot;심리학&quot;&gt;심리학&lt;/h2&gt;
 
 &lt;h3 id=&quot;직업-타이틀권위에-순응하는-경향&quot;&gt;직업 타이틀(권위)에 순응하는 경향&lt;/h3&gt;
-&lt;p&gt;사람들은 권위 및 사회적으로 지위가 높은 타이틀을 가지는 사람들의 말에 순응하는 경향이 존재한다. 자기보다 사회적 서열이 높거나 높은 자리에 있는 사람들(선생님, 교수, 의사, 검사, 정치인, 대통령, 고위공무원 등)이 하는 말을 스스로 생각해서 합리적인지 분석하지 않고 있는 그대로 따르는 현상이다. 대부분의 경우에는 이들의 이야기는 더 객관적이고 정확하며 따르는게 이득이 되지만, 복잡한 문제가 얽혀있는 곳은 언제나 그런것처럼 모든 상황에서 이것이 옳은행동은 아니다. 몇 가지 상황에서 이들의 말이 옮다는 것을 경험하게 되면 우리들은 그 후부터는 추가적인 인지적인 노력을 하지 않고 모든 의사결정과 판단을 이들의 말에만 의존하여 내리게 된다. 그리고 드문 몇 가지 상황에서 이러한 행동은 우리에게 굉장히 좋지 않은 결과를 낳을 수도 있다.&lt;/p&gt;
+&lt;p&gt;사람들은 권위 및 사회적으로 지위가 높은 타이틀을 가지는 사람들의 말에 순응하는 경향이 존재한다. 자기보다 사회적 서열이 높거나 높은 자리에 있는 사람들(선생님, 교수, 의사, 검사, 정치인, 대통령, 고위공무원 등)이 하는 말을 스스로 생각해서 합리적인지 분석하지 않고 있는 그대로 따르는 현상이다. 대부분의 경우에는 이들의 이야기는 더 객관적이고 정확하며 따르는게 이득이 되지만, 복잡한 문제가 얽혀있는 곳은 언제나 그런것처럼 모든 상황에서 이것이 옳은행동은 아니다. 몇 가지 상황에서 이들의 말이 옳다는 것을 경험하게 되면 우리들은 그 후부터는 추가적인 인지적인 노력을 하지 않고 모든 의사결정과 판단을 이들의 말에만 의존하여 내리게 된다. 그리고 드문 몇 가지 상황에서 이러한 행동은 우리에게 굉장히 좋지 않은 결과를 낳을 수도 있다.&lt;/p&gt;
 
 &lt;p&gt;이것을 보여주는 유명한 실험 중에 의사가 간호사에게 전화를 통해 특정 환자의 약의 처방을 지시하는 것이 있다. 의사는 이때 몇 가지 의료행위에서 하면 안되는 잘못을 침범하면서 (실험을 위해 의도된 상황) 약을 처방하게 되는데&lt;/p&gt;
 
@@ -306,146 +361,4 @@
 
 &lt;p&gt;하버드를 떠나자마자 내 심리학적인 무지 중에서 가장 고장난 부분을 제거하기 위하여 오랜기간의 싸움을 시작하였다. 오늘은 나의 기초적인 심리학을 위한 나의 오랜기간 싸움과 마지막에는 각 개념들에 대한 나의 짧은 요약에 대해서 설명할 것이다. 그 이후에 나에게는 대부분이 선명하고 흥미로운 짧은 예들(실제로 작용하는 심리학과 이것의 해결방법)을 설명하려고 한다. 이후에 내가 얘기했던 것들에 대한 질문에 대답을 하면서 끝을 내도록 하겠다. 이건 상당히 긴 이야기가 될 것이다.&lt;/p&gt;
 
-&lt;p&gt;내가 실제로 법과 관련된 일을 시작하면서 나는 유전적인 진화의 힘을 알게 되었고 인간의 많은 진화 기반의 특성이 인지적으로 덜 발달된 동물들과 곤충들과 얼마나 많이 닮아 있는지 알게 되었다. 나는 인간은 자기 주변에서 관찰되는 다른사람들의 행동에 자동적이고 굉장히 크게 영향을 받는 &lt;strong&gt;사회적 동물&lt;/strong&gt; 이라는 것을 알게 되었다. 또한 인간은 다른 원숭이들 혹은 농가에서 기르는 동물들과 마찬가지로 제한된 크기의 지배계층에서 산다는 것을 알게 되었고 여기서 인간은 권한과 지휘를 존중하고 동일한 지배계층의 사람들과는 협력하면서도 본인과 경쟁하는 다른 집단에 존재하는 다른 사람들에게는 적대하고 불신하는 경향이 있다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html">출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다.</summary></entry><entry><title type="html">경제의 기본적 이해 #1</title><link href="http://localhost:4000/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1.html" rel="alternate" type="text/html" title="경제의 기본적 이해 #1" /><published>2021-02-17T16:17:41+09:00</published><updated>2021-02-17T16:17:41+09:00</updated><id>http://localhost:4000/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-#1</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/17/%EA%B2%BD%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81-%EC%9D%B4%ED%95%B4-1.html">&lt;blockquote&gt;
-  &lt;p&gt;출처: Big Debt Crises by Ray Dalio를 번역+의역한 내용입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명.&lt;/p&gt;
-
-&lt;p&gt;크게 다음과 같은 순서로 설명&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;신용과 부채란 무엇인가&lt;/li&gt;
-  &lt;li&gt;전형적인 큰 부채 사이클&lt;/li&gt;
-  &lt;li&gt;디플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
-  &lt;li&gt;인플레이션적인 침체와 통화위기&lt;/li&gt;
-  &lt;li&gt;인플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;신용과-부채빚이란-무엇인가&quot;&gt;신용과 부채(빚)이란 무엇인가?&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;신용&lt;/code&gt;이란 &lt;strong&gt;무엇인가를 살 수 있는 능력을 주는 것&lt;/strong&gt;. 당신이 현재 가진 돈이 없는데 테슬라3를 5000만원 주고 사고 싶을때 누군가가 당신에게 5000만원의 신용을 준다면 당신은 테슬라3를 살 수 있다. 누군가 당신에게 주는 이 5천만원의 신용은 그냥 공짜로 주는 것이 아니라 &lt;strong&gt;나중에 그 돈을 갚는다는 약속&lt;/strong&gt;과 교환된다. 여기서 나중에 돈을 갚는 다는 약속을 우리는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부채(빚)&lt;/code&gt;라고 부른다. 즉 통장에 잔고가 0원인 상태에서 누군가로부터 신용을 받으면 당신은 뭔가를 사거나 할 수 있고 그 대가로 미래에 당신은 그만큼의 돈을 다시 갚아야 한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;신용을-통해-뭔가를-살-수-있게-하는-것은-좋은-것&quot;&gt;신용을 통해 뭔가를 살 수 있게 하는 것은 좋은 것&lt;/h2&gt;
-&lt;p&gt;신용을 제공하는 것은 돈이 없는 사람이 무엇인가를 사거나 하게 해주는 구매력을 주므로 그 자체로 좋은 것이라고 할 수 있다. 왜냐하면 신용을 통해 전체 경제의 파이가 커질 수 있기 때문(흔히 우리가 얘기하는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;경제의 성장&lt;/code&gt;)이다. 반대로 신용을 제공하지 않는 것은 성장이 거의 없을 수 있기 때문에 안좋은 것이 될 수 있다. 만약 잔고가 0인 사람에게 어떠한 신용도 주어지지 않는다면 그 사람은 지금 당장 아무것도 할 수 있는게 없을 것이다. 하지만 이 사람에게 1억의 신용을 제공했을때 그것을 바탕으로 구글을 설립하여 2천조 이상의 가치를 가지는 회사로 성장시킨다면 그 창업자는 물론이거니와 전체 사회는 이로 인해 엄청난 경제적 이익을 볼 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;신용과-부채의-단점은-빚을-못-갚았을때-발생한다&quot;&gt;신용과 부채의 단점은 빚을 못 갚았을때 발생한다.&lt;/h2&gt;
-&lt;p&gt;1억의 신용을 제공받은 사람이 만들라는 구글은 안만들고 술과 유흥에 5천만원을 탕진하고 나머지 5천만원은 상장폐지 되는 주식에 투자해 돈을 다 날리면 1억의 갚기로 한 약속을 지키지 못하게 될 것이고 이것은 문제가 될 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;신용과-부채는-좋은-것인가-나쁜-것인가&quot;&gt;신용과 부채는 좋은 것인가 나쁜 것인가?&lt;/h2&gt;
-&lt;p&gt;이 질문의 대답은 다른 모든 복잡한 주제들이 그렇듯이 단순하게 예 아니오로 대답할 수 없다. 상황에 따라 답이 예일 수도 있고 아니오일 수도 있다. 즉, 신용으로 무엇을 하는가 그리고 신용으로 발생한 부채가 어떻게 갚아지는지에 따라서 답은 달라진다. 위에서 얘기한 것처럼 신용으로 얻은 구매력을 통해 실제적으로 경제가 성장하는 방향의 결과가 얻어지고 부채가 제대로 갚아진다면 신용과 부채를 통한 성장은 좋은 것이다. 뱐대로 신용으로 생산성이 없는 짓을 하고 돈을 갚지 못한다면 이것은 안좋은 것이 될 수 있다.&lt;/p&gt;
-
-&lt;p&gt;한명의 개인이 아니라 전체 사회의 관점에서 봤을때 신용과 부채가 거의 없는 것은 너무 과도한 신용과 부채가 있는 것 보다 더 안좋은 결과를 낳을 수 있다. 왜냐하면 너무 적은 신용때문에 신용을 통해 전체 경제성장을 이룰 수도 있었던 기회를 날려버릴 수도 있기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;정리하면, 신용이 구매력과 부채를 만들어내므로 더 많은 신용이 좋은가 아닌가에 대한 질문은 그 신용으로 생산적인 일을 하여 충분한 수입을 창출하고 갚기로 했던 부채를 어느정도 갚을 수 있냐에 달려 있다.&lt;/p&gt;
-
-&lt;p&gt;신용이 생산적으로 잘 사용된다면 돈이라는 한정된 자원이 효율적으로 잘 사용된것이고 신용을 준 사람들과 신용을 받은 사람들 모두 경제적으로 이익을 볼 수 있다. 그게 아니라면 자원이 제대로 사용되지 못한 것이다.&lt;/p&gt;
-
-&lt;p&gt;이것을 전체 사회로 보았을때 우리는 신용의 직접적인 영향 뿐만아니라 2차적이고 간접적인 영향도 고려해야 한다. 예를들어 재정적인 보수주의를 주장하는 사람들(국가가 교육/사회기반시설에 투자하기 위해 돈을 빌려쓰는 것은 사회에 안좋다)로 인해 충분한 신용과 돈이 명백하게 사회에 도움이 되는 아이들을 교육시키는 것, 비효율적인 교통을 유발하는 도로나 다리 공공시설들을 교체하는 것에 사용되지 않는다면 이것은 사회에 안좋은 것이 될 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;돈-안-빌려주기-vs-나쁜-부채-뭐가-더-안좋지&quot;&gt;돈 안 빌려주기 vs 나쁜 부채. 뭐가 더 안좋지?&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;나쁜 부채로 발생하는 손실이 너무 크지않고 손실을 장기간에 걸쳐서 적절하게 처리할 수 있다면 (외환부채면 안되고 정부의 권한이 부족하면 안됨) 나쁜 부채가 애초에 신용을 제공하지 않았을때보다 더 +효과를 가진다.
-예) 정부에서 1000억의 빚으로 지하철을 만들었는데 경제상황이 안좋아져서 1000억의 빚을 갚지못하고 500억만 갚았다고 할때. 전체 경제의 관점에서는 1000억이 +500억의 가치를 생산한 것이므로 긍정적. (반대로 1000억을 투자하지 않았을 경우에는 +0원의 가치를 생산)&lt;/li&gt;
-  &lt;li&gt;나쁜 부채의 영향과 대응: 만약 원금의 40%를 갚지 못하는 부채들이 전체 미상환부채의 20%라고 하고 전체 부채는 GDP의 200%일때 GDP의 16% 만큼의 손실이 발생. 이 부채가 자국의 화폐로 되어있고 정책결정자들의 권한이 충분히 있다면 이 부채를 향후 15년동안으로 나눠서 1년에 약 GDP의 1%씩 갚아 나갈 수 있다. (매년 어느정도 이상의 준수한 경제성장이 존재한다고 했을때 충분히 처리가능한 수준의 금액)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;부채위기는-어쩔-수-없는-것인가&quot;&gt;부채위기는 어쩔 수 없는 것인가?&lt;/h2&gt;
-&lt;p&gt;돈을 빌려주고 대출을 해주는 입장에서 성장을 저해할만큼 너무 타이트하지 않으면서도 생산성 있는 곳에 쓰이지 않는 수준으로 너무 루즈하지 않은 균형을 유지하면 부채위기는 발생하지 않을 수도 있다. 하지만, 인간의 심리학적인 요소로 인해 정부는 정치적으로 단기적으로 눈에 보이는 성장을 보여줄 수 있는 더 루즈한 신용을 제공하는 입장을 선호하여 부채위기의 발생 가능성을 높이게 된다.&lt;/p&gt;
-
-&lt;h2 id=&quot;왜-부채위기는-주기적으로-발생하는가&quot;&gt;왜 부채위기는 주기적으로 발생하는가?&lt;/h2&gt;
-&lt;p&gt;부채위기는 그 인과관계가 명확하고 논리적인 사건들이 연속해서 일어나는 주기적인 상황 안에서 자연스럽게 발생하는 현상이다. 이것을 쉽게 설명하자면 우리가 은행에서 돈을 빌릴때마다 우리는 스스로 어떤 경제의 순환주기를 만들게 된다. 돈을 빌리는 것은 우리가 실제로 버는 것보다 더 많은 돈을 사용하는 것인데 이것은 결국 미래의 나에게로 부터 돈을 빌리는 것이다. 즉 부채 상환기간이 도래할때의 미래의 나는 실제로 버는 돈 보다 더 적은 돈을 써야 한다. 우리의 생산성 (버는 돈)이 시간에 따라 선형적으로 증가한다고 할때 우리는 돈을 빌리고 갚는 활동을 하므로써 실질적인 소비는 1차원 직선이 아니라 우상향 하는 사인파 형태의 곡선 형태가 된다. 이것이 부채위기가 전형적인 경제 순환주기를 통해 반복해서 나타나는 이유이다.&lt;/p&gt;
-
-&lt;p&gt;대출은 그 자체로서 경제의 자기강화적인 우상향 성장을 만들어낸다. 하지만 이 우상향은 궁극적으로 때가되면 자기강화적인 우하향 침체도 만들어내게 된다. 경제가 성자할때 신용과 대출은 더 많은 지출과 투자를 만들어내고 이것은 수입과 자산가격의 상승을 만들어낸다. 높아진 수입과 자산가격은 더 많은 돈을 빌릴 수 있게 해주고 이것이 다시 수입과 자산가격 상승을 만들게 된다. 이러한 상승의 정점에서도 신용과 대출은 마치 경제가 무한대로 성장할 수 있다는 믿음을 바탕으로 이루어지게 된다. 하지만 당연히 무한대의 경제성장은 일어날 수 없다. 결과적으로 수입은 늘어나게 된 대출의 비용보다 더 적어지게 되는 순간에 도달하게 된다.&lt;/p&gt;
-
-&lt;p&gt;경제성장이 부채와 신용에 뒷받침된 고정자산, 부동산, 인프라에 의해 견인되었다면 이러한 경제구조는 특별히 더 경제순환주기때 발생하는 부채위기에 취약하다. 왜냐하면 이러한 장기간 동안 존재할 수 있는 자산은 지속적으로 만들 수 없기 때문이다. 기존보다 더 좋은 집이 필요해서 몇 개 만들어 진다면 자연스럽게 이러한 좋은 집을 지을 필요는 점차 감소하게 된다. 부동산 건설에 지출되는 비용이 감소하게 되면 집을 짓는 활동이 경제에 기여하는 비중 또한 감소하게 된다. 예를들어 오피스빌딩을 짓기 위해 100억을 매년 사용했다고 가정해보자. 이 돈은 노동자들을 고용하고 강철과 콘크리트를 짓는데 사용된다. 이 오피스빌딩이 완성되면 오피스빌딩을 짓기위해 들어간 매년 100억은 0원이 되게 된다. 따라서 건설노동자와 관련자재들에 대한 지출도 0원이 된다. 이 시점부터 경제의 성장, 수입, 대출을 상환하기 위해 필요한 비용등은 다른 수요에 의존할 수 밖에 없다. 이러한 전형적인 사이클 (높은 경제성장이 신용에 의존한 부동산 건축, 고정자산, 인프라에 의해 먼저 발생한 후 관련 산업의 수요감소가 뒤따르게 되는 주기)은 지어야 할 것들이 아직 많이 남은 개발도상국들에 많이 나타난다.&lt;/p&gt;
-
-&lt;p&gt;개발도상국들에 나타나는 이러한 경제순환주기에 기여하는 또 다른 요인은 그들의 경제(수입)가 성장함에 따라 나타나는 상대 경쟁력의 변화이다. 일반적으로 이러한 나라들은 값싼 노동력과 나쁜 인프라를 갖고 있다. 그래서 먼저 인프라를 건설하고 수출 붐을 만들어내고 수입이 증가하게 된다. 하지만 수출에 의한 성장은 수입이 증가하면서 자연스럽게 감소하게 된다 왜냐면 전체 경제가 성장하고 노동자들이 더 많은 돈을 받게되면 자연스럽게 과거에 가졌던 그들의 값싼 임금 경쟁력이 점차 사라지기 때문이다. 이러한 종류의 사이클의 실제 예는 굉장히 많이 있다. (일본이 경험한 지난 70년 간의 경제)&lt;/p&gt;
-
-&lt;p&gt;경제 버블시기에는 비현실적인 믿음에 기반한 무차별한 대출이 안좋은 대출을 굉장히 많이 만들어내게 된다. 특정시점에 이러한 상황이 은행들이나 중앙은행들에게 명백하게 보이게 되고 버블이 터지게 된다. 경제에 버블이 오고 있다는 하나의 고전적인 신호는 많은 양의 돈이 과거에 빌렸던 돈의 원리금을 갚기 위해 사용되기 위해 빌려지는 상황이다.&lt;/p&gt;
-
-&lt;p&gt;돈과 신용으로 인한 성장이 감소되고 대출규제가 강화될때 신용으로 인한 지출이 느려지게 되고 이곳 저곳에서 부채상환 문제가 점점 발생하게 된다. 이 시점이 부채순환주기가 정점을 찍는 순간이 된다. 신용성장이 너무 위험할 정도로 빠르다는 것을 깨닫게 된 중앙은행은 이것을 막기 위해 통화정책을 더 타이트하게 만들게 되는데 일반적으로 이러한 움직임이 하락을 더 부추기게 된다. 어떤 경우이든지 간에 부채상환을 위해 사용되는 비용이 지출을 위해 빌리는 돈보다 더 많아 지게 되면 이러한 상승 주기는 꺽이게 된다. 이때 새로운 신용과 대출이 감소할뿐만 아니라 기존 대출에 대한 상환 압력이 강해지게 된다. 돈을 빌린 사람들이 더 힘들어지는게 명백해지게 되면 새로운 신용과 대출은 점점더 적어지게 된다. 이렇게 되면 지출과 투자는 적어지게 되고 이것은 수입의 증가 속도를 낮아지게 만들고 자산가격들은 점차 떨어지게 된다.&lt;/p&gt;
-
-&lt;p&gt;돈을 빌린 사람들이 대출기관에 돈을 갚지못하면 대출기관은 본인들에게 돈을 맡겼던 투자자들에게 약속했던 이자를 주지 못한다. 정책결정자들은 대출기관들을 통해서 이 문제를 반드시 해결해야 한다. 가장 극단적인 압력은 엄청난 레버리지를 기반으로 대출을 했던 기관들과 돈을 갚지 못하는 대출자들을 많이 갖고 있는 기관들이 겪게 된다. 이러한 대출기관들이 경제 전반 및 대출기관에 돈을 맡기는 저축가/투자가들에게 엄청난 리스크를 생성할 수 있는 도미노 효과를 갖게 된다. 전형적으로 이러한 기관들은 은행들인데 신용 시스템이 점차 다이나믹하게 성장하면서 더 넓은 범위의 대출기관들이 나타나게 된다. 이러한 예로는 보험회사 및 비은행 트러스트, 브로커-딜러 그리고 특별목적의 기관들이 있다.&lt;/p&gt;
-
-&lt;p&gt;이러한 종류의 사이클로 부터 발생하는 중요한 2가지의 장기적인 문제는 다음과 같다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기존에 약속했던 이자와 원금을 갚지 못함으로써 나타나는 손실&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;약속한 이자와 원금을 못받게 된다면 이것은 더 단기간의 주기적인 지출과 부채의 가치를 감소하게되는 결과를 만들어 낸다. 만약에 4%의 연간 이자를 기대했는데 이것이 2% 혹은 0%가 된다면 이 만큼의 금액감소가 매년마다 발생하게 된다. 반면에 부채 자체가 낮아진다면 해당 연도의 손실은 훨씬 더 커지게 된다 (50% 수준)&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기존만큼 많은 대출을 해주지 않는 문제&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;부채위기가 끝나더라도 너무 많은 돈을 빌려줬던 기관들은 부채위기 전에 했던것과 비슷한 수준으로 지출하지 않게 된다. 이것 또한 반드시 고려해야 하는 영향 중에 하나이다.&lt;/p&gt;
-
-&lt;h2 id=&quot;대부분의-부채위기가-큰-문제없이-해결될-수-있는가&quot;&gt;대부분의 부채위기가 큰 문제없이 해결될 수 있는가?&lt;/h2&gt;
-&lt;p&gt;때때로 이러한 경제의 순환주기는 길거리에서 만나는 울퉁불퉁한 길처럼 적당한 수준이지만 언제는 그 정도가 굉장히 심해서 충돌이 발생한다. 지난 100년 동안 세계에서 발생한 경제위기를 살펴보았을때 극도로 심한 부채위기일때 GDP가 약 3% 이상 감소했다. 지금까지 내가 조사한 내용들과 정책결정자들이 사용 가능한 여러 방법들을 고려해본다면 만약 부채가 외환이 아니라 자국화폐로 되어있는 경우라면 대부분의 경제위기들을 정책결정자들이 잘 처리해나갈 수 있다고 생각한다. 왜냐하면 정책결정자들이 가진 유연성을 통해 부채위기가 가져오는 부정적인 영향을 장기적으로 분산시켜서 실제로는 큰 문제가 큰 문제가 안되도록 만들 수 있기 때문이다. 대부분의 끔찍한 문제들은 정책결정자들이 이 문제들을 분산시키려는 방법을 선택하기 전에 발생했다. 심지어 역사상 가장 큰 부채위기였던 1930년의 대공황시기에도 이러한 정책을 선택했을때 위기가 지나갈 수 있게 되었다. 여러가지 경제위기에 대해 분석해보았을때 가장 큰 위험은 부채위기 그 자체가 아니라&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;정책결정자들이 올바른 것을 하지 못하는 상황 (권한의 부족 혹은 지식의 부족으로 인해)&lt;/li&gt;
-  &lt;li&gt;다른 사람들을 도와주는 과정에서 또 다른 사람들에게 피해를 입히게 되는 정치적인 결과들&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;에 의해서 나타나게 되었다.&lt;/p&gt;
-
-&lt;p&gt;이렇게 설명했음에도 불구하고 나는 다음의 2가지를 다시 한번 반복해서 강조하고 싶다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;부채의 대부분이 자국 통화가 아닌 외국 통화로 이루어져있을때 해당 국가의 정책결정자들이 부채위기를 분산시키기 위해 필요한 일들을 하기는 훨씬 어렵다.&lt;/li&gt;
-  &lt;li&gt;부채위기가 잘 대처된다는 사실이 이 부채위기가 어떤 사람들에게는 굉장히 큰 손실과 피해을 주지 않는다는 것을 의미하지는 않는다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;부채위기를 잘 극복하기 위한 핵심요소는 정책결정자들이 그들이 갖고있는 장치들을 얼마나 잘 이용할 수 있는지, 그러한 장치들을 사용할 수 있는 권한이 있는지, 부채위기의 문제를 연간 몇퍼센트의 비율로 분산시킬 것인지, 정치적이고 다른 영향들이 수용가능하도록 어떤 집단이 이익을 얻고 어떤 집단이 손실을 볼 것인지에 대한 의사결정 등이다.&lt;/p&gt;
-
-&lt;p&gt;부채위기 시기에 정책결정자들이 사용할 수 있는 장치들은 크게 4가지가 존재한다. 이를 통해 부채 그자체와 부채의 비용(이자)의 비율을 이 것을 지불해야하는 수입와 현금흐름의 크기보다 더 낮출 수 있다. (=디레버리징)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;긴축&lt;/li&gt;
-  &lt;li&gt;부채 디폴트/재구조화&lt;/li&gt;
-  &lt;li&gt;중앙은행의 돈 찍어내기&lt;/li&gt;
-  &lt;li&gt;돈과 신용을 더 많은 사람으로부터 적은 사람들로 이동시키는 것 (부의 재분배)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;각각의 방법들은 경제에 모두 다른 영향을 미치게 된다. 어떤 것은 인플레이션적이어서 성장을 유도하고 (돈 찍어내기) 반면에 다른것은 디플레이션적이어서 부채의 부담들을 낮추는데 도움을 준다 (긴축과 디폴트). 아름다운 디레버리징(수용가능한 수준의 인플레이션과 성장률과 함께 수입대비 부채 비율을 줄이는 것)을 만들기 위해서 가장 중요한 것은 이 두 종류의 방법간에 적절한 균형을 유지하는 것이다. 이러한 행복한 시나리오에서는 수입 대비 부채비율은 낮추는 동시에 경제활동과 자산가격들은 증가하고 점차적으로 수입의 성장률을 금리보다 더 높아지게 된다.&lt;/p&gt;
-
-&lt;p&gt;이러한 장치들에 의해 누가 이익을 얻고 누가 고생할 것인지와 얼마나 오랜 기간동안 그럴 것인지가 결정된다. 정책결정자들은 이러한 결정을 직접 해야 하는 정치적으로 굉장히 힘든 위치에 놓이게 된다. 결과적으로 이들이 성공적으로 부채위기를 극복하게 만들더라도 그것이 높게 평가받는 경우는 거의 없다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html">출처: Big Debt Crises by Ray Dalio를 번역+의역한 내용입니다.</summary></entry><entry><title type="html">Problem &amp;amp; Solution #1 - expo eject could not locate a valid AppDelegate at root issue</title><link href="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html" rel="alternate" type="text/html" title="Problem &amp;amp; Solution #1 - expo eject could not locate a valid AppDelegate at root issue" /><published>2021-02-14T10:17:41+09:00</published><updated>2021-02-14T10:17:41+09:00</updated><id>http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/14/expo-eject-ios-appdelegate-issue.html">&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
-&lt;p&gt;There are two possible solutions depending on your case.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;delete &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;android&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ios&lt;/code&gt; folders before &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expo eject&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;In &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.json&lt;/code&gt;, change your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expo.name&lt;/code&gt; field value to English value.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;a-little-longer-version&quot;&gt;a little longer version&lt;/h2&gt;
-&lt;p&gt;I encountered this weird issue and wasted about 5 hours on Saturday. There are few google search results relevant to this. The only solution you can get from google is to delete the existing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;android&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ios&lt;/code&gt; folders from the official expo github issue repository.&lt;/p&gt;
-
-&lt;p&gt;But I didn’t even have the folders before ejecting expo. So the solution didn’t work for my case.&lt;/p&gt;
-
-&lt;p&gt;The real soluition for me was very simple. If you assigned your expo.name field value as non-english character in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.json&lt;/code&gt;, that is the real culprit. You should &lt;strong&gt;change the field value in English&lt;/strong&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expo eject&lt;/code&gt; to work.&lt;/p&gt;
-
-&lt;p&gt;That’s it.&lt;/p&gt;
-
-&lt;p&gt;Hope anyone can get a bit of help from my lost 5 hours.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;React Native를 expo를 통해 개발하다 expo eject할때가 되어 명령을 수행했는데 제목과 같은 문제에 봉착.&lt;/p&gt;
-
-&lt;p&gt;다른 프로젝트에서는 아무 문제 없이 되었는데 특정 프로젝트에서 위에 문제가 생기는게 이상하여 이런 저런 방법을 통해 해결해보려고 하다가 의미없이 약 5시간은 날린것 같다.&lt;/p&gt;
-
-&lt;p&gt;어이없게도 해결책은 다음과 같이 굉장히 간단하다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;expo 설정을 해주는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.json&lt;/code&gt;에 &lt;strong&gt;expo.name field가 한글&lt;/strong&gt;로 되어 있으면 위의 문제가 발생하므로 이것을 영어로 변경해준다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;근본적인 원인은 expo에서 expo.name을 기반으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ios&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;android&lt;/code&gt;폴더를 생성해주는데 이 안에 저 필드이름을 기반으로 하는 서브폴더들이 생기게 된다. 이때 한글이라면 인식을 못하여 폴더를 생성해주지 못한다. 이런 저런 디버깅을 통해 힌트를 발견하고 겨우 해결했다. 윈도우10도 안되고 macOS Big Sur 11.0.1에서도 안됨.&lt;/p&gt;
-
-&lt;p&gt;구체적인 것은 모르겠지만 expo내의 자동으로 폴더 생성하는 코드가 utf-8로 되어 있지 않아 한글을 처리하지 못하는 것으로 보인다. 우리나라가 first world 나라가 아닌 것을 다시 한번 상기시켜주는 문제였음.&lt;/p&gt;
-
-&lt;p&gt;혹시 비슷한 문제에 봉착하는 사람들은 구글링이 이 글을 상위에 랭크시켜줄것 같으니 이것을 보고 도움이 되었으면 합니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이 문제말고도 다른 문제 때문에 동일한 에러가 나오는 경우가 있는데 이러한 상황에서의 근본문제는 기존 폴더에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ios&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;android&lt;/code&gt;폴더가 존재하기 때문이라고 한다. (expo github issue에 찾으면 나옴) 따라서 해결책은 이 폴더들을 삭제하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expo eject&lt;/code&gt;을 해주면 됩니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Yongho</name></author><summary type="html">TL;DR There are two possible solutions depending on your case.</summary></entry></feed>
+&lt;p&gt;내가 실제로 법과 관련된 일을 시작하면서 나는 유전적인 진화의 힘을 알게 되었고 인간의 많은 진화 기반의 특성이 인지적으로 덜 발달된 동물들과 곤충들과 얼마나 많이 닮아 있는지 알게 되었다. 나는 인간은 자기 주변에서 관찰되는 다른사람들의 행동에 자동적이고 굉장히 크게 영향을 받는 &lt;strong&gt;사회적 동물&lt;/strong&gt; 이라는 것을 알게 되었다. 또한 인간은 다른 원숭이들 혹은 농가에서 기르는 동물들과 마찬가지로 제한된 크기의 지배계층에서 산다는 것을 알게 되었고 여기서 인간은 권한과 지휘를 존중하고 동일한 지배계층의 사람들과는 협력하면서도 본인과 경쟁하는 다른 집단에 존재하는 다른 사람들에게는 적대하고 불신하는 경향이 있다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html">출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다.</summary></entry></feed>
