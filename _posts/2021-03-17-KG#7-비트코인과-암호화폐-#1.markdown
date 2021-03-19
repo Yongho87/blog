@@ -1,11 +1,11 @@
 ---
 layout: single
 author: Yongho
-title:  "비트코인과 암호화폐 #1"
+title:  "성장을 위한 지식 #7 - 비트코인과 암호화폐"
 date:   2021-03-17 07:00:00 +0000
 ---
 
-> 참고문서: [레이달리오와 브릿지워터의 비트코인에 대한 관점](https://www.bridgewater.com/research-and-insights/our-thoughts-on-bitcoin)
+> 참고: [레이달리오와 브릿지워터의 비트코인에 대한 관점](https://www.bridgewater.com/research-and-insights/our-thoughts-on-bitcoin)
 
 ### 비트코인의 최근의 상승은 비트코인이 재산과 부의 저장공간으로 사용할 될 수 있을지에 대한 논의를 다시 불붙이고 있다
 - 비트코인은 2020년에만 약 4배가 상승

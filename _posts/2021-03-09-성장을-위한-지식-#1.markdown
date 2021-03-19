@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "성장을 위한 지식 #1"
+title:  "성장을 위한 지식 #1 - 금융시장의 현재 흐름"
 date:   2021-03-09 06:00:00 +0000
 ---
 

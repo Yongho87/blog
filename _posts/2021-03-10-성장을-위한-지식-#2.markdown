@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "성장을 위한 지식 #2"
+title:  "성장을 위한 지식 #2 - 사업을 구성하는 5가지 요소"
 date:   2021-03-10 06:00:00 +0000
 ---
 

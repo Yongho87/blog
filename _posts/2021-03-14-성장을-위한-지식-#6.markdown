@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "성장을 위한 지식 #6"
+title:  "성장을 위한 지식 #6 - 경제적 가치의 12가지 형태"
 date:   2021-03-14 10:00:00 +0000
 ---
 
