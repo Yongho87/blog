@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "레이달리오 경젱의 기본 #2"
+title:  "레이달리오 경제의 기본 #2"
 date:   2021-03-05 11:00:00 +0000
 ---
 
