@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "컴퓨터 공학 및 프로그래밍 지식 #1"
+title:  "CS#1 - Data alignment, 포인터, Buffer Overflow"
 date:   2021-03-13 06:20:00 +0000
 ---
 
