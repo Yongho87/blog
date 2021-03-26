@@ -11,12 +11,6 @@ var store = [{
         "url": "/blog/2021/02/17/%EB%A0%88%EC%9D%B4%EB%8B%AC%EB%A6%AC%EC%98%A4-%EA%B2%BD%EC%A0%9C%EC%9D%98-%EA%B8%B0%EB%B3%B8-1.html",
         "teaser": null
       },{
-        "title": "찰리멍거의 심리학 #1",
-        "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다. 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 거의 인정을 안해주는 시절에 교육을 받았었다. 대신 그...","categories": [],
-        "tags": [],
-        "url": "/blog/2021/02/26/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99-1.html",
-        "teaser": null
-      },{
         "title": "레이달리오 경제의 기본 #2",
         "excerpt":"출처: Big Debt Crises by Ray Dalio를 번역+의역한 내용입니다. 전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명. 크게 다음과 같은 순서로 설명 신용과 부채란 무엇인가 전형적인 큰 부채 사이클 디플레이션 부채 사이클을 구성하는 단계들 인플레이션적인 침체와 통화위기 인플레이션 부채 사이클을 구성하는 단계들...","categories": [],
         "tags": [],
@@ -87,5 +81,11 @@ var store = [{
         "excerpt":"그래프 데이터 모델 그래프 데이터 모델은 many-to-many관계가 데이터 간에 많이 존재할때 사용하기에 더 유용한 모델이다. 모든 그래프는 크게 2가지로 구성되는데 하나는 꼭지점이고 다른 하나는 모서리다. 소셜네트워크 어플리케이션에서 꼭지점은 사람을 표현하고 모서리는 사람들간의 팔로잉 팔로워를 표현하게 된다. 페이스북이 사용하는 그래프 데이터 모델의 경우 꼭지점은 사람만을 의미하는 homogeneous타입이 아니고 사람, 위치, 체크인...","categories": [],
         "tags": [],
         "url": "/blog/2021/03/24/CS-2-%EA%B7%B8%EB%9E%98%ED%94%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8.html",
+        "teaser": null
+      },{
+        "title": "찰리멍거의 심리학 #1",
+        "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다. 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 거의 인정을 안해주는 시절에 교육을 받았었다. 대신 그...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/03/27/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99-1.html",
         "teaser": null
       }]
