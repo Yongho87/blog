@@ -5,7 +5,7 @@ title:  "많은 고객과 소비자들에게 물건을 팔 수 있는 좋은 판
 date:   2021-04-24 12:20:00 +0900
 ---
 
-| ![greenbird](https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png) |
+| ![handling](https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png) |
 | :--: |
 | *이미지 출처: https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png* |
 
@@ -33,3 +33,7 @@ date:   2021-04-24 12:20:00 +0900
 
 그럼에도 불구하고 잠재고객이 구매를 안한다면 이것은 파워이슈(권한)과 관련이 있을 수 있다 (해당 잠재고객이 물건을 구매할 권한과 예산이 없는 경우). 따라서 언제나 이러한 권한이 있는 결정권자와 구매에 대한 얘기를 해야 한다. 그럼에도 불구하고 구매를 거부한다면 이 제품/서비스가 그들과 맞지 않는다는 것이고 그러면 다른 잠재고객을 찾아서 판매를 해야 한다.
 
+
+---
+**참고자료**
+1. The Personal MBA 10th Anniversary Edition by Josh Kaufman
