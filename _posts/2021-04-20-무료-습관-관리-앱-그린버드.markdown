@@ -5,11 +5,15 @@ title:  "무료 습관 관리 앱 그린버드 - 습관관리 핵심 기능들�
 date:   2021-04-20 16:14:00 +0000
 ---
 
+
+| ![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw) | 
+| :--: |
+| *그린버드 로고* |
+
+
 # 그린버드
 
 1인 부트스트랩 스타트업을 운영하면서 무료 습관 관리 앱인 그린버드를 개발하여 제 블로그에 소개하려고 합니다. 
-
-![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw)
 
 ## 그린버드 습관 관리 앱의 차별성
 
@@ -44,10 +48,4 @@ date:   2021-04-20 16:14:00 +0000
 
 ## 그린버드 앱 스크린샷
 
-![greenbird0](https://play-lh.googleusercontent.com/cry7H0U13KiWd9QVhzLybCgYE2ml34d9UYllg1PI1-aJIjQn4hz5hc-hKkl0rpHnL4M=w2628-h1788-rw)
-
-![greenbird1](https://play-lh.googleusercontent.com/K7pdFPqHn4M2mWcjantnCQth2VRuDiA8eQHMq1ZQ5woKCbdhzWM-Xe8pZNVoRfzR-ZmO=w2628-h1788-rw)
-
-![greenbird2](https://play-lh.googleusercontent.com/nmW0lcfCvMZkivHNaYX5bzjhI755ju6OxJUyrjDakDGS65uim_LSeNyYZuL_Um0p6w=w2628-h1788-rw)
-
-![greenbird3](https://play-lh.googleusercontent.com/03SgbMDak4DYaRdy2ZdyMvyc6_owpk2uOClHYd4zpi_5cP5pPKfG96GG1WGgAGI_mtw=w2628-h1788-rw)
+| ![greenbird0](https://play-lh.googleusercontent.com/cry7H0U13KiWd9QVhzLybCgYE2ml34d9UYllg1PI1-aJIjQn4hz5hc-hKkl0rpHnL4M=w2628-h1788-rw) | ![greenbird1](https://play-lh.googleusercontent.com/K7pdFPqHn4M2mWcjantnCQth2VRuDiA8eQHMq1ZQ5woKCbdhzWM-Xe8pZNVoRfzR-ZmO=w2628-h1788-rw) | ![greenbird2](https://play-lh.googleusercontent.com/nmW0lcfCvMZkivHNaYX5bzjhI755ju6OxJUyrjDakDGS65uim_LSeNyYZuL_Um0p6w=w2628-h1788-rw) | ![greenbird3](https://play-lh.googleusercontent.com/03SgbMDak4DYaRdy2ZdyMvyc6_owpk2uOClHYd4zpi_5cP5pPKfG96GG1WGgAGI_mtw=w2628-h1788-rw) |

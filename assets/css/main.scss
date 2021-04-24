@@ -11,16 +11,19 @@ $paragraph-indent: false;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-table {
+table, thead, tbody {
     border: 0px solid white;
+    background-color: white;
   }
   
   th {
     border: 0px solid white;
+    background-color: white;
   }
   
   td {
     border: 0px solid white;
+    background-color: white;
   }
 
   .archive__item-title a {
