@@ -7,6 +7,18 @@ permalink: /about/
 
 ## Intro.
 
+I am a bootstrapper for my startup. 
+
+In 2019 at age 33, I decided to go for that. 
+
+The decision reason is simple. I want to do what I value and what I am interested without doing unnecessary things and want to maximize common goods and keep my own moral standards. 
+
+The main paths many people take was not that attractive to me in those regards. I have knew that life is short. So, I just started.   
+
+The history of my life by that time is not that close to a programmer. I have a Ph.D in Chemical Engineering. I have studied process system engineering for 10+ years. (undergraduate + master + Ph.D + postdoc).
+
+I know there are two products/services categories business can sell in this world. The first one is people want (like sugar) and the other is people need (like health). I want to build something people NEED which can improve the well-being of conscious creatures.
+
 2021년 2월 시점에 이익이 전혀 나지 않고 있는 1인 부트스트래핑 스타트업을 운영하고 있습니다.
 - 스타트업, 과학기술, 경제 그리고 심리학, 의식, mindfulness등이 저의 주요 관심사 입니다. 
 - 일론 머스크의 스페이스 엑스 설립이유인 인류가 지구뿐만이 아닌 다른 여러행성에서 거주 할 수 있도록 만드는 비젼에 매력을 느낍니다.
