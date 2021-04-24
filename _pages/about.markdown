@@ -13,7 +13,7 @@ In 2019 at age 33, I decided to go for that.
 
 The decision reason is simple. I want to do what I value and what I am interested without doing unnecessary things and want to maximize common goods and keep my own moral standards. 
 
-The main paths many people take was not that attractive to me in those regards. I have knew that life is short. So, I just started.   
+The main paths many people take was not that attractive to me in those regards. I have knew that life is short. So, I decided to do what I have been doing.   
 
 The history of my life by that time is not that close to a programmer. I have a Ph.D in Chemical Engineering. I have studied process system engineering for 10+ years. (undergraduate + master + Ph.D + postdoc).
 
