@@ -5,7 +5,9 @@ title:  "많은 고객과 소비자들에게 물건을 팔 수 있는 좋은 판
 date:   2021-04-24 12:20:00 +0900
 ---
 
-![greenbird](https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png)
+| ![greenbird](https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png) |
+| :--: |
+| *이미지 출처: https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png* |
 
 ## 고객이 상품/서비스에 대한 구매를 안하는 핵심이유 5가지
 

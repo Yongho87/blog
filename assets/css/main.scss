@@ -1,17 +1,37 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 
-.archive__item-title a {
-  text-decoration: none;
-}
+$link-color: royalblue;
+$paragraph-indent: false;
 
-.a {
-  text-decoration: none;
-}
 
 @charset "utf-8";
 
-$link-color: red;
-$paragraph-indent: true;
-
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+table {
+    border: 0px solid white;
+  }
+  
+  th {
+    border: 0px solid white;
+  }
+  
+  td {
+    border: 0px solid white;
+  }
+
+  .archive__item-title a {
+    text-decoration: none;
+  }
+  
+  .a {
+    text-decoration: none;
+  }
+  
+  table em {
+    color: gray;
+    font-size: 13px;
+  }
