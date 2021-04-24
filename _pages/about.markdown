@@ -15,7 +15,7 @@ The decision reason is simple. I want to do what I value and what I am intereste
 
 The main paths many people take was not that attractive to me in those regards. I have knew that life is short. So, I decided to do what I have been doing.   
 
-The history of my life by that time is not that close to a programmer. I have a Ph.D in Chemical Engineering. I have studied process system engineering for 10+ years. (undergraduate + master + Ph.D + postdoc).
+The history of my life by that time is not that close to a programmer. I have studied chemical engineering for 10+ years. (undergraduate + master + Ph.D + postdoc).
 
 I know there are two products/services categories business can sell in this world. The first one is people want (like sugar) and the other is people need (like health). I want to build something people NEED which can improve the well-being of conscious creatures.
 
