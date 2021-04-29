@@ -1,0 +1,27 @@
+---
+layout: single
+author: Yongho
+title:  "제품과 서비스의 품질을 정량적으로 측정할 수 있는 기준 (성장을 위한 지식 #12)"
+date:   2021-04-30 08:12:00 +0900
+---
+
+| ![quality](https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg) |
+| :--: |
+| *이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg* |
+
+## 하버드 비즈니스 스쿨의 데이비드 갈빈 교수의 8가지 품질요소 
+
+1. 성능 - 의도된 목적을 얼마나 잘 수행하는가? 
+2. 기능 - 얼마나 많은 유용하고 가치있는 기능을 제공하는가?
+3. 신뢰성 - 사용할때 안되거나 꺼지거나 이상작동하는 확률이 어느정도 되는가?
+4. 일치성 - 이미 확립된 기준을 얼만큼 잘 충족시키는가 단점이 일반적인가? 내가 필요로 할때 수용가능한 대체품이 존재하는가? 
+5. 내구성 - 얼마나 오래 작동하는가?
+6. 유지보수 - 잘못되었을때 쉽게 고칠 수 있는가?
+7. 미 - 주관적인 사용 경험이 즐겁고 매력적인가?
+8. 인식 - 좋은 평판을 갖고 있고 기대하는 것 보다 더 좋은 결과를 주는가
+
+이 정량적인 기준들의 장점은 체크리스트로 사용하여 제품/서비스의 질을 높일때 사용할 수 있다는 것이다. 완벽한 것은 아무것도 없다. 제공하는 것의 질을 높이기 위해서 내가 할 수 있는 것은 언제나 존재한다.
+
+---
+**참고자료**
+1. The Personal MBA 10th Anniversary Edition by Josh Kaufman
