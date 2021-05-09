@@ -100,4 +100,16 @@ var store = [{
         "tags": [],
         "url": "/blog/2021/04/24/KG-10-%EB%A7%8E%EC%9D%80-%EA%B3%A0%EA%B0%9D%EA%B3%BC-%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%EB%AC%BC%EA%B1%B4%EC%9D%84-%ED%8C%94%EC%88%98%EC%9E%88%EB%8A%94-%EC%A2%8B%EC%9D%80-%ED%8C%90%EB%A7%A4%EC%A0%84%EB%9E%B5%EA%B3%BC-%ED%8C%90%EB%A7%A4%EB%B0%A9%EB%B2%95.html",
         "teaser": null
+      },{
+        "title": "제품과 서비스의 품질을 정량적으로 측정할 수 있는 기준 (성장을 위한 지식 #12)",
+        "excerpt":"이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg 하버드 비즈니스 스쿨의 데이비드 갈빈 교수의 8가지 품질요소 성능 - 의도된 목적을 얼마나 잘 수행하는가? 기능 - 얼마나 많은 유용하고 가치있는 기능을 제공하는가? 신뢰성 - 사용할때 안되거나 꺼지거나 이상작동하는 확률이 어느정도 되는가? 일치성 - 이미 확립된 기준을 얼만큼 잘 충족시키는가 단점이 일반적인가? 내가 필요로 할때 수용가능한 대체품이...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/04/30/KG-12-%EC%A0%9C%ED%92%88%EA%B3%BC-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%ED%80%84%EB%A6%AC%ED%8B%B0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EC%9D%98.html",
+        "teaser": null
+      },{
+        "title": "단순한 연관성에서 비롯되는 무의식이 받는 영향력 (성장을 위한 지식 #11)",
+        "excerpt":"이미지 출처: http://25cognitivebiases.com/wp-content/uploads/2015/10/25-Cognitive-Biases-Bias10-Influence-From-Mere-Association-Tendency.jpg Charlie munger’s the psychology of human misjudgement를 번역한 글입니다. 단순한 연관성에서 비롯되는 무의식이 받는 영향력 스키너가 연구한 일반적인 조건반사 조건에서 그리고 세상에서 일어나는 모든 상황에서 새로운 습관을 형성할 수 있는 사람들의 반응 및 행동패턴은 그 전에 유사한 상황에서 주어졌던 보상에 의해 발생한다. 예를들어 브랜드 구두 광택제를 산...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/05/03/KG-11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5.html",
+        "teaser": null
       }]

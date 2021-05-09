@@ -4,12 +4,42 @@
 
 $link-color: royalblue;
 $paragraph-indent: false;
-
+$sans-serif: 'Nanum Gothic';
+$monospace: 'Nanum Gothic';
+$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
 @charset "utf-8";
-
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);//google web font added
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// https://github.com/mmistakes/minimal-mistakes/issues/1219
+html {
+  font-size: 12px; // change to whatever
+  
+  @include breakpoint($medium) {
+    font-size: 14px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
+  }
+}
+
+.highlight {
+  font-family: $monospace;
+  font-size: $type-size-4-5;
+}
+
+.language-plaintext {
+  font-family: $monospace;
+  font-size: $type-size-5;
+  background: #c0ffee;
+}
 
 table, thead, tbody {
     border: 0px solid white;
