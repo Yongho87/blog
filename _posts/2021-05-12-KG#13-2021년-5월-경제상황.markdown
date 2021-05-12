@@ -2,7 +2,7 @@
 layout: single
 author: Yongho
 title:  "2021년 5월 12일 현재 경제상황: 향후 주식과 부동산 가격은 어디로? - 성장을 위한 지식 #13"
-date:   2021-04-30 08:12:00 +0900
+date:   2021-05-12 08:12:00 +0900
 ---
 
 | ![quality](https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg) |

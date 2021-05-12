@@ -95,21 +95,33 @@ var store = [{
         "url": "/blog/2021/04/21/%EB%AC%B4%EB%A3%8C-%EC%8A%B5%EA%B4%80-%EA%B4%80%EB%A6%AC-%EC%95%B1-%EA%B7%B8%EB%A6%B0%EB%B2%84%EB%93%9C.html",
         "teaser": null
       },{
-        "title": "많은 고객과 소비자들에게 물건을 팔 수 있는 좋은 판매전략과 판매방법 (성장을 위한 지식 #10)",
+        "title": "많은 고객과 소비자들에게 물건을 팔 수 있는 좋은 판매전략과 판매방법 - 성장을 위한 지식 #10",
         "excerpt":"이미지 출처: https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png 고객이 상품/서비스에 대한 구매를 안하는 핵심이유 5가지 사람들이 우리가 파는 상품/서비스를 구매를 안하는 이유는 크게 다음의 5가지 중에 하나이거나 이 중 여러가지의 조합이다. 너무 비싸 그거 사봤자 잘 안돼 (or 맛 없어) 다른 사람은 모르겠는데 나는 효과가 없을 것 같은데? 그냥 안 사고 이 상태로 살래 쓰기...","categories": [],
         "tags": [],
         "url": "/blog/2021/04/24/KG-10-%EB%A7%8E%EC%9D%80-%EA%B3%A0%EA%B0%9D%EA%B3%BC-%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%EB%AC%BC%EA%B1%B4%EC%9D%84-%ED%8C%94%EC%88%98%EC%9E%88%EB%8A%94-%EC%A2%8B%EC%9D%80-%ED%8C%90%EB%A7%A4%EC%A0%84%EB%9E%B5%EA%B3%BC-%ED%8C%90%EB%A7%A4%EB%B0%A9%EB%B2%95.html",
         "teaser": null
       },{
-        "title": "제품과 서비스의 품질을 정량적으로 측정할 수 있는 기준 (성장을 위한 지식 #12)",
+        "title": "제품과 서비스의 품질을 정량적으로 측정할 수 있는 기준 - 성장을 위한 지식 #12",
         "excerpt":"이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg 하버드 비즈니스 스쿨의 데이비드 갈빈 교수의 8가지 품질요소 성능 - 의도된 목적을 얼마나 잘 수행하는가? 기능 - 얼마나 많은 유용하고 가치있는 기능을 제공하는가? 신뢰성 - 사용할때 안되거나 꺼지거나 이상작동하는 확률이 어느정도 되는가? 일치성 - 이미 확립된 기준을 얼만큼 잘 충족시키는가 단점이 일반적인가? 내가 필요로 할때 수용가능한 대체품이...","categories": [],
         "tags": [],
         "url": "/blog/2021/04/30/KG-12-%EC%A0%9C%ED%92%88%EA%B3%BC-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%ED%80%84%EB%A6%AC%ED%8B%B0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EC%9D%98.html",
         "teaser": null
       },{
-        "title": "단순한 연관성에서 비롯되는 무의식이 받는 영향력 (성장을 위한 지식 #11)",
+        "title": "단순한 연관성에서 비롯되는 무의식이 받는 영향력 - 성장을 위한 지식 #11",
         "excerpt":"이미지 출처: http://25cognitivebiases.com/wp-content/uploads/2015/10/25-Cognitive-Biases-Bias10-Influence-From-Mere-Association-Tendency.jpg Charlie munger’s the psychology of human misjudgement를 번역한 글입니다. 단순한 연관성에서 비롯되는 무의식이 받는 영향력 스키너가 연구한 일반적인 조건반사 조건에서 그리고 세상에서 일어나는 모든 상황에서 새로운 습관을 형성할 수 있는 사람들의 반응 및 행동패턴은 그 전에 유사한 상황에서 주어졌던 보상에 의해 발생한다. 예를들어 브랜드 구두 광택제를 산...","categories": [],
         "tags": [],
         "url": "/blog/2021/05/03/KG-11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5.html",
+        "teaser": null
+      },{
+        "title": "2021년 5월 12일 현재 경제상황: 향후 주식과 부동산 가격은 어디로? - 성장을 위한 지식 #13",
+        "excerpt":"이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg 소비자 가격 지표 (consumer price index) 팩트: 미국의 소비자 가격은 2020년 3월 ~ 2021년 3월 1년동안 2.6퍼센트 증가. 이 수치는 1년 기준으로 보았을때 2019년 8월 기준값 이후에 가장 높은 수치. 의견: 주식, 부동산, 가상화폐에서 만들어지고 있는 엄청난 가격상승(자산 인플레이션)과 더불어 소비자 가격의 상승(소비재 인플레이션)까지 발생하고 있는 현재...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/05/12/KG-13-2021%EB%85%84-5%EC%9B%94-%EA%B2%BD%EC%A0%9C%EC%83%81%ED%99%A9.html",
+        "teaser": null
+      },{
+        "title": "무료 습관 앱 그린버드 추천 - 무엇이든 측정할 수 있어야 개선할 수 있다",
+        "excerpt":"그린버드 로고 무료 습관 관리 앱 그린버드 추천 무료 습관 관리 앱 그린버드가 업데이트 되었습니다. 그린버드는 습관의 복리효과를 기반으로 습관 점수(=의지력)를 계산하여 보여줍니다. ) 그린버드 복리 효과를 이용한 습관점수 및 달성률 현황판 하루에 하나라도 꾸준히 하게 되면 습관 점수는 복리로 증가하고 하루에 습관을 실천하지 못하면 점수는 감소하게 됩니다. 자신의 의지력을...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/05/13/%EB%AC%B4%EB%A3%8C-%EC%8A%B5%EA%B4%80-%EC%95%B1-%EA%B7%B8%EB%A6%B0%EB%B2%84%EB%93%9C-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%86%8C%EC%8B%9D.html",
         "teaser": null
       }]
