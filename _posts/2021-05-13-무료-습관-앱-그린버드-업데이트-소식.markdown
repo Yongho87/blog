@@ -1,0 +1,31 @@
+---
+layout: single
+author: Yongho
+title:  "무료 습관 관리 앱 그린버드 - 습관관리 핵심 기능들을 모두 탑재한 깔끔하고 간단한 앱"
+date:   2021-04-20 16:14:00 +0000
+---
+
+
+| ![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw) | 
+| :--: |
+| *그린버드 로고* |
+
+
+# 무료 습관 관리 앱 그린버드를 추천 
+무료 습관 관리 앱 그린버드가 업데이트 되었습니다. 
+- UI를 더 편하게 하기 위해서 사이드 메뉴 => 하단 탭 메뉴로 변경
+
+| ![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw) | 
+
+
+- 습관 몰입모드 추가 - 현재 시간에 해야 하는 습관을 하이라이트
+
+| ![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw) | 
+
+- 습관 관리 - 현재까지 실천한 습관 현황에 대한 점수와 요약본. 어제보다 얼마나 더 나아졌는지 저번주보다 얼마나 더 나아졌는지를 알 수 있는 기능. 
+
+| ![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw) | 
+
+- 습관 실천 그래프 - 일별, 주별, 월별로의 달성률의 변화를 트래킹
+
+| ![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw) | 
