@@ -9,7 +9,7 @@ date:   2021-05-03 22:14:00 +0900
 | :--: |
 | *이미지 출처: http://25cognitivebiases.com/wp-content/uploads/2015/10/25-Cognitive-Biases-Bias10-Influence-From-Mere-Association-Tendency.jpg* |
 
-Charlie munger’s the psychology of human misjudgement를 번역한 글입니다. 
+> Charlie munger’s the psychology of human misjudgement를 번역한 글입니다. 
 
 ## 단순한 연관성에서 비롯되는 무의식이 받는 영향력
 
