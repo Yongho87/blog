@@ -77,7 +77,7 @@ var store = [{
         "url": "/blog/2021/03/24/CS-2-%EA%B7%B8%EB%9E%98%ED%94%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8.html",
         "teaser": null
       },{
-        "title": "찰리멍거의 심리학 #1",
+        "title": "찰리멍거의 심리학 - 심리학의 중요성",
         "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다. 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 거의 인정을 안해주는 시절에 교육을 받았었다. 대신 그...","categories": [],
         "tags": [],
         "url": "/blog/2021/03/27/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99-1.html",
@@ -120,8 +120,20 @@ var store = [{
         "teaser": null
       },{
         "title": "무료 습관 앱 그린버드 추천 - 무엇이든 측정할 수 있어야 개선할 수 있다",
-        "excerpt":"그린버드 로고 무료 습관 관리 앱 그린버드 추천 무료 습관 관리 앱 그린버드가 업데이트 되었습니다. 그린버드는 습관의 복리효과를 기반으로 습관 점수(=의지력)를 계산하여 보여줍니다. ) 그린버드 복리 효과를 이용한 습관점수 및 달성률 현황판 하루에 하나라도 꾸준히 하게 되면 습관 점수는 복리로 증가하고 하루에 습관을 실천하지 못하면 점수는 감소하게 됩니다. 자신의 의지력을...","categories": [],
+        "excerpt":"그린버드 로고 “측정할 수 없다면, 개선할 수 없다” - 피터 드러커 무료 습관 관리 앱 그린버드 추천 무료 습관 관리 앱 그린버드가 업데이트 되었습니다. 그린버드는 습관의 복리효과를 기반으로 습관 점수(=의지력)를 계산하여 보여줍니다. ) 그린버드 복리 효과를 이용한 습관점수 및 달성률 현황판 하루에 하나라도 꾸준히 하게 되면 습관 점수는 복리로 증가하고...","categories": [],
         "tags": [],
         "url": "/blog/2021/05/13/%EB%AC%B4%EB%A3%8C-%EC%8A%B5%EA%B4%80-%EC%95%B1-%EA%B7%B8%EB%A6%B0%EB%B2%84%EB%93%9C-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%86%8C%EC%8B%9D.html",
+        "teaser": null
+      },{
+        "title": "비일관성 회피 성향 - 찰리멍거의 심리학",
+        "excerpt":"이미지 출처: https://media-exp1.licdn.com/dms/image/C4E12AQH5_39x0YenoA/article-inline_image-shrink_1000_1488/0/1520479407096?e=1623888000&amp;v=beta&amp;t=VYnq1AMskv98f80I5qC59n1968MtgIFZ4C6rzc8d2tI 찰리멍거의 Poor Charlie’s Almanac 중 Inconsistency-Avoidance Tendency를 번역한 글입니다. 인간이 가진 비일관성을 회피하려는 본능 인간은 변화에 저항하여 뇌의 공간을 보존하려는 경향이 있는데 이것은 비일관성 회피 본능의 하나의 형태이다. 우리는 이것을 인간의 모든 건설적인 혹은 파괴적인 습관에서 볼 수 있다. 수많은 나쁜 습관을 제거한 리스트를 보여줄 수 있는...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.html",
+        "teaser": null
+      },{
+        "title": "현명한 의사결정을 위한 찰리멍거의 심리학",
+        "excerpt":"왼쪽은 워렌버핏 오른쪽이 찰리멍거 이미지 출처: https://images.wsj.net/im-289221?width=620&amp;size=1.5 찰리멍거가 누구세요? 찰리멍거는 워렌버핏의 투자 파트너이자 버크셔 해서웨이의 부회장으로 세계에서 아주 유명한 전설적인 투자자입니다. 위키피디아 출처로 2021년 3월 기준 우리나라 돈으로 약 2조 정도의 자산을 보유하고 있습니다. 그 유명한 워렌버핏은 “항상 찰리와 얘기하면 무엇인가를 배운다”라고 말하며 “나는 그렇게 많은 사람들의 말을 듣지 않는다...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html",
         "teaser": null
       }]
