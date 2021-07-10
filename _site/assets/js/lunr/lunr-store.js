@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "찰리멍거의 심리학 - 심리학의 중요성",
-        "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다. 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 거의 인정을 안해주는 시절에 교육을 받았었다. 대신 그...","categories": [],
+        "excerpt":"출처: Poor Charlie’s Almanack By Charlies T. Munger를 번역+의역한 내용 입니다. 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment) 나는 오랫동안 표준적인 사고의 오류에 대해 관심이 있었다. 나는 주요 심리학 분야의 주류 엘리트들이 잘못된 결정 및 판단에 대한 심리학에 대해서는 인정 해주지 않는 시절에 교육을 받았었다. 대신 그...","categories": [],
         "tags": [],
         "url": "/blog/2021/03/27/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99-1.html",
         "teaser": null
