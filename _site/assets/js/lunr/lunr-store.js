@@ -136,4 +136,10 @@ var store = [{
         "tags": [],
         "url": "/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html",
         "teaser": null
+      },{
+        "title": "보상과 처벌에 과잉반응하는 경향",
+        "excerpt":"보상과 처벌에 과잉반응하는 경향 (Reward and Punishment Superresponse Tendency) 내가 이 경향을 맨 처음에 둔 이유는 모든 사람들은 스스로 인센티브와 처벌이 행동을 변화시키는데 얼마나 중요한지 알고있다고 생각하기 때문이다. 하지만 실제로 그렇지 않다. 예를들어 내가 생각하기에 나는 내 나이대의 사람들 중에 인센티브의 영향력을 이해하는 걸로는 탑 5%에 들어간다고 생각하지만, 나는 항상...","categories": [],
+        "tags": [],
+        "url": "/blog/2021/07/27/%EB%B3%B4%EC%83%81%EA%B3%BC-%EC%B2%98%EB%B2%8C%EC%97%90-%EA%B3%BC%EC%9E%89%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EA%B2%BD%ED%96%A5.html",
+        "teaser": null
       }]
