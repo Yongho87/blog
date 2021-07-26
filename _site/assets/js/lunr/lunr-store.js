@@ -126,7 +126,7 @@ var store = [{
         "teaser": null
       },{
         "title": "비일관성 회피 성향 - 찰리멍거의 심리학",
-        "excerpt":"이미지 출처: https://media-exp1.licdn.com/dms/image/C4E12AQH5_39x0YenoA/article-inline_image-shrink_1000_1488/0/1520479407096?e=1623888000&amp;v=beta&amp;t=VYnq1AMskv98f80I5qC59n1968MtgIFZ4C6rzc8d2tI 찰리멍거의 Poor Charlie’s Almanac 중 Inconsistency-Avoidance Tendency를 번역한 글입니다. 인간이 가진 비일관성을 회피하려는 본능 인간은 변화에 저항하여 뇌의 공간을 보존하려는 경향이 있는데 이것은 비일관성 회피 본능의 하나의 형태이다. 우리는 이것을 인간의 모든 건설적인 혹은 파괴적인 습관에서 볼 수 있다. 수많은 나쁜 습관을 제거한 리스트를 보여줄 수 있는...","categories": [],
+        "excerpt":"찰리멍거의 Poor Charlie’s Almanac 중 Inconsistency-Avoidance Tendency를 번역한 글입니다. 인간이 가진 비일관성을 회피하려는 본능 인간은 변화에 저항하여 뇌의 공간을 보존하려는 경향이 있는데 이것은 비일관성 회피 본능의 하나의 형태이다. 우리는 이것을 인간의 모든 건설적인 혹은 파괴적인 습관에서 볼 수 있다. 수많은 나쁜 습관을 제거한 리스트를 보여줄 수 있는 사람은 거의 없다....","categories": [],
         "tags": [],
         "url": "/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.html",
         "teaser": null
