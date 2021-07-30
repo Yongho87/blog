@@ -1,11 +1,15 @@
 ---
 layout: single
 author: Yongho
-title:  "찰리멍거의 심리학 - 심리학의 중요성"
+title:  "심리학이 왜 중요한가 - 찰리멍거의 심리학"
 date:   2021-03-26 15:00:00 +0000
 ---
 
 > 출처: Poor Charlie's Almanack By Charlies T. Munger를 번역+의역한 내용 입니다.
+
+| ![charlie_munger_and_psychology](https://149366099.v2.pressablecdn.com/wp-content/uploads/2020/12/HumanMisjudgment.jpg) | 
+
+
 
 # 인간의 잘못된 판단에 대한 심리학 (The Psychology of Human Misjudgment)
 
@@ -68,7 +72,7 @@ date:   2021-03-26 15:00:00 +0000
 | 번호 | 제목 |
 | --- | --- |
 | 1 | [심리학이 왜 중요한가]({{ site.baseurl }}{% link _posts/2021-02-24-찰리멍거의-심리학-#1.markdown %}) |   
-| 2 | 보상과 처벌에 과잉반응하는 경향 | 
+| 2 | [보상과 처벌에 과잉반응하는 경향]({{ site.baseurl }}{% link _posts/2021-07-26-보상과-처벌에-과잉반응하는-경향.markdown %}) | 
 | 3 | 후광효과 | 
 | 4 | 역후광효과 |
 | 5 | 의심회피 |

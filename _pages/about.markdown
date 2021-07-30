@@ -11,7 +11,7 @@ I am a bootstrapper for my startup.
 
 In 2019 at age 33, I decided to go for that. 
 
-The decision reason is simple. I want to do what I value and what I am interested without doing unnecessary things and want to maximize common goods and keep my own moral standards. 
+The decision reason is simple. I wanted to do what I value and what I am interested without doing unnecessary things and want to maximize common goods and keep my own moral standards. 
 
 The main paths many people take was not that attractive to me in those regards. I have knew that life is short. So, I decided to do what I have been doing.   
 
@@ -27,6 +27,7 @@ I know there are two products/services categories business can sell in this worl
 - 다른 사람들에게 피해를 주고 남을 속이고 안좋은 행동을 하지 않고 인류와 사회에 긍정적인 영향을 줄 수 있는 좋은 비즈니스를 만들 수 있다는 것을 실현하고 싶은 사람입니다.
 - 중요한 모든 다양한 분야의 빅 아이디어들을 깊이 있게 이해하여 이것들을 기반으로 만들어진 다차원의 멘탈모델을 통해 현명한 의사결정을 내리는 능력을 갖고 싶고 이것을 직/간접적인 경험을 통해 항상 성장시키려고 노력하는 사람입니다.
 - 멘탈모델 리스트: 기본 대수학, 확률과 통계, 화학, 생물학, 물리학, 컴퓨터공학, 전자공학, 화학공학, 심리학, 거시경제, 미시경제, 인문학, 역사.    
+- 좋아하는 사람들: 찰리 멍거, 나심 탈렙, 레이 달리오, 일론 머스크, 팀 얼반, 조던 피터슨, 샘 해리스, 폴 그램, 샘 알트먼
 
 ## Products
 
