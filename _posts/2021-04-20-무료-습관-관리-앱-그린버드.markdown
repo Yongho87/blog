@@ -2,7 +2,7 @@
 layout: single
 author: Yongho
 title:  "무료 습관 관리 앱 그린버드 - 습관관리 핵심 기능 모두 탑재한 깔끔하고 간단한 앱"
-date:   2021-04-20 16:14:00 +0000
+date:   2022-03-05 16:55:00 +0000
 ---
 
 | ![greenbird](https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw) | 
@@ -64,7 +64,8 @@ date:   2021-04-20 16:14:00 +0000
 
 회원가입없이 다운로드 받아서 바로 사용할 수 있습니다. 
 
-[그린버드 구글플레이](https://play.google.com/store/apps/details?id=com.sssonly.greenbird)
+[그린버드 구글 플레이](https://play.google.com/store/apps/details?id=com.sssonly.greenbird)
+[그린버드 앱스토어](https://apps.apple.com/us/app/greenbird/id1574065515)
 
 *아이폰 iOS 버젼은 현재 개발 중입니다*. 
 
