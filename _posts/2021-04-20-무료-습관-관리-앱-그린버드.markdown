@@ -64,10 +64,8 @@ date:   2021-04-20 16:14:00 +0000
 
 회원가입없이 다운로드 받아서 바로 사용할 수 있습니다. 
 
-[그린버드 구글 플레이](https://play.google.com/store/apps/details?id=com.sssonly.greenbird)
+[그린버드 구글 플레이](https://play.google.com/store/apps/details?id=com.sssonly.greenbird)  
 [그린버드 앱스토어](https://apps.apple.com/us/app/greenbird/id1574065515)
-
-*아이폰 iOS 버젼은 현재 개발 중입니다*. 
 
 ## 그린버드 업데이트 사항
 
