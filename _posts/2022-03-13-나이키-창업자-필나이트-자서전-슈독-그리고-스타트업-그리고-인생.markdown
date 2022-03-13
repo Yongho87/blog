@@ -3,7 +3,7 @@ layout: single
 author: Yongho
 title:  "나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생"
 date:   2022-03-13 17:00:00 +0000
-# hidden: true
+hidden: true
 ---
 
 | ![shoe_dog_and_phil_knight](https://famousinsurance.com.au/wp-content/uploads/2019/09/Shoe-Dog-Phil-Knight-hero-1024x536.jpg) | 
