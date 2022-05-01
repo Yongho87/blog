@@ -1,0 +1,22 @@
+---
+layout: single
+author: Yongho
+title:  "비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)"
+date:  2022-04-28 21:00:00 +0000
+tags:
+  - Bitcoin
+  - 비트코인
+  - 타원 곡선 암호방식
+  - Elliptic Curve Cryptography
+use_math: true
+---
+
+| ![elliptic curve cryptography - 타원 곡선 암호방식](https://zhozhin.com/images/blog/2021-10-17-elliptic-curve-cryptography/featured-image.jpg) | 
+
+암호화폐의 대장인 비트코인의 원리를 알아보자. 왜 비트코인은 안전한가? 내부 작동방식은 어떠한가? 이것들을 알기 위해서는 비트코인이 만들어진 핵심 암호방식인 타원 곡선 암호방식을 이해해야 한다.
+
+# 비트코인은 왜 안전한가? 
+## 타원곡선에 대한 이해  
+다음의 함수를 만족시키는 2차원 좌표(x,y)의 집합을 연결하면 타원 곡선을 얻을 수 있다.
+$y^2 = x^3+ax+b$  
+$4a^3+27b^2 \neq 0$

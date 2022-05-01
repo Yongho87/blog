@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-04-20T22:24:43+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Knowledge for Growth</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생</title><link href="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html" rel="alternate" type="text/html" title="나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생" /><published>2022-03-14T02:00:00+09:00</published><updated>2022-03-14T02:00:00+09:00</updated><id>http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D</id><content type="html" xml:base="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-04-28T21:46:21+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Knowledge for Growth</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)</title><link href="http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html" rel="alternate" type="text/html" title="비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)" /><published>2022-04-29T06:00:00+09:00</published><updated>2022-04-29T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://zhozhin.com/images/blog/2021-10-17-elliptic-curve-cryptography/featured-image.jpg&quot; alt=&quot;elliptic curve cryptography - 타원 곡선 암호방식&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;암호화폐의 대장인 비트코인의 원리를 알아보자. 왜 비트코인은 안전한가? 내부 작동방식은 어떠한가? 이것들을 알기 위해서는 비트코인이 만들어진 핵심 암호방식인 타원 곡선 암호방식을 이해해야 한다.&lt;/p&gt;
+
+&lt;h1 id=&quot;비트코인은-왜-안전한가&quot;&gt;비트코인은 왜 안전한가?&lt;/h1&gt;
+&lt;h2 id=&quot;타원곡선에-대한-이해&quot;&gt;타원곡선에 대한 이해&lt;/h2&gt;
+&lt;p&gt;다음의 함수를 만족시키는 2차원 좌표(x,y)의 집합을 연결하면 타원 곡선을 얻을 수 있다.
+$y^2 = x^3+ax+b$&lt;br /&gt;
+$4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><category term="Bitcoin" /><category term="비트코인" /><category term="타원 곡선 암호방식" /><category term="Elliptic Curve Cryptography" /><summary type="html"></summary></entry><entry><title type="html">4월 21일 목요일 나의 하루</title><link href="http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC.html" rel="alternate" type="text/html" title="4월 21일 목요일 나의 하루" /><published>2022-04-22T06:00:00+09:00</published><updated>2022-04-22T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://i.scdn.co/image/ab67616d0000b2737f789606269f5f284f50bad6&quot; alt=&quot;feeling_good&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;타임킬링용 혹은 즐기기 위한 것이 아닌 생산성을 위한 무엇인가를 읽었거나 공부했을때에 writing 혹은 coding을 통해 내면화를 해야 한다. 그렇게 함으로써 더 깊은 생각을 할 수 있게 되고 나에게 더 긍정적인 영향을 줄 수 있다.&lt;/p&gt;
+
+&lt;h1 id=&quot;2022년-4월-21일-목요일&quot;&gt;2022년 4월 21일 목요일&lt;/h1&gt;
+
+&lt;h2 id=&quot;아침&quot;&gt;아침&lt;/h2&gt;
+&lt;p&gt;또 너무 출근시간과 타이트하게 일어났다. 아침명상도 오늘은 하지 못했다.
+8시간씩 자는 것은 좋지만, 아침에 여유있는 시간이 주는 행복감을 알기에 더 일찍 일어나고 싶다.&lt;/p&gt;
+
+&lt;p&gt;나는 아침의 여유시간이 주는 행복감을 원하는가? 아니면 그 시간을 통해 나를 성장시키거나 뭔가를 성취하고 싶은 것인가?&lt;/p&gt;
+
+&lt;h2 id=&quot;web3&quot;&gt;Web3&lt;/h2&gt;
+&lt;p&gt;안드리센 호로위츠(a16z) 벤처캐피털에서 운영하는 블로그에서는 스타트업과 관련된 인사이트를 글로 정리하여 올려놓는다. VC내의 각 분야를 담당하는 전문가들이 현재의 기술 및 스타트업 트렌드를 분석하고 정리해놓은 글들이 많은데 관심있는 부분을 읽는다면 해당 분야를 이해하는데 꽤 도움이 될 것 같다고 생각하여 요즘 시간이 날 때 읽으려고 하고있다. 최근 관심이 가는 것은 블록체인을 기반으로 하는 Web3이다. Web3는 탈중앙화 구조를 기반으로 구축된 새로운 웹 어플리케이션의 종류라고 볼 수 있다. Web3의 핵심은 암호화폐가 추구하는 탈금융화(Decentralized Finance, De-Fi)를 향한 흐름과 유사한데, 금융뿐만 아니라 기존에 Web2라고 칭해지는 빅테크 기업들이 제공하는 서비스(SNS, 웹 검색 등)를 이용해 지배적으로 점유하고 있었던 데이터와 영향력 그리고 그에 따른 경제적 이익을 그 활동에 참여하는 수 많은 여러 개인들에게 분산해서 운영할 수 있게 하는 기술이다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html"></summary></entry><entry><title type="html">나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생</title><link href="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html" rel="alternate" type="text/html" title="나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생" /><published>2022-03-14T02:00:00+09:00</published><updated>2022-03-14T02:00:00+09:00</updated><id>http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D</id><content type="html" xml:base="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;img src=&quot;https://famousinsurance.com.au/wp-content/uploads/2019/09/Shoe-Dog-Phil-Knight-hero-1024x536.jpg&quot; alt=&quot;shoe_dog_and_phil_knight&quot; /&gt;&lt;/td&gt;
@@ -476,211 +509,4 @@
 &lt;p&gt;&lt;strong&gt;참고자료&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;The Personal MBA 10th Anniversary Edition by Josh Kaufman&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Yongho</name></author><summary type="html">이미지 출처: https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png</summary></entry><entry><title type="html">무료 습관 관리 앱 그린버드 - 습관관리 핵심 기능 모두 탑재한 깔끔하고 간단한 앱</title><link href="http://localhost:4000/blog/2021/04/21/%EB%AC%B4%EB%A3%8C-%EC%8A%B5%EA%B4%80-%EA%B4%80%EB%A6%AC-%EC%95%B1-%EA%B7%B8%EB%A6%B0%EB%B2%84%EB%93%9C.html" rel="alternate" type="text/html" title="무료 습관 관리 앱 그린버드 - 습관관리 핵심 기능 모두 탑재한 깔끔하고 간단한 앱" /><published>2021-04-21T01:14:00+09:00</published><updated>2021-04-21T01:14:00+09:00</updated><id>http://localhost:4000/blog/2021/04/21/%EB%AC%B4%EB%A3%8C-%EC%8A%B5%EA%B4%80-%EA%B4%80%EB%A6%AC-%EC%95%B1-%EA%B7%B8%EB%A6%B0%EB%B2%84%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/blog/2021/04/21/%EB%AC%B4%EB%A3%8C-%EC%8A%B5%EA%B4%80-%EA%B4%80%EB%A6%AC-%EC%95%B1-%EA%B7%B8%EB%A6%B0%EB%B2%84%EB%93%9C.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://play-lh.googleusercontent.com/OO9MK6Y_QHQW_od5eTQUFNzdQWav8Bl-aI3TnEZ0tRdmPTnRbDkXb3pFG9tbqpFmbMpX=s360-rw&quot; alt=&quot;greenbird&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;그린버드 로고&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“측정할 수 없다면, 개선할 수 없다” - 피터 드러커&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;무료-습관-관리-앱-그린버드-추천&quot;&gt;무료 습관 관리 앱 그린버드 추천&lt;/h1&gt;
-&lt;p&gt;무료 습관 관리 앱 그린버드를 소개합니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;그린버드는 매일매일 타임라인 형식으로 습관을 체크 할 수 있습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/blog/assets/images/greenbird_timeline.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit timeline&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;그린버드 타임라인&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;그린버드는 습관을 쉽게 관리 할 수 있습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/blog/assets/images/greenbird_habit.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit create/delete&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;그린버드 습관관리&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;그린버드는 습관의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복리효과&lt;/code&gt;를 기반으로 습관 점수(=의지력)를 계산하여 보여줍니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/blog/assets/images/greenbird_score.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit score&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;그린버드 복리 효과를 이용한 습관점수 및 달성률 현황판&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;하루에 하나라도 꾸준히 하게 되면 습관 점수는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복리&lt;/code&gt;로 증가하고&lt;br /&gt;
-하루에 습관을 실천하지 못하면 점수는 감소하게 됩니다.&lt;/p&gt;
-
-&lt;p&gt;자신의 의지력을 점수로 측정하여 성장 시키고 싶으신 분들은&lt;br /&gt;
-그린버드 앱을 다운로드 하여 사용해 보세요.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;그린버드는 일간, 주간, 월간 자신의 습관 달성률을 그래프와 통계값으로 보여줍니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/blog/assets/images/greenbird_graph.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit graph&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;그린버드의 일간, 주간, 월간 달성률 그래프&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/blog/assets/images/greenbird_week.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit week&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;그린버드의 주간 습관달성 현황&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/blog/assets/images/greenbird_month.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit month &quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;그린버드의 월간 습관달성 현황&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;어제보다 그리고 지난주보다 나아진 자신을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;수치&lt;/code&gt;로 확인하세요.&lt;br /&gt;
-다른 사람과의 비교보다는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;어제의 나&lt;/code&gt; 혹은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;지난주의 나&lt;/code&gt;와 비교하여 &lt;br /&gt;
-성장하는 것이 더 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;깊은 만족감&lt;/code&gt;과 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;행복&lt;/code&gt;을 가져다 줍니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;안드로이드 구글 플레이에서 그린버드 습관이라고 검색하세요.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;회원가입없이 다운로드 받아서 바로 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.sssonly.greenbird&quot;&gt;그린버드 구글 플레이&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://apps.apple.com/us/app/greenbird/id1574065515&quot;&gt;그린버드 앱스토어&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;그린버드-업데이트-사항&quot;&gt;그린버드 업데이트 사항&lt;/h2&gt;
-
-&lt;h3 id=&quot;습관-몰입모드&quot;&gt;습관 몰입모드&lt;/h3&gt;
-&lt;p&gt;현재 시간에 해야 하는 습관을 하이라이트&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;/blog/assets/images/greenbird_focus.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit focusing&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;횟수로-습관체크&quot;&gt;횟수로 습관체크&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;/blog/assets/images/greenbird_number.png&quot; width=&quot;300&quot; alt=&quot;greenbird habit focusing&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;하루에 책 10페이지 혹은 달리기 10km 등&lt;br /&gt;
-횟수를 기준으로 습관 목표를 달성하고 싶은 사람들을 위해!&lt;/p&gt;
-
-&lt;p&gt;이제 그린버드에서 횟수를 기록하여 습관을 체크할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;알림으로-습관체크&quot;&gt;알림으로 습관체크&lt;/h3&gt;
-&lt;p&gt;정해진 시간에 오는 알림을 통해 습관을 체크하는 가능&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html">그린버드 로고</summary></entry><entry><title type="html">레이달리오 경제의 기본 #2</title><link href="http://localhost:4000/blog/2021/03/30/%EB%A0%88%EC%9D%B4%EB%8B%AC%EB%A6%AC%EC%98%A4-%EA%B2%BD%EC%A0%9C%EC%9D%98-%EA%B8%B0%EB%B3%B8-2.html" rel="alternate" type="text/html" title="레이달리오 경제의 기본 #2" /><published>2021-03-30T18:00:00+09:00</published><updated>2021-03-30T18:00:00+09:00</updated><id>http://localhost:4000/blog/2021/03/30/%EB%A0%88%EC%9D%B4%EB%8B%AC%EB%A6%AC%EC%98%A4-%EA%B2%BD%EC%A0%9C%EC%9D%98-%EA%B8%B0%EB%B3%B8-#2</id><content type="html" xml:base="http://localhost:4000/blog/2021/03/30/%EB%A0%88%EC%9D%B4%EB%8B%AC%EB%A6%AC%EC%98%A4-%EA%B2%BD%EC%A0%9C%EC%9D%98-%EA%B8%B0%EB%B3%B8-2.html">&lt;blockquote&gt;
-  &lt;p&gt;출처: Big Debt Crises by Ray Dalio를 번역+의역한 내용입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;전체 세계/국내 경제의 큰 흐름을 읽을 수 있는 눈을 키우기 위해 필요한 이해와 지식에 대한 설명.&lt;/p&gt;
-
-&lt;p&gt;크게 다음과 같은 순서로 설명&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;신용과 부채란 무엇인가&lt;/li&gt;
-  &lt;li&gt;전형적인 큰 부채 사이클&lt;/li&gt;
-  &lt;li&gt;디플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
-  &lt;li&gt;인플레이션적인 침체와 통화위기&lt;/li&gt;
-  &lt;li&gt;인플레이션 부채 사이클을 구성하는 단계들&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;전형적인-장기간의-부채사이클의-견본&quot;&gt;전형적인 장기간의 부채사이클의 견본&lt;/h2&gt;
-&lt;p&gt;과거 100년간 세계에서 일어난 총 48번의 큰 부채 사이클을 분석한 결과들을 기반으로 만든 견본으로 모든 부채 사이클은 GDP의 3% 이상을 감소시켰다 (3%는 경제침체의 나름의 기준). 좀 더 명확하게 각각의 부채 사이클을 겪은 나라를 크게 2가지로 나뉠 수 있는데 하나는 외환부채가 없어 가격이 상승하는 불황을 겪지 않은 경우들 다른 하나는 많은 양의 부채가 외환으로 되어있어 가격상승의 불황을 겪은 경우이다. 외환부채의 양과 가격상승의 정도에는 75% 정도의 상관관계가 존재하기 때문에 외환부채가 많은 나라가 가격 상승적인 불황을 겪는 것은 말이 된다.&lt;/p&gt;
-
-&lt;p&gt;전형적으로 부채 위기는 수입의 증가보다 갚아야 하는 대출 및 부채가 증가하는 속도가 더 크기 때문에 발생한다. 이렇게 되면 부채를 줄여야 하기 때문에 지출과 투자가 자연스럽게 줄어든다. 이러한 부채 위기에 중앙은행은 금리를 낮춤으로써 어느정도 해결 할 수 있지만 심각한 부채 위기는 더 이상 금리를 낮출 수 없을때 발생하게 된다. 일반적으로 많은 단기간의 부채 주기들이 장기간의 부채 주기를 만들어낸다. 부채의 크기가 점점 커지더라도 금리를 낮추게 되면 부채상환에 필요한 금액인 이자가 일정하게 유지되거나 부채증가 속도보다 더 작아질 수 있기 때문에 금리의 조정을 통해 어느정도 부채의 부담을 줄일 수 있다. 하지만 더 이상 금리를 낮출 수 없는 경우에는 실제 부채의 크기를 낮춰야 하는 디레버리징이 시작된다.&lt;/p&gt;
-
-&lt;p&gt;2가지 추가적으로 알아야 하는 사실이 있는데,&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;경제안의 다양한 주체들은 서로 다른 부채 부담을 갖고 있다는 것&lt;/li&gt;
-  &lt;li&gt;여기서 부채라고 하는 것은 연금과 건강보험과 같은 더 큰 금액의 부채는 포함하지 않는다는 것&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;한 나라의 경제적인 취약성을 파악하기 위해서는 이 2가지도 포함하여 분석해야 한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;부채-주기에-대한-분석&quot;&gt;부채 주기에 대한 분석&lt;/h2&gt;
-&lt;p&gt;부채 주기는 크게는 3가지 단계로 구분 할 수 있는데 1단계는 불황까지 도달하는 시기 2단계는 불황을 겪는 시기 마지막 3단계는 불황을 이겨내기 위한 부채를 줄이면서 수입을 늘리는(=디레버리징) 시기이다. 부채주기의 2종류가 있는데 하나는 가격이 증가하는 인플레이션 적인 주기이고 나머지 하나는 그 반대인 디플레이션적인 주기가 있다.&lt;/p&gt;
-
-&lt;p&gt;지난 100년간 세계 각국에서 일어났던 21개의 디플레이션 부채주기와 27개의 인플레이션 주기를 평균내서 통계적으로 보면 부채주기는 평균 약 12년의 주기로써 불황의 저점까지 5년이 걸리고 그 이후 정상화까지 약 7년이 걸린다.&lt;/p&gt;
-
-&lt;p&gt;단기 부채주기와 장기 부채주기는 거의 비슷하다. 하지만 장기 부채주기의 경우 훨씬 더 극단적이다. 왜냐하면 장기 부채주기는 부채부담이 더 높고 이것을 해결하기 위한 통화정책이 효과를 제대로 발휘하지 못하기 때문이다. 지난 100년동안 미국의 경우 장기 부채주기를 2번 겪었다. 한번은 1920년대의 경제호황과 1930년대의 대공황이고 다른 한번은 2000년대 초반의 호황과 2008년의 경제위기 시점이다.&lt;/p&gt;
-
-&lt;p&gt;단기 부채주기의 경우 지출은 빌려주는 사람과 빌리는 사람의 의지에 따라 결정된다. 신용을 쉽게 가져다 쓸 수 있는 환경에서는 경제가 팽창하고 반대로 신용을 쉽게 쓸 수 없는 상황에서는 일시적인 경제적인 하락이 온게 된다. 신용이 얼마나 쉽게 사용가능한지를 통제하는 것은 주로 중앙은행의 역할이다. 일반적으로 중앙은행은 금리를 완화 (금리 하락)함으로써 경제침체에서 벗어나게 한다. 그러나 시간이 지나면서 이 주기의 고점과 저점은 그 전보다 더 경제활동이 많아지게 되고 더 많은 부채가 쌓이게 된다. 왜냐고? 사람들은 빌린 돈을 갚기보다는 돈을 더 빌려서 지출하려는 성향이 있기 때문이다. 결과적으로 오랜 기간동안 부채는 수입보다 더 빠르게 증가하게 된다. 이것이 장기 부채주기를 만들게 된다.&lt;/p&gt;
-
-&lt;h2 id=&quot;일반적인-디플레이션-부채-주기의-단계들&quot;&gt;일반적인 디플레이션 부채 주기의 단계들&lt;/h2&gt;
-&lt;h3 id=&quot;1-초기&quot;&gt;1. 초기&lt;/h3&gt;
-&lt;h3 id=&quot;2-버블&quot;&gt;2. 버블&lt;/h3&gt;
-&lt;h3 id=&quot;3-정점&quot;&gt;3. 정점&lt;/h3&gt;
-&lt;h3 id=&quot;4-불황&quot;&gt;4. 불황&lt;/h3&gt;
-&lt;h3 id=&quot;5-아름다운-디레버리징&quot;&gt;5. 아름다운 디레버리징&lt;/h3&gt;
-&lt;h3 id=&quot;6-무리한-정책&quot;&gt;6. 무리한 정책&lt;/h3&gt;
-&lt;h3 id=&quot;7-정상화&quot;&gt;7. 정상화&lt;/h3&gt;</content><author><name>Yongho</name></author><summary type="html">출처: Big Debt Crises by Ray Dalio를 번역+의역한 내용입니다.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Yongho</name></author><summary type="html">이미지 출처: https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png</summary></entry></feed>

@@ -142,4 +142,16 @@ var store = [{
         "tags": [],
         "url": "/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html",
         "teaser": null
+      },{
+        "title": "4월 21일 목요일 나의 하루",
+        "excerpt":"타임킬링용 혹은 즐기기 위한 것이 아닌 생산성을 위한 무엇인가를 읽었거나 공부했을때에 writing 혹은 coding을 통해 내면화를 해야 한다. 그렇게 함으로써 더 깊은 생각을 할 수 있게 되고 나에게 더 긍정적인 영향을 줄 수 있다. 2022년 4월 21일 목요일 아침 또 너무 출근시간과 타이트하게 일어났다. 아침명상도 오늘은 하지 못했다. 8시간씩 자는...","categories": [],
+        "tags": [],
+        "url": "/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC.html",
+        "teaser": null
+      },{
+        "title": "비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)",
+        "excerpt":"                          암호화폐의 대장인 비트코인의 원리를 알아보자. 왜 비트코인은 안전한가? 내부 작동방식은 어떠한가? 이것들을 알기 위해서는 비트코인이 만들어진 핵심 암호방식인 타원 곡선 암호방식을 이해해야 한다.   비트코인은 왜 안전한가?  타원곡선에 대한 이해  다음의 함수를 만족시키는 2차원 좌표(x,y)의 집합을 연결하면 타원 곡선을 얻을 수 있다. $y^2 = x^3+ax+b$  $4a^3+27b^2 \\neq 0$  ","categories": [],
+        "tags": ["Bitcoin","비트코인","타원 곡선 암호방식","Elliptic Curve Cryptography"],
+        "url": "/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html",
+        "teaser": null
       }]
