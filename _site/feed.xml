@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-04-28T21:46:21+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Knowledge for Growth</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)</title><link href="http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html" rel="alternate" type="text/html" title="비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)" /><published>2022-04-29T06:00:00+09:00</published><updated>2022-04-29T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-05-11T07:41:05+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Knowledge for Growth</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">선택 설계자들 - 올리비에 시보니</title><link href="http://localhost:4000/blog/decision/2022/05/06/%EC%84%A0%ED%83%9D-%EC%84%A4%EA%B3%84%EC%9E%90%EB%93%A4.html" rel="alternate" type="text/html" title="선택 설계자들 - 올리비에 시보니" /><published>2022-05-06T06:00:00+09:00</published><updated>2022-05-06T06:00:00+09:00</updated><id>http://localhost:4000/blog/decision/2022/05/06/%EC%84%A0%ED%83%9D-%EC%84%A4%EA%B3%84%EC%9E%90%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/blog/decision/2022/05/06/%EC%84%A0%ED%83%9D-%EC%84%A4%EA%B3%84%EC%9E%90%EB%93%A4.html">&lt;h1 id=&quot;현명한-의사결정을-위한-또-다른-책&quot;&gt;현명한 의사결정을 위한 또 다른 책&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-확증-편향-및-스토리텔리-편향&quot;&gt;1. 확증 편향 및 스토리텔리 편향&lt;/h2&gt;
+&lt;p&gt;인간은 본인이 믿고 싶어하는 것들, 진실이라고 알고 있다고 생각하는 것들을 더 강화시키는 확증 편향이 존재한다. 이것과 시너지를 내는 다른 무의식적인 심리적 기작들은 의심 회피 경향과 비일관성 회피 경향이 있다. 이 모든 것들이 한꺼번에 작용하게 되면 밖에 있는 제3자가 보기엔 굉장히 어리석어 보일수 있는 엄청나게 잘못된 의사결정을 저지르게 된다.&lt;/p&gt;
+
+&lt;p&gt;정치가, 기업가 등 사회적으로 인정받고 실력이 출중하다고 생각되는 사람들이 저지르는 잘못들은 그 사람이 멍청하거나 미숙하기 때문이 아니다. 어떠한 상황의 원인을 그와 관련된 사람의 실력문제라고 치부하는 것을 귀인편향이라고 한다. 큰 잘못을 저지르는 사람들은 일반적으로 유능하고 남들에게 존경을 받고 과거에 화려한 트랙 래코드를 갖고 있는 사람들인 경우가 더 많다. 즉, 이 사람들의 실력은 과거에 어느정도 입증 되었다는 것이다. 따라서 그 결과를 그 사람의 실력이 무능해서 라고 결론내리는 것은 옳지 않다. 우리가 일반적으로 귀인편향을 갖는 이유는 단지 이것이 그 상황을 많은 사고없이 쉽게 설명해주고 앞뒤가 맞아 보이기 때문이다. 하지만 쉽고 그럴듯해보이는 설명이 모두 옳은 것은 아니다.&lt;/p&gt;
+
+&lt;p&gt;1장에서 가져갈 수 있는 가장 중요한 내용은 다음과 같다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;확증 편향과 스토리텔리 편향은 바보들이 갖는게 아니라 우수하고 뛰어난 사람들도 겪는 일반적인 문제이다.&lt;/li&gt;
+  &lt;li&gt;그러므로 이 일반적인 문제를 우리가 어떻게 대처할지에 대한 예방책 혹은 해결책을 모두가 구축해 놓아야 한다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Sony</name></author><category term="decision" /><category term="의사결정" /><category term="선택 설계자들" /><category term="올리비에 시보니" /><summary type="html">현명한 의사결정을 위한 또 다른 책</summary></entry><entry><title type="html">2022년 5월의 일기</title><link href="http://localhost:4000/blog/2022/05/02/5%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0.html" rel="alternate" type="text/html" title="2022년 5월의 일기" /><published>2022-05-02T06:00:00+09:00</published><updated>2022-05-02T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/05/02/5%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/blog/2022/05/02/5%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0.html">&lt;h2 id=&quot;5월-1일-일&quot;&gt;5월 1일 (일)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;상대방의 성향과 모습을 최대한 생각해서 배려하고 행동해야 한다. 상황이 마음에 들지 않더라도 상대방이 나에게 나쁜마음을 품고 행동하는 것은 절대 아니다.&lt;/li&gt;
+  &lt;li&gt;내가 말하는 내용이 남들에게 들리는 것이 신경쓰여 특정 장소에서 말이 없어지고 침묵하는 성향&lt;/li&gt;
+  &lt;li&gt;오늘부터 한달동안 꾸준하게 할 것들을 정했다. 작은 것이지만 일관성있게 행동으로 옮기는 것이 어렵기 때문에 이것을 꾸준히 해나가는 것을 훈련한다는 생각으로 꾸준하게 행동으로 실천하려고 한다. 그 중에 하나가 하루에 한 줄 이상 하루에 대한 느낌을 남겨두는 것.&lt;/li&gt;
+  &lt;li&gt;이태원 - 경리단길 - 페트라 - 고려대 - 동대문 - 청계천 - 용산 - 용리단길 - 공덕 금별맥주&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5월-2일-월&quot;&gt;5월 2일 (월)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;내가 소중하게 생각하는 사람의 기분이 안 좋으면 나도 기분이 좋지 않다. 단지 그 사람이 기분이 안좋아서 기분이 안좋다기 보다는, 그 기분이 안좋은 이유를 내 망상대로 추측했을때 그 이유가 내가 원하지 않는 이유라서 더 기분이 안좋은 것 같다. 아무 근거도 없는 추측을 통해 원인을 분석하고 그 원인이 맞다고 가정하고 기분이 안좋아지는 나 자신을 보며 과잉 자의식 때문이 아닐까 생각해본다. 명상하자.&lt;/li&gt;
+  &lt;li&gt;여의도 - 공덕 달려라커피&lt;/li&gt;
+  &lt;li&gt;I feel like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;throwing up&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;I have a lot of work to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;catch up on&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5월-3일-화&quot;&gt;5월 3일 (화)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;특정상황에서 미래의 고차원적인 영향들을 생각하여 어떻게 행동해야 하는지 의사결정 하는 것은 굉장히 어렵다.&lt;/li&gt;
+  &lt;li&gt;어떠한 상황에서도 누군가를 험담하거나 폄하하는 얘기는 하지 말아야 한다.&lt;/li&gt;
+  &lt;li&gt;나쁜습관을 하나 없애야 한다.&lt;/li&gt;
+  &lt;li&gt;여의도 - 세상의 모든 아침 - 야마야 - 염리동 포장마차&lt;/li&gt;
+  &lt;li&gt;I was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brought up&lt;/code&gt; by my grandfather&lt;/li&gt;
+  &lt;li&gt;I try to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;look up&lt;/code&gt; his number in phone category but it isn’t there.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5월-4일-수&quot;&gt;5월 4일 (수)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;무엇을 하고 싶은지, 무엇을 해야하는지에 대한 끝없는 고민&lt;/li&gt;
+  &lt;li&gt;무엇인가 해야할 일을 명확하게 정리한 후 집중해서 끝내는 일이 주는 만족감&lt;/li&gt;
+  &lt;li&gt;여의도 - 맥도날드 - 용산 - 오근내닭갈비&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5월-5일-목&quot;&gt;5월 5일 (목)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;오늘 문득 든 생각. 무엇인가 어려운 개념을 80%에서 만족하지 않고 끝까지 100% 이해한적이 몇 번이나 있었는지? 이렇게 어설프게 이해한 과거의 것들이 현재의 나에게 어떠한 영향을 주게 되었을까? 그리고 이게 앞으로 어떠한 영향을 줄 것인지에 대한 고찰.&lt;/li&gt;
+  &lt;li&gt;관심이 있는 기술적인 것들은 시간을 할애하여 100% 이해할 수 있도록 태도를 변경해야 한다.&lt;/li&gt;
+  &lt;li&gt;현재는 타원 곡선 암호화에 대한 이해를 위해 시간과 에너지를 투자하는 중.&lt;/li&gt;
+  &lt;li&gt;좋아하는 사람의 기분이 좋아지는 것을 지켜보는 것은 굉장히 행복한 일이다. 인생에서 느낄 수 있는 큰 행복 중 하나.&lt;/li&gt;
+  &lt;li&gt;경의선 숲길 할리스&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5월-8일-일&quot;&gt;5월 8일 (일)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;매년, 매달, 매주, 하루의 계획을 세워놓는 것의 중요성. 매주 월요일 아침에 1주일의 계획, 매월 1일 아침에 한달의 계획
+매년 1일 아침에 1년의 계획을 세울 수 있는 시스템이 필요.&lt;/li&gt;
+  &lt;li&gt;자기가 갖고 있는 환경에서 굉장히 열심히 하는 사람들이 세상에는 많이 있는 것 같다. 너무 초조해 할 필요는 없지만
+그렇다고 또 너무 만만하게 생각해서는 안된다.&lt;/li&gt;
+  &lt;li&gt;청량리 - 인천 - 공덕&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5월-9일-월&quot;&gt;5월 9일 (월)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;나에게 잘 맞는 일 - 재미있고 가치도 있고 경제적 보상도 큰 일이 어딘가에 있기는 있을까?&lt;/li&gt;
+  &lt;li&gt;제거하고 싶은 한가지 나쁜 습관을 어느 정도 절제한 날.&lt;/li&gt;
+  &lt;li&gt;나의 앞날과 성공에 대한 의심 없는 믿음.&lt;/li&gt;
+  &lt;li&gt;누군가를 볼때 지금까지의 모습만을 보고 바라봐서는 안된다. 앞으로 죽을때까지의 인생을 모두 포함해서 봐야한다.&lt;/li&gt;
+  &lt;li&gt;여의도 - 자전거 - 경의선 숲길 - 망원 - 망원 양꼬치&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;take up&lt;/code&gt;: 새로운 취미를 시작하다&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;draw up&lt;/code&gt;: 작성하다&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;make up for&lt;/code&gt;: 보충하다&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brush up on&lt;/code&gt;: 갈고 닦다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5월-10일-화&quot;&gt;5월 10일 (화)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;새벽 5시에 일어나서 하는 아침러닝 첫 도전 및 성공. 아침에 운동을 하는 것은 엄청난 내적 즐거움을 준다.&lt;/li&gt;
+  &lt;li&gt;내가 어느정도 잘한다고 생각하는 분야에서 난이도가 높은 도전적인 일을 보았을때 그것을 해결하고 싶은 욕구가 생긴다.&lt;/li&gt;
+  &lt;li&gt;좋은 사람과 같이 하는 대화는 언제나 즐겁다. 인생에 의미있는 시간 중 한 부분.&lt;/li&gt;
+  &lt;li&gt;여의도 - 양평역 - 와룡각 - 라크레센타&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Sony</name></author><category term="일기" /><summary type="html">5월 1일 (일) 상대방의 성향과 모습을 최대한 생각해서 배려하고 행동해야 한다. 상황이 마음에 들지 않더라도 상대방이 나에게 나쁜마음을 품고 행동하는 것은 절대 아니다. 내가 말하는 내용이 남들에게 들리는 것이 신경쓰여 특정 장소에서 말이 없어지고 침묵하는 성향 오늘부터 한달동안 꾸준하게 할 것들을 정했다. 작은 것이지만 일관성있게 행동으로 옮기는 것이 어렵기 때문에 이것을 꾸준히 해나가는 것을 훈련한다는 생각으로 꾸준하게 행동으로 실천하려고 한다. 그 중에 하나가 하루에 한 줄 이상 하루에 대한 느낌을 남겨두는 것. 이태원 - 경리단길 - 페트라 - 고려대 - 동대문 - 청계천 - 용산 - 용리단길 - 공덕 금별맥주</summary></entry><entry><title type="html">비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)</title><link href="http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html" rel="alternate" type="text/html" title="비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)" /><published>2022-04-29T06:00:00+09:00</published><updated>2022-04-29T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;img src=&quot;https://zhozhin.com/images/blog/2021-10-17-elliptic-curve-cryptography/featured-image.jpg&quot; alt=&quot;elliptic curve cryptography - 타원 곡선 암호방식&quot; /&gt;&lt;/td&gt;
@@ -12,7 +93,7 @@
 &lt;h2 id=&quot;타원곡선에-대한-이해&quot;&gt;타원곡선에 대한 이해&lt;/h2&gt;
 &lt;p&gt;다음의 함수를 만족시키는 2차원 좌표(x,y)의 집합을 연결하면 타원 곡선을 얻을 수 있다.
 $y^2 = x^3+ax+b$&lt;br /&gt;
-$4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><category term="Bitcoin" /><category term="비트코인" /><category term="타원 곡선 암호방식" /><category term="Elliptic Curve Cryptography" /><summary type="html"></summary></entry><entry><title type="html">4월 21일 목요일 나의 하루</title><link href="http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC.html" rel="alternate" type="text/html" title="4월 21일 목요일 나의 하루" /><published>2022-04-22T06:00:00+09:00</published><updated>2022-04-22T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC.html">&lt;table&gt;
+$4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Sony</name></author><category term="Bitcoin" /><category term="비트코인" /><category term="타원 곡선 암호방식" /><category term="Elliptic Curve Cryptography" /><summary type="html"></summary></entry><entry><title type="html">4월 21일 목요일 나의 하루</title><link href="http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC.html" rel="alternate" type="text/html" title="4월 21일 목요일 나의 하루" /><published>2022-04-22T06:00:00+09:00</published><updated>2022-04-22T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/22/4%EC%9B%94-21%EC%9D%BC-%EB%AA%A9%EC%9A%94%EC%9D%BC.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;img src=&quot;https://i.scdn.co/image/ab67616d0000b2737f789606269f5f284f50bad6&quot; alt=&quot;feeling_good&quot; /&gt;&lt;/td&gt;
@@ -31,7 +112,7 @@ $4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><cate
 &lt;p&gt;나는 아침의 여유시간이 주는 행복감을 원하는가? 아니면 그 시간을 통해 나를 성장시키거나 뭔가를 성취하고 싶은 것인가?&lt;/p&gt;
 
 &lt;h2 id=&quot;web3&quot;&gt;Web3&lt;/h2&gt;
-&lt;p&gt;안드리센 호로위츠(a16z) 벤처캐피털에서 운영하는 블로그에서는 스타트업과 관련된 인사이트를 글로 정리하여 올려놓는다. VC내의 각 분야를 담당하는 전문가들이 현재의 기술 및 스타트업 트렌드를 분석하고 정리해놓은 글들이 많은데 관심있는 부분을 읽는다면 해당 분야를 이해하는데 꽤 도움이 될 것 같다고 생각하여 요즘 시간이 날 때 읽으려고 하고있다. 최근 관심이 가는 것은 블록체인을 기반으로 하는 Web3이다. Web3는 탈중앙화 구조를 기반으로 구축된 새로운 웹 어플리케이션의 종류라고 볼 수 있다. Web3의 핵심은 암호화폐가 추구하는 탈금융화(Decentralized Finance, De-Fi)를 향한 흐름과 유사한데, 금융뿐만 아니라 기존에 Web2라고 칭해지는 빅테크 기업들이 제공하는 서비스(SNS, 웹 검색 등)를 이용해 지배적으로 점유하고 있었던 데이터와 영향력 그리고 그에 따른 경제적 이익을 그 활동에 참여하는 수 많은 여러 개인들에게 분산해서 운영할 수 있게 하는 기술이다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html"></summary></entry><entry><title type="html">나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생</title><link href="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html" rel="alternate" type="text/html" title="나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생" /><published>2022-03-14T02:00:00+09:00</published><updated>2022-03-14T02:00:00+09:00</updated><id>http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D</id><content type="html" xml:base="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html">&lt;table&gt;
+&lt;p&gt;안드리센 호로위츠(a16z) 벤처캐피털에서 운영하는 블로그에서는 스타트업과 관련된 인사이트를 글로 정리하여 올려놓는다. VC내의 각 분야를 담당하는 전문가들이 현재의 기술 및 스타트업 트렌드를 분석하고 정리해놓은 글들이 많은데 관심있는 부분을 읽는다면 해당 분야를 이해하는데 꽤 도움이 될 것 같다고 생각하여 요즘 시간이 날 때 읽으려고 하고있다. 최근 관심이 가는 것은 블록체인을 기반으로 하는 Web3이다. Web3는 탈중앙화 구조를 기반으로 구축된 새로운 웹 어플리케이션의 종류라고 볼 수 있다. Web3의 핵심은 암호화폐가 추구하는 탈금융화(Decentralized Finance, De-Fi)를 향한 흐름과 유사한데, 금융뿐만 아니라 기존에 Web2라고 칭해지는 빅테크 기업들이 제공하는 서비스(SNS, 웹 검색 등)를 이용해 지배적으로 점유하고 있었던 데이터와 영향력 그리고 그에 따른 경제적 이익을 그 활동에 참여하는 수 많은 여러 개인들에게 분산해서 운영할 수 있게 하는 기술이다.&lt;/p&gt;</content><author><name>Sony</name></author><summary type="html"></summary></entry><entry><title type="html">나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생</title><link href="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html" rel="alternate" type="text/html" title="나이키 창업자 필나이트 자서전 슈독 그리고 스타트업과 인생" /><published>2022-03-14T02:00:00+09:00</published><updated>2022-03-14T02:00:00+09:00</updated><id>http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D</id><content type="html" xml:base="http://localhost:4000/blog/2022/03/14/%EB%82%98%EC%9D%B4%ED%82%A4-%EC%B0%BD%EC%97%85%EC%9E%90-%ED%95%84%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%9E%90%EC%84%9C%EC%A0%84-%EC%8A%88%EB%8F%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%EC%83%9D.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;img src=&quot;https://famousinsurance.com.au/wp-content/uploads/2019/09/Shoe-Dog-Phil-Knight-hero-1024x536.jpg&quot; alt=&quot;shoe_dog_and_phil_knight&quot; /&gt;&lt;/td&gt;
@@ -98,7 +179,7 @@ $4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><cate
 
 &lt;p&gt;필 나이트가 이것을 인식하고 나이키를 만든 것 같지는 않다. 당연히 행운도 많이 따라줬지만, 그의 패기와 추진력 그리고 그가 가진 다른 우수한 자질과 능력들을 통해 끊임없이 도전하고 힘들어도 포기 않는 모습들을 보며 많은 자극을 받게 된다.&lt;/p&gt;
 
-&lt;p&gt;아무래도 현실을 객관적이고 있는 그대로 인식하는 비관론자보다 현실이 약간 왜곡되더라도 희망과 꿈을 갖고 사는 낙관론자로 사는 것이 지금의 나에게는 더 매력적으로 느껴지는 삶의 방식인것 같다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html"></summary></entry><entry><title type="html">보상과 처벌에 과잉반응하는 경향 - 찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/07/27/%EB%B3%B4%EC%83%81%EA%B3%BC-%EC%B2%98%EB%B2%8C%EC%97%90-%EA%B3%BC%EC%9E%89%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EA%B2%BD%ED%96%A5.html" rel="alternate" type="text/html" title="보상과 처벌에 과잉반응하는 경향 - 찰리멍거의 심리학" /><published>2021-07-27T06:31:00+09:00</published><updated>2021-07-27T06:31:00+09:00</updated><id>http://localhost:4000/blog/2021/07/27/%EB%B3%B4%EC%83%81%EA%B3%BC-%EC%B2%98%EB%B2%8C%EC%97%90-%EA%B3%BC%EC%9E%89%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EA%B2%BD%ED%96%A5</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/27/%EB%B3%B4%EC%83%81%EA%B3%BC-%EC%B2%98%EB%B2%8C%EC%97%90-%EA%B3%BC%EC%9E%89%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EA%B2%BD%ED%96%A5.html">&lt;table&gt;
+&lt;p&gt;아무래도 현실을 객관적이고 있는 그대로 인식하는 비관론자보다 현실이 약간 왜곡되더라도 희망과 꿈을 갖고 사는 낙관론자로 사는 것이 지금의 나에게는 더 매력적으로 느껴지는 삶의 방식인것 같다.&lt;/p&gt;</content><author><name>Sony</name></author><summary type="html"></summary></entry><entry><title type="html">보상과 처벌에 과잉반응하는 경향 - 찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/07/27/%EB%B3%B4%EC%83%81%EA%B3%BC-%EC%B2%98%EB%B2%8C%EC%97%90-%EA%B3%BC%EC%9E%89%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EA%B2%BD%ED%96%A5.html" rel="alternate" type="text/html" title="보상과 처벌에 과잉반응하는 경향 - 찰리멍거의 심리학" /><published>2021-07-27T06:31:00+09:00</published><updated>2021-07-27T06:31:00+09:00</updated><id>http://localhost:4000/blog/2021/07/27/%EB%B3%B4%EC%83%81%EA%B3%BC-%EC%B2%98%EB%B2%8C%EC%97%90-%EA%B3%BC%EC%9E%89%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EA%B2%BD%ED%96%A5</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/27/%EB%B3%B4%EC%83%81%EA%B3%BC-%EC%B2%98%EB%B2%8C%EC%97%90-%EA%B3%BC%EC%9E%89%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EA%B2%BD%ED%96%A5.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;img src=&quot;https://www.verywellmind.com/thmb/EhEZGcU0YnGlvWvS5pT1F5K-B_E=/1333x1000/smart/filters:no_upscale()/the-incentive-theory-of-motivation-2795382-FINAL-5bf478c146e0fb002675f24c.png&quot; alt=&quot;incentives_and_punishments&quot; /&gt;&lt;/td&gt;
@@ -126,7 +207,7 @@ $4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><cate
 
 &lt;p&gt;내가 하버드 대학교 법대에 있을때 교수들이 스키너와 비슷한 과잉집중하는 예일 법대 교수를 얘기한적이 있다. “불쌍한 늙은 에디 블랜차드 그 사람은 선언적 판결(declaratory judgements)이 암을 치료할 수 있을 것이라고 생각하고 있어”. 이것이 스키너가 그의 인센티브의 강력한 힘을 너무 과도하게 강조한 것과 같은 방식이다. 스키너의 명성을 결과적으로 앗아가버렸던 것은 망치만 들고 있는 사람 성향이다. “손에 망치만 들고 있는 사람에게 모든 문제들이 다 못으로 보인다”. 이 성향은 블랜차드나 스키너 같이 굉장히 똑똑한 사람들에게도 예외는 아니다. 그리고 당신이 조심하지 않는다면 당신도 예외가 아니다. 나는 이 글을 작성하면서 여러곳에서 망치만 갖고 있는 사람의 성향에 대해 자주 언급할 것이다. 왜냐하면 다행히도 명석한 스키너의 개인적인 명성을 파멸시킨 이 성향을 줄일 수 있는 해결책이 있기 때문이다.&lt;/p&gt;
 
-&lt;p&gt;인센티브의 강력한 힘으로 인한 가장 중요한 결과는 소위 말하는 “인센티브에 의해 유발된 편향” 이다. 인간은 자기가 속하는 문화에 동화되어 괜찮은 시민이 되려는 성향을 갖고 있지만 반대로 의식적으로 그리고 무의식적으로 인센티브에 의해 유발되어서 자기가 원하는 것을 성취하기 위해서 앞의 제록스에 있는 판매원과 같이 고객에게 피해를 주면서 자신의 판매 수수료 이익을 극대화시키는 행동을 하는 것과 같은 비도덕적인 행동을 합리화를 하면서 행하기도 한다.&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html"></summary></entry><entry><title type="html">현명한 의사결정을 위한 찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html" rel="alternate" type="text/html" title="현명한 의사결정을 위한 찰리멍거의 심리학" /><published>2021-05-22T18:00:00+09:00</published><updated>2021-05-22T18:00:00+09:00</updated><id>http://localhost:4000/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html">&lt;table&gt;
+&lt;p&gt;인센티브의 강력한 힘으로 인한 가장 중요한 결과는 소위 말하는 “인센티브에 의해 유발된 편향” 이다. 인간은 자기가 속하는 문화에 동화되어 괜찮은 시민이 되려는 성향을 갖고 있지만 반대로 의식적으로 그리고 무의식적으로 인센티브에 의해 유발되어서 자기가 원하는 것을 성취하기 위해서 앞의 제록스에 있는 판매원과 같이 고객에게 피해를 주면서 자신의 판매 수수료 이익을 극대화시키는 행동을 하는 것과 같은 비도덕적인 행동을 합리화를 하면서 행하기도 한다.&lt;/p&gt;</content><author><name>Sony</name></author><summary type="html"></summary></entry><entry><title type="html">현명한 의사결정을 위한 찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html" rel="alternate" type="text/html" title="현명한 의사결정을 위한 찰리멍거의 심리학" /><published>2021-05-22T18:00:00+09:00</published><updated>2021-05-22T18:00:00+09:00</updated><id>http://localhost:4000/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/22/%EC%B0%B0%EB%A6%AC%EB%A9%8D%EA%B1%B0%EC%9D%98-%EC%8B%AC%EB%A6%AC%ED%95%99.html">&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://images.wsj.net/im-289221?width=620&amp;amp;size=1.5&quot; alt=&quot;buffett_and_charlie&quot; /&gt;&lt;/th&gt;
@@ -301,7 +382,7 @@ $4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><cate
       &lt;p&gt;이러한 통찰은 찰리멍거가 주요 멘탈모델로 자주 사용하는 &lt;strong&gt;역으로 생각하기&lt;/strong&gt;로 얻어낸 결과. 남들보다 현명해지고 싶다고 할때 어떻게 현명해지지?라고 묻는게 아니라 그 반대로 생각해서 어떻게 하면 멍청해 질 수 있지?를 먼저 생각하고 그것을 피하는 전략을 사용하는 방법. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Yongho</name></author><summary type="html">왼쪽은 워렌버핏 오른쪽이 찰리멍거 이미지 출처: https://images.wsj.net/im-289221?width=620&amp;amp;size=1.5</summary></entry><entry><title type="html">비일관성 회피 성향 - 찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.html" rel="alternate" type="text/html" title="비일관성 회피 성향 - 찰리멍거의 심리학" /><published>2021-05-14T05:12:00+09:00</published><updated>2021-05-14T05:12:00+09:00</updated><id>http://localhost:4000/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.html">&lt;table&gt;
+&lt;/div&gt;</content><author><name>Sony</name></author><summary type="html">왼쪽은 워렌버핏 오른쪽이 찰리멍거 이미지 출처: https://images.wsj.net/im-289221?width=620&amp;amp;size=1.5</summary></entry><entry><title type="html">비일관성 회피 성향 - 찰리멍거의 심리학</title><link href="http://localhost:4000/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.html" rel="alternate" type="text/html" title="비일관성 회피 성향 - 찰리멍거의 심리학" /><published>2021-05-14T05:12:00+09:00</published><updated>2021-05-14T05:12:00+09:00</updated><id>http://localhost:4000/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/14/%EC%8A%B5%EA%B4%80%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;img src=&quot;https://ignorelimits.com/wp-content/uploads/2017/03/inconsistency-bias.jpg&quot; alt=&quot;inconsistency avoidance tendency&quot; /&gt;&lt;/td&gt;
@@ -331,7 +412,7 @@ $4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><cate
 &lt;p&gt;무료 습관 관리 앱 그린버드를 소개합니다.&lt;br /&gt;
 구글 플레이에서 그린버드 습관을 검색하고 다운받아서 사용해보세요&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.sssonly.greenbird&quot;&gt;그린버드 구글플레이&lt;/a&gt;&lt;/p&gt;</content><author><name>Yongho</name></author><summary type="html"></summary></entry><entry><title type="html">2021년 5월 12일 현재 경제상황: 향후 주식과 부동산 가격은 어디로? - 성장을 위한 지식 #13</title><link href="http://localhost:4000/blog/2021/05/12/KG-13-2021%EB%85%84-5%EC%9B%94-%EA%B2%BD%EC%A0%9C%EC%83%81%ED%99%A9.html" rel="alternate" type="text/html" title="2021년 5월 12일 현재 경제상황: 향후 주식과 부동산 가격은 어디로? - 성장을 위한 지식 #13" /><published>2021-05-12T08:12:00+09:00</published><updated>2021-05-12T08:12:00+09:00</updated><id>http://localhost:4000/blog/2021/05/12/KG#13-2021%EB%85%84-5%EC%9B%94-%EA%B2%BD%EC%A0%9C%EC%83%81%ED%99%A9</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/12/KG-13-2021%EB%85%84-5%EC%9B%94-%EA%B2%BD%EC%A0%9C%EC%83%81%ED%99%A9.html">&lt;table&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.sssonly.greenbird&quot;&gt;그린버드 구글플레이&lt;/a&gt;&lt;/p&gt;</content><author><name>Sony</name></author><summary type="html"></summary></entry><entry><title type="html">2021년 5월 12일 현재 경제상황: 향후 주식과 부동산 가격은 어디로? - 성장을 위한 지식 #13</title><link href="http://localhost:4000/blog/2021/05/12/KG-13-2021%EB%85%84-5%EC%9B%94-%EA%B2%BD%EC%A0%9C%EC%83%81%ED%99%A9.html" rel="alternate" type="text/html" title="2021년 5월 12일 현재 경제상황: 향후 주식과 부동산 가격은 어디로? - 성장을 위한 지식 #13" /><published>2021-05-12T08:12:00+09:00</published><updated>2021-05-12T08:12:00+09:00</updated><id>http://localhost:4000/blog/2021/05/12/KG#13-2021%EB%85%84-5%EC%9B%94-%EA%B2%BD%EC%A0%9C%EC%83%81%ED%99%A9</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/12/KG-13-2021%EB%85%84-5%EC%9B%94-%EA%B2%BD%EC%A0%9C%EC%83%81%ED%99%A9.html">&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg&quot; alt=&quot;quality&quot; /&gt;&lt;/th&gt;
@@ -369,7 +450,7 @@ $4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><cate
 &lt;ul&gt;
   &lt;li&gt;https://www.bls.gov/opub/ted/2021/consumer-prices-increase-2-6-percent-for-the-12-months-ending-march-2021.htm&lt;/li&gt;
   &lt;li&gt;https://en.wikipedia.org/wiki/Subprime_mortgage_crisis&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Yongho</name></author><summary type="html">이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg</summary></entry><entry><title type="html">단순한 연관성에서 비롯되는 무의식이 받는 영향력 - 성장을 위한 지식 #11</title><link href="http://localhost:4000/blog/2021/05/03/KG-11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5.html" rel="alternate" type="text/html" title="단순한 연관성에서 비롯되는 무의식이 받는 영향력 - 성장을 위한 지식 #11" /><published>2021-05-03T22:14:00+09:00</published><updated>2021-05-03T22:14:00+09:00</updated><id>http://localhost:4000/blog/2021/05/03/KG#11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/03/KG-11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5.html">&lt;table&gt;
+&lt;/ul&gt;</content><author><name>Sony</name></author><summary type="html">이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg</summary></entry><entry><title type="html">단순한 연관성에서 비롯되는 무의식이 받는 영향력 - 성장을 위한 지식 #11</title><link href="http://localhost:4000/blog/2021/05/03/KG-11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5.html" rel="alternate" type="text/html" title="단순한 연관성에서 비롯되는 무의식이 받는 영향력 - 성장을 위한 지식 #11" /><published>2021-05-03T22:14:00+09:00</published><updated>2021-05-03T22:14:00+09:00</updated><id>http://localhost:4000/blog/2021/05/03/KG#11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5</id><content type="html" xml:base="http://localhost:4000/blog/2021/05/03/KG-11-%EB%8B%A8%EC%88%9C%ED%95%9C-%EC%97%B0%EA%B4%80%EC%84%B1%EC%97%90%EC%84%9C-%EB%B9%84%EB%A1%AF%EB%90%98%EB%8A%94-%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%B4-%EB%B0%9B%EB%8A%94-%EC%98%81%ED%96%A5%EB%A0%A5.html">&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://25cognitivebiases.com/wp-content/uploads/2015/10/25-Cognitive-Biases-Bias10-Influence-From-Mere-Association-Tendency.jpg&quot; alt=&quot;Influence-From-Mere-Association Tendency&quot; /&gt;&lt;/th&gt;
@@ -428,85 +509,4 @@ $4a^3+27b^2 \neq 0$&lt;/p&gt;</content><author><name>Yongho</name></author><cate
 &lt;p&gt;&lt;strong&gt;참고자료&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Charlie munger’s the psychology of human misjudgement&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Yongho</name></author><summary type="html">이미지 출처: http://25cognitivebiases.com/wp-content/uploads/2015/10/25-Cognitive-Biases-Bias10-Influence-From-Mere-Association-Tendency.jpg</summary></entry><entry><title type="html">제품과 서비스의 품질을 정량적으로 측정할 수 있는 기준 - 성장을 위한 지식 #12</title><link href="http://localhost:4000/blog/2021/04/30/KG-12-%EC%A0%9C%ED%92%88%EA%B3%BC-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%ED%80%84%EB%A6%AC%ED%8B%B0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EC%9D%98.html" rel="alternate" type="text/html" title="제품과 서비스의 품질을 정량적으로 측정할 수 있는 기준 - 성장을 위한 지식 #12" /><published>2021-04-30T08:12:00+09:00</published><updated>2021-04-30T08:12:00+09:00</updated><id>http://localhost:4000/blog/2021/04/30/KG#12-%EC%A0%9C%ED%92%88%EA%B3%BC-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%ED%80%84%EB%A6%AC%ED%8B%B0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EC%9D%98</id><content type="html" xml:base="http://localhost:4000/blog/2021/04/30/KG-12-%EC%A0%9C%ED%92%88%EA%B3%BC-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%ED%80%84%EB%A6%AC%ED%8B%B0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EC%9D%98.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg&quot; alt=&quot;quality&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;하버드-비즈니스-스쿨의-데이비드-갈빈-교수의-8가지-품질요소&quot;&gt;하버드 비즈니스 스쿨의 데이비드 갈빈 교수의 8가지 품질요소&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;성능 - 의도된 목적을 얼마나 잘 수행하는가?&lt;/li&gt;
-  &lt;li&gt;기능 - 얼마나 많은 유용하고 가치있는 기능을 제공하는가?&lt;/li&gt;
-  &lt;li&gt;신뢰성 - 사용할때 안되거나 꺼지거나 이상작동하는 확률이 어느정도 되는가?&lt;/li&gt;
-  &lt;li&gt;일치성 - 이미 확립된 기준을 얼만큼 잘 충족시키는가 단점이 일반적인가? 내가 필요로 할때 수용가능한 대체품이 존재하는가?&lt;/li&gt;
-  &lt;li&gt;내구성 - 얼마나 오래 작동하는가?&lt;/li&gt;
-  &lt;li&gt;유지보수 - 잘못되었을때 쉽게 고칠 수 있는가?&lt;/li&gt;
-  &lt;li&gt;미 - 주관적인 사용 경험이 즐겁고 매력적인가?&lt;/li&gt;
-  &lt;li&gt;인식 - 좋은 평판을 갖고 있고 기대하는 것 보다 더 좋은 결과를 주는가&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;이 정량적인 기준들의 장점은 체크리스트로 사용하여 제품/서비스의 질을 높일때 사용할 수 있다는 것이다. 완벽한 것은 아무것도 없다. 제공하는 것의 질을 높이기 위해서 내가 할 수 있는 것은 언제나 존재한다.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;참고자료&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;The Personal MBA 10th Anniversary Edition by Josh Kaufman&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Yongho</name></author><summary type="html">이미지 출처: https://www.azquotes.com/picture-quotes/quote-strive-for-perfection-in-everything-take-the-best-that-exists-and-make-it-better-if-henry-royce-78-14-06.jpg</summary></entry><entry><title type="html">많은 고객과 소비자들에게 물건을 팔 수 있는 좋은 판매전략과 판매방법 - 성장을 위한 지식 #10</title><link href="http://localhost:4000/blog/2021/04/24/KG-10-%EB%A7%8E%EC%9D%80-%EA%B3%A0%EA%B0%9D%EA%B3%BC-%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%EB%AC%BC%EA%B1%B4%EC%9D%84-%ED%8C%94%EC%88%98%EC%9E%88%EB%8A%94-%EC%A2%8B%EC%9D%80-%ED%8C%90%EB%A7%A4%EC%A0%84%EB%9E%B5%EA%B3%BC-%ED%8C%90%EB%A7%A4%EB%B0%A9%EB%B2%95.html" rel="alternate" type="text/html" title="많은 고객과 소비자들에게 물건을 팔 수 있는 좋은 판매전략과 판매방법 - 성장을 위한 지식 #10" /><published>2021-04-24T12:20:00+09:00</published><updated>2021-04-24T12:20:00+09:00</updated><id>http://localhost:4000/blog/2021/04/24/KG#10-%EB%A7%8E%EC%9D%80-%EA%B3%A0%EA%B0%9D%EA%B3%BC-%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%EB%AC%BC%EA%B1%B4%EC%9D%84-%ED%8C%94%EC%88%98%EC%9E%88%EB%8A%94-%EC%A2%8B%EC%9D%80-%ED%8C%90%EB%A7%A4%EC%A0%84%EB%9E%B5%EA%B3%BC-%ED%8C%90%EB%A7%A4%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/blog/2021/04/24/KG-10-%EB%A7%8E%EC%9D%80-%EA%B3%A0%EA%B0%9D%EA%B3%BC-%EC%86%8C%EB%B9%84%EC%9E%90%EB%93%A4%EC%97%90%EA%B2%8C-%EB%AC%BC%EA%B1%B4%EC%9D%84-%ED%8C%94%EC%88%98%EC%9E%88%EB%8A%94-%EC%A2%8B%EC%9D%80-%ED%8C%90%EB%A7%A4%EC%A0%84%EB%9E%B5%EA%B3%BC-%ED%8C%90%EB%A7%A4%EB%B0%A9%EB%B2%95.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png&quot; alt=&quot;handling&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;이미지 출처: https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;고객이-상품서비스에-대한-구매를-안하는-핵심이유-5가지&quot;&gt;고객이 상품/서비스에 대한 구매를 안하는 핵심이유 5가지&lt;/h2&gt;
-
-&lt;p&gt;사람들이 우리가 파는 상품/서비스를 구매를 안하는 이유는 크게 다음의 5가지 중에 하나이거나 이 중 여러가지의 조합이다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;너무 비싸&lt;/li&gt;
-  &lt;li&gt;그거 사봤자 잘 안돼 (or 맛 없어)&lt;/li&gt;
-  &lt;li&gt;다른 사람은 모르겠는데 나는 효과가 없을 것 같은데?&lt;/li&gt;
-  &lt;li&gt;그냥 안 사고 이 상태로 살래&lt;/li&gt;
-  &lt;li&gt;쓰기 어렵고 복잡해&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;이 다섯가지의 구매를 안하는 이유들은 너무나도 공통적이기 때문에 고객이나 소비자들이 사기전에 이것을 먼저 해결해 둔다면 판매까지 아주 쉽게 도달 할 수 있다. 따라서, 처음에 상품/서비스를 제공할때 마케팅 문구 및 제품설명에 이 다섯가지에 대한 설명이 되어 있어야 한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;고객이-상품서비스를-구매하게-하는-방법&quot;&gt;고객이 상품/서비스를 구매하게 하는 방법&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;너무 비싸의 해결책: 가치기반 혹은 프레이밍 판매전략 - 100억을 아낄 수 있는 소프트웨어를 10억에 파는 것은 고객에게 제품을 거의 무료로 느끼게 해준다. 즉, 제품/서비스의 가격이 제품/서비스의 사용을 통해 얻는 이익보다 낮아야 한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그거 사봤자 잘 안돼 &amp;amp; 다른 사람은 모르겠고 난 효과가 없을것 같은데?의 해결책: 사회적 증거를 이용 - 다른 사람들이 실제로 제품/서비스를 이용해 본 후기 및 결과를 공유. 더 유사한 상황에 있는 다른 사람이 사용해서 효과를 봤다면 비슷한 잠재고객에게 더 큰 어필을 할 수 있다. 이 부분이 추천 시스템이 왜 판매전략에 굉장히 유효한지에 대한 설명이 될 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그냥 안 사고 이 상태로 살래 &amp;amp; 쓰기 어렵고 복잡해의 해결책: 교육기반의 판매 - 잠재고객은 해당 문제를 인지하고 못한채로 지내고 있는 경우. 만약 어떤 사업체가 본인들의 잘못된 구조로 연간 100억의 손실을 보고 있다는 것을 깨닫지 못하고 있다면 판매하는 상품/서비스에 대한 설득을 하기 어렵다. 이런경우 먼저 이것을 깨닫게 해주고 제공하는 상품이 이것을 어떻게 해결해주고 어떤 이익을 주는 지를 알려주는지를 시각화해서 알려주는 방식을 사용하는 전략이 유효할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;잠재고객의 허락과 관심을 얻게 된 이후에 그들이 여전히 이러한 구매의 반대 생각을 갖고 있다면 이러한 반대를 제거해야 해고 이것들은 해당 구매자가 어떤 반대의견을 갖고 있느냐에 따라 상황마다 다른 전략이 적용되어야 한다. 하지만 일반적으로는 프레이밍, 가치기반 판매, 사회적 검증, 교육기반 판매, 그리고 시각화의 조합을 이용하면 된다.&lt;/p&gt;
-
-&lt;p&gt;그럼에도 불구하고 잠재고객이 구매를 안한다면 이것은 파워이슈(권한)과 관련이 있을 수 있다 (해당 잠재고객이 물건을 구매할 권한과 예산이 없는 경우). 따라서 언제나 이러한 권한이 있는 결정권자와 구매에 대한 얘기를 해야 한다. 그럼에도 불구하고 구매를 거부한다면 이 제품/서비스가 그들과 맞지 않는다는 것이고 그러면 다른 잠재고객을 찾아서 판매를 해야 한다.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;참고자료&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;The Personal MBA 10th Anniversary Edition by Josh Kaufman&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Yongho</name></author><summary type="html">이미지 출처: https://staging.baachuscribble.com/wp-content/uploads/2019/01/HANDLING.png</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Sony</name></author><summary type="html">이미지 출처: http://25cognitivebiases.com/wp-content/uploads/2015/10/25-Cognitive-Biases-Bias10-Influence-From-Mere-Association-Tendency.jpg</summary></entry></feed>
