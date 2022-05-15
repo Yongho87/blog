@@ -14,7 +14,7 @@ categories: translation
 
 # 폴 그램 (paul graham) 소개
 
-원문: http://www.paulgraham.com/hs.html
+[원문 링크](http://www.paulgraham.com/hs.html)
 
 폴그램의 에세이를 번역한 글입니다. 원문은 위에 있는 링크를 통해 들어가서 보실수 있습니다.
 
