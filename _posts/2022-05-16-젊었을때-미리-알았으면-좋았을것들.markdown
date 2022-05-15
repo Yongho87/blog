@@ -3,7 +3,7 @@ layout: single
 author: Yongho
 title:  "젊었을때 미리 알았으면 좋았을 것들 (부제: 직업 선택방법)"
 date:  2022-05-16 07:00:00 +0000
-categories: translation
+categories: life
 ---
 
 
