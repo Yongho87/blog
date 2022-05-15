@@ -6,6 +6,12 @@ date:  2022-05-16 07:00:00 +0000
 categories: translation
 ---
 
+
+| ![paul graham](https://miro.medium.com/max/920/1*UMZok6t6Fq9uikYbnwLZkA.png) | 
+| :--: |
+| 폴 그램이 포브스 표지 모델로 나왔을때 *이미지 출처: https://miro.medium.com/max/920/1*UMZok6t6Fq9uikYbnwLZkA.png |
+
+
 # 폴 그램 (paul graham) 소개
 
 원문: http://www.paulgraham.com/hs.html
