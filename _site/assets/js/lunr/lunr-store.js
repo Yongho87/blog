@@ -150,7 +150,7 @@ var store = [{
         "teaser": null
       },{
         "title": "비트코인의 원리 - 타원 곡선 암호방식(Elliptic Curve Cryptography, ECC)",
-        "excerpt":"                          암호화폐의 대장인 비트코인의 원리를 알아보자. 왜 비트코인은 안전한가? 내부 작동방식은 어떠한가? 이것들을 알기 위해서는 비트코인이 만들어진 핵심 암호방식인 타원 곡선 암호방식을 이해해야 한다.   비트코인은 왜 안전한가?  타원곡선에 대한 이해  다음의 함수를 만족시키는 2차원 좌표(x,y)의 집합을 연결하면 타원 곡선을 얻을 수 있다. $y^2 = x^3+ax+b$  $4a^3+27b^2 \\neq 0$  ","categories": [],
+        "excerpt":"                          암호화폐의 대장인 비트코인의 원리를 알아보자. 왜 비트코인은 안전한가? 내부 작동방식은 어떠한가? 이것들을 알기 위해서는 비트코인이 만들어진 핵심 암호방식인 타원 곡선 암호방식을 이해해야 한다.   비트코인은 왜 안전한가?  타원곡선에 대한 이해  다음의 함수를 만족시키는 2차원 좌표(x,y)의 집합을 연결하면 타원 곡선을 얻을 수 있다.   $y^2 = x^3+ax+b$  $4a^3+27b^2 \\neq 0$  ","categories": [],
         "tags": ["Bitcoin","비트코인","타원 곡선 암호방식","Elliptic Curve Cryptography"],
         "url": "/blog/2022/04/29/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9B%90%EB%A6%AC-%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%EB%B0%A9%EC%8B%9D.html",
         "teaser": null
@@ -165,5 +165,23 @@ var store = [{
         "excerpt":"현명한 의사결정을 위한 또 다른 책 1. 확증 편향 및 스토리텔리 편향 인간은 본인이 믿고 싶어하는 것들, 진실이라고 알고 있다고 생각하는 것들을 더 강화시키는 확증 편향이 존재한다. 이것과 시너지를 내는 다른 무의식적인 심리적 기작들은 의심 회피 경향과 비일관성 회피 경향이 있다. 이 모든 것들이 한꺼번에 작용하게 되면 밖에 있는 제3자가...","categories": ["decision"],
         "tags": ["의사결정","선택 설계자들","올리비에 시보니"],
         "url": "/blog/decision/2022/05/06/%EC%84%A0%ED%83%9D-%EC%84%A4%EA%B3%84%EC%9E%90%EB%93%A4.html",
+        "teaser": null
+      },{
+        "title": "Zone 2 운동이란? 왜 Zone2 운동을 반드시 해야하는가?",
+        "excerpt":"Zone 2 운동의 정의와 필요성 Zone 2 운동의 정의 Zone 2 운동이란 무엇인가? 어떻게 정의할 수 있는가? 저강도 운동: 유산소운동 고강도 운동: 무산소운동 - 젖산 분비 - 젖산은 세포내의 미토콘드리아가 에너지로 사용가능하지만 고강도 운동과 같이 에너지가 상당히 많이 필요한 경우 젖산의 생산속도가 소모속도보다 더 높아서 체내에 쌓이게 된다. Zone 2...","categories": ["health"],
+        "tags": [],
+        "url": "/blog/health/2022/05/15/Zone2%EC%9A%B4%EB%8F%99-%EC%A0%95%EC%9D%98.html",
+        "teaser": null
+      },{
+        "title": "The Ultimate Sales Machine",
+        "excerpt":"The Ultimate Sales Machine   6장 가장 완벽한 구매자를 찾는 예술     나의 서비스와 제품을 구매해 줄 꿈과 같은 1000명의 완벽한 구매자를 정의하고 찾아야 한다.  ","categories": ["sales"],
+        "tags": [],
+        "url": "/blog/sales/2022/05/16/the-ultimate-sales-machine.html",
+        "teaser": null
+      },{
+        "title": "젊었을때 미리 알았으면 좋았을 것들 (부제: 직업 선택방법)",
+        "excerpt":"폴 그램이 포브스 표지 모델로 나왔을때 이미지 출처: https://miro.medium.com/max/920/1UMZok6t6Fq9uikYbnwLZkA.png 폴 그램 (paul graham) 소개 원문 링크 폴그램의 에세이를 번역한 글입니다. 원문은 위에 있는 링크를 통해 들어가서 보실수 있습니다. 폴그램을 간단하게 소개하자면 이 분은 하버드대학교 컴퓨터 공학과 박사 출신입니다. 졸업이후 같은 대학교 친구들 총 3명과 viaweb이라는 최초의 온라인 쇼핑몰 웹어플리케이션을 만들어서...","categories": ["life"],
+        "tags": [],
+        "url": "/blog/life/2022/05/16/%EC%A0%8A%EC%97%88%EC%9D%84%EB%95%8C-%EB%AF%B8%EB%A6%AC-%EC%95%8C%EC%95%98%EC%9C%BC%EB%A9%B4-%EC%A2%8B%EC%95%98%EC%9D%84%EA%B2%83%EB%93%A4.html",
         "teaser": null
       }]
