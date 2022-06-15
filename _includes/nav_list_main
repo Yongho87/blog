@@ -18,6 +18,9 @@
                     {% if category[0] == "decision" %}
                         <li><a href="/blog/categories/decision" class="">의사결정 ({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "health" %}
+                        <li><a href="/blog/categories/health" class="">건강 ({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
       </li>
