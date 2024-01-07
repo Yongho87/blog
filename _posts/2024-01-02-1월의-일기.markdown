@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Yongho
-title:  "2024년 1월의 일기"
+title:  "2024년 1월2일과 1월4일"
 date:  2024-01-02 10:00:00 +0000
 tags:
   - 일기
