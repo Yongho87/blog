@@ -1,4 +1,218 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2024-01-07T17:13:36+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Knowledge for Growth</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">2024년 1월7일 (일)</title><link href="http://localhost:4000/blog/2024/01/07/diary.html" rel="alternate" type="text/html" title="2024년 1월7일 (일)" /><published>2024-01-07T19:00:00+09:00</published><updated>2024-01-07T19:00:00+09:00</updated><id>http://localhost:4000/blog/2024/01/07/diary</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/07/diary.html">&lt;h2 id=&quot;1월-7일-일&quot;&gt;1월 7일 (일)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2024-01-28T14:11:15+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Knowledge for Growth</title><subtitle>부트스트래핑 1인 스타트업</subtitle><entry><title type="html">열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE)</title><link href="http://localhost:4000/blog/2024/01/28/EOS-VLE.html" rel="alternate" type="text/html" title="열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE)" /><published>2024-01-28T21:30:00+09:00</published><updated>2024-01-28T21:30:00+09:00</updated><id>http://localhost:4000/blog/2024/01/28/EOS-VLE</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/28/EOS-VLE.html">&lt;h1 id=&quot;열역학-상태방정식으로-기액평형을-계산하는-구체적인-방법&quot;&gt;열역학 상태방정식으로 기액평형을 계산하는 구체적인 방법&lt;/h1&gt;
+
+&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+
+&lt;p&gt;석유화학분야에서 사용하는 다양한 화학공정들 중에는 물질을 분리하는 공정들이 많다. 이 중에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;증류탑&lt;/code&gt;이라는 공정은 물질들이 같은 조건(=온도와 압력)에서 얼만큼 기체가 잘 되는지(=물질의 끓는점 차이, 상대 휘발도)의 특성에 따라서 물질을 분리하는 공정이다. 예를 들어, 물과 에탄올이 50%씩 섞여있는 액체 혼합물에서 물과 에탄올을 분리하고 싶은 경우, 이 혼합물을 어떤 통에 넣고 열을 가해 온도를 높이게 되면 기체상으로 된 물질들 중에는 더 기체가 잘되는 에탄올의 양이 물보다 더 많아진다. 이 기체를 냉각시켜 다시 액체로 만들면 에탄올의 농도가 50%보다 더 높은 액체 혼합물을 얻을 수 있다. 이러한 방식으로 여러번 끓이고 냉각시키는 것을 반복하면 에탄올의 농도를 거의 100% 가깝게 얻을 수 있다.&lt;/p&gt;
+
+&lt;p&gt;위의 예에서 1:1로 섞여 있는 에탄올/물 액체 혼합물을 임의의 압력하에서 어떤 온도로 만들었을때, 그때 생성되는 기체내의 에탄올/물 혼합물의 비율과 액체내의 에탄올/물 혼합물의 비율을 미리 계산할 수 있는데, 이것을 위해 알아야 하는 것이 바로 열역학이다. 이 글에서 어떻게 이것이 계산되는지, 그 구체적인 과정을 설명한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;1단계-열역학적-평형&quot;&gt;1단계: 열역학적 평형&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;열역학적 평형&lt;/code&gt;이라는 개념은 직관적으로 어떠한 조건하에서 물질들의 상태와 조성이 변하지 않고 안정적인 상태로 존재하는 것을 뜻한다. 위의 에탄올/물의 액체 혼합물을 통에 넣고 끓이는 예를 생각해보면, 처음에 통의 온도를 특정 온도로 상승시키고 유지하게 되면 이를 통해 만들어지는 기체 혼합물의 양과 조성, 액체 혼합물의 양과 조성이 처음에는 급격하게 변하다가 그 다음에는 어떠한 값으로 수렴하게 된다. 이 수렴된 상태를 열역학적 평형 상태라고 한다.&lt;/p&gt;
+
+&lt;p&gt;이를 열역학적으로 표현하면, 기체와 액체가 구성하는 전체 시스템의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;깁스에너지의 변화량이 0&lt;/code&gt;이라는 의미(열역학적으로 가장 안정적인 상태에서는 깁스에너지가 최소값을 갖기 때문에 = 아래로 볼록한 2차 함수의 최소값에서의 미분값이 0인 것과 동일한 논리) 이고 이것은 결국 기체 상과 액체 상의 깁스에너지 변화량이 같다는 것을 의미 한다. 깁스에너지는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;화학 포텐셜(chemical potential)&lt;/code&gt;에 직접적으로 비례하고, 화학포텐셜은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;퓨가시티(fugacity)&lt;/code&gt;라는 열역학적 성질과 비례한다. 최종적으로 열역학적 평형상태에서는 기체에서의 성분i와 액체에서의 성분i의 퓨가시티가 같다는 하나의 근본적인 식을 도출할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;이 퓨가시티는 열역학을 통해서 물질의 온도, 압력, 부피의 함수로 표현이 될 수 있고 수치적인 계산이 가능하다. 특정 상(phase)에서 물질의 종류를 알고, 온도와 압력이 결정되면 부피는 자동으로 결정된다. 따라서, 이 관계식, 즉 온도와 압력의 함수로 표현되는 부피를 정의해줘야 한다. 이때 사용해야되는 식이 바로 상태방정식이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;2단계-각-상의-조성을-계산하는-구체적인-방법&quot;&gt;2단계: 각 상의 조성을 계산하는 구체적인 방법&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;성분i의 기체 퓨가시티&lt;/code&gt;는 기체 상의 i성분의 몰분율 yi, 기체 상의 전체압력, 기체 상의 혼합물 퓨가시티 계수의 곱으로 계산할 수 있다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;기체 상의 혼합물 퓨가시티 계수&lt;/code&gt;는 해당 조건에서의 온도, 압력, 부피로 계산할 수 있는 대수식으로 표현 할 수 있다. 이때, 알고 있는 온도와 압력으로 부피를 계산하기 위해 상태방정식을 사용한다. &lt;strong&gt;이때 중요한 것은, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;혼합물 퓨가시티 계수를 계산&lt;/code&gt;하기 위해서는 순수물질의 상태방정식이 아니라 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;혼합물의 상태방정식&lt;/code&gt;을 사용해야 한다는 것이다&lt;/strong&gt;. 혼합물의 상태방정식은 상태방정식의 종류(SRK, PR, IDEAL, …), 순수물질의 상태방정식에 포함되는 파라미터들, 반데르발스의 혼합 규칙(Mixing rule), 관련된 성분들의 2성분 상호작용 계수(binary interaction parameter/coefficient)들을 통해 얻을 수 있다. 이를 통해 기체 상의 혼합물 퓨가시티 계수를 계산하게 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;성분i의 액체 퓨가시티&lt;/code&gt;는 액체 상의 i성분의 몰분율 xi, 액체 상의 온도에서의 포화증기압력, 액체 상의 혼합물 퓨가시티 계수의 곱으로 계산한다. &lt;strong&gt;이때 중요한 것은, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;액체 상의 혼합물 퓨가시티 계수&lt;/code&gt;는 기체와 같이 혼합물의 상태방정식으로는 계산할 수가 없다&lt;/strong&gt;. 따라서 액체 상에서는 이것을 해결하기 위해 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;순수물질의 퓨가시티 계수&lt;/code&gt;를 사용하는 대신, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;활동도 계수(activity coefficient)&lt;/code&gt;라는 개념을 도입하고 이것을 순수물질의 퓨가시티 계수에 곱하여 액체 혼합물의 퓨가시티 계수를 계산한다. 활동도 계수의 경우 여러가지 모델(Wilson, NRTL, …)을 통해 계산할 수 있다. 액체의 경우 비응축기체로 인해서 실제 시스템의 전체압력이 포화증기압력보다 큰 경우가 있는데, 이러한 상황에서는 액체 혼합물 퓨가시티가 달라지는 경우가 생긴다. 이를 보정하기 위해 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;포인팅 보정(poynting correction)&lt;/code&gt;을 해준다.&lt;/p&gt;
+
+&lt;p&gt;위에서 설명한 각 기체 상고 액체 상에서 계산한 퓨가시티가 같다라는 개념을 통해 xi, yi를 구하면 열역학적 평형상태에서의 해당 상의 물질의 조성을 얻을 수 있다.&lt;/p&gt;</content><author><name>Sony</name></author><category term="학습" /><category term="열역학" /><category term="상태방정식" /><category term="기액평형" /><summary type="html">열역학 상태방정식으로 기액평형을 계산하는 구체적인 방법</summary></entry><entry><title type="html">칼만필터 (Kalman Filter)</title><link href="http://localhost:4000/blog/2024/01/28/Kalman-Filter.html" rel="alternate" type="text/html" title="칼만필터 (Kalman Filter)" /><published>2024-01-28T21:30:00+09:00</published><updated>2024-01-28T21:30:00+09:00</updated><id>http://localhost:4000/blog/2024/01/28/Kalman-Filter</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/28/Kalman-Filter.html">&lt;h1 id=&quot;칼만필터&quot;&gt;칼만필터&lt;/h1&gt;
+
+&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;칼만필터는 어떠한 값의 다이나믹 거동을 선형적인 식으로 기술할 수 있고, 원하는 값을 측정할 수 있는 상황에서, 하지만 이 다이나믹 식과 측정 값에 불확실성이 있어 각각의 값들이 확률변수로 취급되어야 하는 상황에서 원하는 값을 가장 합리적으로 추정해야 할 때 사용할 수 있는 원하는 값을 추정하는 최적(optimal) 방법이다. 이때 확률변수는 평균과 분산을 가지는 확률밀도함수로 표현될 수 있어야 하고, 예측 값의 분산을 미리 알 수 있어야 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;다이나믹-모델의-불확실성&quot;&gt;다이나믹 모델의 불확실성&lt;/h2&gt;
+&lt;p&gt;어떠한 값에 대해서, 그 전 시간(1분 전)에서 알고 있는 값을 토대로 그 다음 시간(1분 후)의 값을 추정하는 선형식을 만든다고 가정해보자. 이러한 경우 해당 선형식은 여러가지 이유로(실제 거동의 복잡성, 어떠한 상황이 일어날지 모르는 현실의 불확실성 등) 실제 물리적인 세계의 해당 값의 거동을 정확하게 담아내지 못한다. 따라서, 실제 물리적인 세계에서의 진짜 값(true value)과 이 다이나믹 식으로 추정한 값(prediction value)의 차이를 에러(error)라고 정의하고 이것을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;예측의 불확실성(Prediction Uncertainty)&lt;/code&gt;이라는 개념으로 총칭할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;측정값의-불확실성&quot;&gt;측정값의 불확실성&lt;/h2&gt;
+&lt;p&gt;위에서 언급한 값을 어떠한 측정장치를 통해서 측정가능 하다고 가정해보자. 이러한 경우에 유사한 이유로 해당 측정값이 위에서 언급한 진짜 값을 제대로 측정할 수 없다. 이러한 차이를 진짜 값(true value) 측정치(measurement value)사이의 측정에러로 정의하고 이것을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;측정의 불확실성(Measurement Uncertainty)&lt;/code&gt;이라는 개념으로 총칭할 수 있다&lt;/p&gt;
+
+&lt;h2 id=&quot;칼만필터의-도입&quot;&gt;칼만필터의 도입.&lt;/h2&gt;
+&lt;p&gt;칼만필터는 위와 같은 크게 2가지 불확실성 원인(측정, 예측)이 있는 상황에서 2가지 값 중에 어떠한 값을 더 믿고 값을 보정해줘야 하는지를 알려주는 비율 값이다. 예를들어, 시간의 변화에 따라 특정한 시간에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;다이나믹 모델로 예측한 값 x1&lt;/code&gt;과 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;측정장치로 측정한 측정 값 x2&lt;/code&gt;이 있다고 생각해보자. 만약 다이나믹 모델이 꿈속에서 갑자기 나타난 우주의 신이 선물해준 완벽하게 정확하고 모든 요인이 고려된 완전무결한 함수라고 한다면 우리는 불완전한 인간이 만든 측정기기로 측정한, 즉, 측정의 불확실성이 존재하는 측정 값 x2는 신경쓰지 않고 x1을 100% 믿을 것이다. 이러한 상황이 0과 1사이를 가지는 칼만필터의 K 값이 0이 되는 상황이다. 반대로, 함수를 선물해줬던 신이 이번에는 함수는 알려주지 않고 진짜 값을 측정할 수 있는 완벽한 측정장치를 선몰해줘서 이 장비로 값을 측정한 경우를 생각해보자. 이때 사용하는 다이나믹 모델의 함수는 본인이 똑똑하다고 믿는 어리석은 인간들이 만든 것을 사용했다고 가정하자. 이때 우리는 x1은 거들떠보지도 않고 x2를 100% 믿을 것이다. 이것이 칼만필터의 K값이 1이 되는 상황이다.&lt;/p&gt;
+
+&lt;p&gt;신이 이런 것을 인간에게 줄리가 없는 슬픈 현실에서는 이 2가지 값(인간들이 만든 다이나믹 모델로 추정한 값 vs. 인간들이 만든 측정장치로 측정한 값)중에서 어떤 값을 더 믿어야 하는지 알기가 어렵다. 이를 위해 칼만필터는 수학적인 통계 개념을 이용하여 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;인간들이 만든 다이나믹 값의 현재까지의 정확도&lt;/code&gt;를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;추정값의 분산&lt;/code&gt;으로 대체하고, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;측정값의 정확도&lt;/code&gt;를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;측정기기의 분산&lt;/code&gt;로 대체한다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;분산이 크면&lt;/code&gt; 해당 값이 퍼져있는 정도가 크기 때문에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;정확도가 낮다&lt;/code&gt;고 보고, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;분산이 작을 수록&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;정확도가 높다&lt;/code&gt;고 해석한다. 최종적으로, 칼만필터이득으로 정의되는 K는 예측값 분산/(예측값 분산+측정값 분산)으로 표현된다. 즉, 다이나믹 모델의 정확도가 높으면 예측값 분산이 0이 되어서 K가 0이 되어 모델의 예측값을 100% 믿고, 측정값의 정확도가 높으면 측정값 분산이 0이되어 K가 1이 되고 측정값을 100% 믿도록 식이 구성된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;y=x1+K(x2-x1): 칼만필터 기반 최적 추정식
+K=v1/(v1+v2): 칼만필터 
+v1=v1(k-1)+K*v1(k): 예측값 분산 다이나믹 업데이트 식
+
+K: 칼만필터이득 
+x1: 측정값 
+x2: 예측값
+v1: 예측값 분산
+v2: 측정값 분산
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Sony</name></author><category term="학습" /><category term="칼만필터" /><summary type="html">칼만필터</summary></entry><entry><title type="html">하워드 막스와 쇼펜하우어 행복론, 1월 13일 (토) 일기</title><link href="http://localhost:4000/blog/2024/01/14/diary.html" rel="alternate" type="text/html" title="하워드 막스와 쇼펜하우어 행복론, 1월 13일 (토) 일기" /><published>2024-01-14T06:39:00+09:00</published><updated>2024-01-14T06:39:00+09:00</updated><id>http://localhost:4000/blog/2024/01/14/diary</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/14/diary.html">&lt;h2 id=&quot;1월-13일-토&quot;&gt;1월 13일 (토)&lt;/h2&gt;
+
+&lt;h3 id=&quot;독서오디오블팟캐스트-정리&quot;&gt;독서/오디오블/팟캐스트 정리&lt;/h3&gt;
+&lt;h4 id=&quot;하워드-막스-구글-강연-유튜브&quot;&gt;하워드 막스 구글 강연 (유튜브)&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;불확실성이란 3가지 사건들 중 하나의 사건이 벌어질 수 있다고 생각했는데 전혀 생각하지 못했던 다른 사건이 발생하는 것. 세상과 인생은 많은 분야에서 불확실성이 존재하다.&lt;/li&gt;
+  &lt;li&gt;미래를 생각할때 기대 값과 각 사건의 발생확률을 고려하는게 아니라 발생할 수 있는 사건의 “범위”를 생각해야 한다.&lt;/li&gt;
+  &lt;li&gt;투자로 돈을 많이 벌고 싶다면 예측의 정확력이 중요한게 아니다. 모든 사람이 다 맞추는 예측은 가치가 없다. 남들은 다 틀릴때 나 혼자만 예측이 맞아야 한다. 그리고 그 상황이 지속적으로 이어져야 한다. 따라서, 이러한 투자 방법은 굉장히 어렵고 거의 불가능하다.&lt;/li&gt;
+  &lt;li&gt;어떤 것의 현재 거래되는 가격이 그것의 실제 내재 가치보다 현저히 낮을때, 그 자산을 사는 것이 투자 성공의 비결이다. 즉, 무엇을 사는 지가 돈을 버는 것이 아니라 얼마에 샀는지가 성공을 결정한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;쇼펜하우어-행복론-독서&quot;&gt;쇼펜하우어 행복론 (독서)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;5장의 훈화와 격언&lt;/strong&gt;에서 나열되어 있는 것들 중에 몇 가지는 기억하고 싶어서 정리해본다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;아래는 일반적인 것.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;행복을 추구하는 것이 아니라 고통을 피하는 삶을 살아야 한다. 고통을 피하는 것은 가능하지만 엄청나게 행복해지는 것은 아예 불가능하기 때문이다. 더 행복해지기 위해 현재가진 평온과 안정을 잃고 더 불행해지기 쉽상이다.
+    &lt;blockquote&gt;
+      &lt;p&gt;젊은이는 잘 생각해보지도 않고 세상이란 즐기기 위해 존재하고, 적극적인 행복이 깃들어 있는 곳이기에, 그 행복을 다스릴 능력이 없어서 그것을 놓친다고 생각한다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;우리는 삶에 많은 요구를 하면서 삶의 행복을 넓은 토대 위에 세우지 않도록 조심해야 한다.&lt;/li&gt;
+  &lt;li&gt;삶에 대한 시시콜콜한 준비를 하는 것은 어리석은 일이다. 일반적으로 모든 계획과 준비는 뜻대로 이루어지지 않는다.
+    &lt;ul&gt;
+      &lt;li&gt;기생충에서 송강호가 했던 의미심장한 말이 기억에 남는다. “나는 계획하지 않아… 어차피 뜻대로 되지 않거든”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;아래는 우리 자신에 관한 우리의 태도&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;인생의 축소판인 설계도를 가끔 떠올려 보는 것은 유익하다. 지나고 나서야 모든 것의 관계가 명확해지고 모든 것이 연결된다.
+    &lt;ul&gt;
+      &lt;li&gt;스티브 잡스의 “인생은 뒤를 돌아 볼때야 그 동안의 모든 점들이 하나로 연결된다”는 말이 기억에 남는다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;현재와 미래에 우리가 갖고 있는 한정적인 “주의”를 잘 배분해서 한쪽이 다른 한쪽을 망치치 않도록 해야 한다. 경솔한 사람들은 너무 현재에만 신경 쓰고, 불안과 걱정이 많은 사람은 미래에만 신경쓴다. 그래서 그들은 다른 하나를 항상 놓친다.
+    &lt;blockquote&gt;
+      &lt;p&gt;무엇보다 미래의 일만 진정한 행복을 가져다준다고 생각해 조바심 내며 그쪽으로 급히 다가가는 반면, 현재는 거들떠보지도 않고 지나쳐 버리는 사람들이 있다. 그들은 머리 위 막대기에 당근을 연결해 눈앞에 아른거리게 하지만 먹지는 못하는 노새와 같다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;현재만이 유일하게 현실적이고 유일하게 확실한 것임을 잊어서는 안된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;미래는 우리가 생각하는 것과 거의 항상 다르게 전개된다는 사실과 과거조차 우리의 회상과 달랐으며, 더구나 과거와 미래 모두 전체적으로 보면 우리가 생각하는 것과 달리 그다지 대단한 것이 아님을 결코 잊어서는 안된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;=&amp;gt; 현대 심리학에서 모두 증명된 부분. 대니얼 카너먼의 기대효용과 댄 길버트의 정서예측 이론에 따르면 우리는 미래에 벌어지는 사건들이 우리에게 미치는 영향을 객관적으로 평가하지 못한다. 또한 댄 길버트의 행복에 비틀거리다에서 인간은 과거를 객관적으로 보지 못하고 기억을 왜곡하여 미래와 마찬가지로 잘못 인식한다. 따라서 인간은 잘못된 과거 기억 때문에 경험을 통해 제대로 학습하지 못하고 항상 잘못된 예측을 한다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;현재는 지나가자 마자 신격화된 과거속으로 흘러들어가 그 후부터는 바로 그곳에서 불멸의 빛에 에워싸인 채 기억으로 간직된다. 그리고 언젠가, 특히 우리가 사정이 좋지 않을 때 이 기억은 베일을 걷으며 우리의 진실한 그리움의 대상으로 그 모습을 드러낸다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;모든 범위를 제한해야 우리가 행복해진다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;우리의 행복과 불행은 결국 우리의 의식이 무엇으로 차 있으며 무엇에 관여하느냐에 달려 있다.
+    &lt;ul&gt;
+      &lt;li&gt;명상을 하게 되면서 알게되는 “의식의 본질” 그리고 “인생의 행복”과 밀접하게 관련된 정답에 가까운 사실.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;완전히 사려 깊은 생활을 하고, 자신의 경험으로 그것에 포함된 모든 교훈을 끄집어내기 위해서는 가끔 돌이켜 생각해 보고, 지금까지 체험하고 행동하고 경험하면서 느낀 것을 다시 한 번 개괄할 필요가 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;일에 쫓기거나 유흥에 빠져서 과거를 깊이 되새겨 보지 않고 오히려 계속 허둥지둥 살아가는 자는 명료한 사리 분별을 잃어버린 것이다. 그런 사람의 감정은 혼란스럽고, 생각이 뒤죽박죽되어 이야기에 두서가 없고 대화가 토만 난 것처럼 보인다. 외적인 불안이 커지고 외부에서 받는 인상의 양이 많아질수록, 정신의 내적 활동이 미미할수록 더욱 그렇다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;그러므로 기억할 만한 시점의 기분이나 느낌을 종이에 면밀히 기록해 두는 것이 좋다. 이를 위해서는 일기가 매우 유익하다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;행복이란 자기 자신에게 만족하는 사람의 것이다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;인간은 혼자 있을 때만 온전히 그 자신일 수 있다. 그러므로 고독을 사랑하지 않는 자는 자유도 사랑하지 않는 자라고 할 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;질투는 인간의 자연스러운 감정이지만, 행복의 적이자 악마이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;어떤 계획을 실천에 옮기기 전에 충분히 검토해 보는 것이 좋다. 하지만 불확실성은 어쩔 수 없음을 인정한다. 실행에 옮길때는 열심히 하지만 결과는 평온한 마음으로 기다린다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이미 불행한 사건이 일어났다면 후회하지 말고 가볍게 넘긴다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;행복과 불행과 관련하여 상상력을 억제한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;네거티브 비쥬얼라이제이션. 갖지 않을 것을 보고 갖고 싶어하지 말고. 내가 갖고 있던 것이 없다면 어떨까? 라는 생각을 한다. (스토어 학파의 특정 사고와 일맥상통)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;문제와 생각은 언제나 하번에 하나씩 집중해서 그때그때 처리하고 나머지에는 관심을 끈다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;소망과 욕구는 억제하고 최소화 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;생명의 본질은 운동에 있다. 따라서, 활동하는 것, 무언가를 하고, 만들고, 배우는 것은 인간의 행복에 필수적인 것이다. 이 중에서 제일은 무엇인가를 창조하는 행위 이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;우리가 행복의 목표로 삼아야 하는 것은 명료한 사유를 거친 개념이다. 상상력에서 나온 영상을 목표로 삼으면 안된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;어떤 경우에도 눈앞에 있는 구체적인 대상에 대한 인상을 극복해야 한다. 보이는 것의 내용과 구성 떄문에 인상적인게 아니라 그것의 형식 즉 직접성과 구체성 때문이다. 인간의 본질이 원래 비이성직이기 때문에 이러한 인상에 굴복되기 쉽다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;건강의 중요성.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;다음은 타인에 대한 우리의 태도&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;행동에 조심하고 아량을 베푸는 것이 중요하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;대화를 나누면 사람들은 동질성과 이질성이 쉽게 드러난다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;아무도 자신을 넘어서 볼 수 없다. 누구나 타인을 볼 때 그가 자신의 모습이기도 한 만큼만 파악할 수 있다. 누구나 자신의 지성에 따라서만 타인을 파악하고 이해할 수 밖에 없기 때문이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;무엇인가를 기다리고 있을때, 아무 할 일이 없어서 그냥 앉아 있을 때, 가만히 있는 사람이야 말로 백 명 중 한 명 있을까 말까 한 존경할 만한 사람이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;누군가를 존경하는 동시에 매우 사랑하기는 어렵다. 존경과 사랑중에 하나 선택해야 한다. 주로 다른 사람의 정신과 마음에 높은 요구를 하지 않을수록 사랑받을 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;인간들 대부분은 극히 주관적이므로 오로지 자신에게만 흥미를 느낄 뿐 그 밖의 것에는 아무런 흥미도 느끼지 못한다. 그 때문에 남이 무슨 말을 하건 즉시 자신부터 생각한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;현재에 전혀 이해되지 않는 불합리는 결국엔 명민한 정신에 의해 올바른 판단이 내려질 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;인간은 너그럽게 대하면 버릇이 없어진다는 점에서 어린아이와 비슷하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;고상할 수록 사교성과 처세술이 떨어진다. 세상에 기만당하거나 속아 넘어가기 쉽다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;누구도 그 사람의 본성에 맡겨두고 내버려 두어서는 안된다. 누구든 개념과 원칙에 의한 지도가 필요하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;인간은 자신의 결점이나 악덕은 깨닫지 못하고 타인의 결점이나 악덕만 알아챈다. 타인은 거울 이기 때문에 타인이 가진 결점이 내가 가진 결점이다. 자신의 결점을 깨닫기 위해서는 남이 가진 결점을 찾아내어 비난하는 것이 매우 적절한 수단이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;…너무 길어서 오늘은 여기 까지 정리.&lt;/p&gt;
+
+&lt;h3 id=&quot;느낌과-생각&quot;&gt;느낌과 생각&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;혼자 앉아서 천천히 책을 읽고, 궁금했던 무엇인가를 결과와 시간에 구애받지 않고 천천히  이해하고, 좋은 내용의 컨텐츠를 들으면서 새로운 관점을 접하는 것은 그것 자체만으로 나에게 만족감을 주는 행동들이다. 강렬한 감정을 느끼는 피크 경험까지는 아니다. 하지만, 어쩌면 더 중요할 수도 있는, 삶을 살면서 느낄 수 있는 “깊은 만족감을 주는 활동들”안에 포함되는 활동들이라고 느낀다.&lt;/li&gt;
+  &lt;li&gt;나쁜 습관들을 제거해야 한다. 의지력으로 이겨내려고 하는 1차적인 방법은 그만두고, 환경을 제한하거나 좀 더 현실적인 방법으로 나쁜 습관을 제거해야 한다. 내가 이렇게 계속 나쁜 습관을 제거하지 못해 스스로에 대한 자기 존중감이 무의식적으로 낮아지게 되어 미래의 나와 주변 사람들에게 좋지 않은 영향을 미치게 되는 것이 두렵다.&lt;/li&gt;
+  &lt;li&gt;이제 가끔은 생각과 나를 분리할 수 있는 것 같다. 어떠한 생각이 들 때 그것이 “나라는 사람”이 아니라 “어떤 객체”로 볼 수 있는 것을 가끔 경험한다. 오늘도 몇 번 그런 경험을 한 것 같다. 이것의 가장 큰 장점: 좋지 않은 생각인 경우 그 생각에 빠져서 내 분위기나 정서가 부정적으로 되는 시간이 짧고 그 생각이 알아서 저절로 빨리 사라지게 할 수 있다는 것이다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Sony</name></author><category term="일기" /><category term="2024년 1월 13일 (토)" /><summary type="html">1월 13일 (토)</summary></entry><entry><title type="html">2024년 1월7일 (일)</title><link href="http://localhost:4000/blog/2024/01/07/diary.html" rel="alternate" type="text/html" title="2024년 1월7일 (일)" /><published>2024-01-07T19:00:00+09:00</published><updated>2024-01-07T19:00:00+09:00</updated><id>http://localhost:4000/blog/2024/01/07/diary</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/07/diary.html">&lt;h2 id=&quot;1월-7일-일&quot;&gt;1월 7일 (일)&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;기억하라, 만약 당신이 그 본질이 노예적인 것을 자유라고 생각하고, 당신 것이 아닌것을 당신 것이라고 생각하면, 당신은 족쇄가 채워지고 비참해질 것이다. 신과 타인을 모두 비난할 것이다. 하지만, 당신이 당신이 가진것만을 당신것이라고 생각하고, 다른 사람이 소유하고 있는 것을 진정 당신것이 아니라고 생각한다면, 아무도 당신을 강제하거나 멈출 수 없을 것이다. 당신은 누구도 비난하거나 비판하지 않을 것이다. 당신의 의지에 반하는 것을 하지 않을 것이다. 적도 없을 것이고 누구도 당신에게 해를 끼치지 못할 것이다. 왜냐하면 어떤 해악도 당신에게 영향을 줄 수 없으니.&lt;br /&gt;
 에픽테투스&lt;/p&gt;
@@ -13,7 +227,7 @@
     &lt;li&gt;푸앵카레: 푸앵카레가 가우스의 정규분포곡선을 쓰지 않으려고 하는 이유는 미래를 예측할 수 없다는 것을 알기 때문이다. 어떠한 완벽한 모델과 무한한 데이터로도 미래를 예측할 수는 없다. 푸앵카레는 이를 카오스 이론과 삼체 운동을 통해 보여주려고 했다. 푸앵카레는 자연과 세상 그 자체가 너무나도 복잡한 복잡계이기 때문에 입력과 출려간의 관계를 파악하는 것 자체가 불가능하다고 생각했다.&lt;/li&gt;
     &lt;li&gt;하이에크: 하이에크는 물리학에서 사용하는 방법론을 경제학에서 사용하는 것을 터무니 없는 것이라고 생각했다. 사람이 관여되는 모든 일들에서 미래를 예측할 수 없다. 왜냐하면 사람의 행동을 예측할 수 없기 때문이다. 사람은 그 자체로 불확실하다. 심지어 본인 스스로도 1분 뒤에 자기가 어떤 생각을 하게 될지 알 수는 없다.&lt;/li&gt;
     &lt;li&gt;에코의 반서재: 지식이 불완전하다는 것을 기억해야 한다. 읽은 책보다 읽지 않은 책이 더 중요 하다. 내가 알고 있는 것보다 내가 모르는 것들에 대한 고려가 되어야 한다. 지식을 통해서 무엇인가를 예측하고 스토리텔링하고 인과관계를 만들려고 하는 인간의 본성을 유의해야 한다. 특히, 미래를 예측하는 것이 불가능하다는 것을 명확하게 깨닫고 있어야 한다.&lt;/li&gt;
-    &lt;li&gt;칠면조 문제: 과거 데이터로 미래를 절대 예측할 수 없다. 귀납적 인 추론은 인지적으로 세심하게 다뤄야 한다. 1000일까지는 매일매일 먹이를 주는 똑같은 손이 1001일째 추수감사절이 되느날 칠면조의 목을 조를 수도 있다. 세상을 살아가면서 칠면조가 되면 안된다. 이 부분을 제일 경계해야 한다.&lt;/li&gt;
+    &lt;li&gt;칠면조 문제: 과거 데이터로 미래를 절대 예측할 수 없다. 귀납적인 추론은 인지적으로 세심하게 다뤄야 한다. 1000일까지는 매일매일 먹이를 주는 똑같은 손이 1001일째 추수감사절이 되느날 칠면조의 목을 조를 수도 있다. 세상을 살아가면서 칠면조가 되면 안된다. 이 부분을 제일 경계해야 한다.&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
@@ -136,417 +350,4 @@ now hundreads of meditation app to help you practice. So how is waking up differ
 
 &lt;p&gt;It’s about confronting some of the deepset questions in human life. For instance, How can we be truly happy when although we experience quickly fades and disappeared. when every desires we satisfied or goals we achieved reveals itself as the kind of mirage. Have you noticed this? Have you noticed you never quite arrive? What is the connection between being happier and more fufilled and being a genuinely good person. How can we make sense of the fact that many great meditation teachers have created tremendous harm for their students and just how good could human life become if we all got a head screw on straight? How many of the worlds problem will be solved by each of us becoming better people individually? How many require systemtic cultural change what’s the connection between seeing reality clearly and being free psychologicliy? How is human suffering related to not understanding what is truth about natures of our mind? Is there a connection? How does any insight along this lines relate to our growing scientific understanding of the world?&lt;/p&gt;
 
-&lt;p&gt;I think these are some of the most important questions human beings ever asked. So waking up isn’t just mental fitness app in the usual sense. The point isn’t just add another arrow to your quiver in your bed all for self-improvements. Of coures, it is nothing wrong with dieting and getting in shape and tracking your sleep and setting goals or doing any of other things that people do to improve their lives. But I have much deeper interest myself and I have much deeper hopes for you. The point of waking up is to realize specific things about the nature of your mind that very few peopl ever realized and to be changed by this discoveries. And then the point is to integrate this new ways of seeing and being with a growing commitment to making the world better than it was yesterday. So the goal of waking up is to offer a scientifically and phillosophically sound resonponse to the mysteries of our being in the world. For me this journey starts years ago, and I’m still on it and I built waking up so that you can join me anytime you like.&lt;/p&gt;</content><author><name>Sony</name></author><category term="명상" /><category term="2022년 8월" /><summary type="html">샘해리스가 말하는 명상 There are many approaches to meditation. There are thousands upon thousands books on the topic now hundreads of meditation app to help you practice. So how is waking up different? Well, for someone say that everything that is in waking up is here because I think it helps you understand the nature of your mind and experience greater freedom in your life. But waking up is not a conventional meditation app. Whatever your expectation were in downloading the app, its purpose is to radically transform your sense of what life is about.</summary></entry><entry><title type="html">2022년 8월의 일기</title><link href="http://localhost:4000/blog/2022/08/02/8%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0.html" rel="alternate" type="text/html" title="2022년 8월의 일기" /><published>2022-08-02T06:00:00+09:00</published><updated>2022-08-02T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/08/02/8%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/blog/2022/08/02/8%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0.html">&lt;h2 id=&quot;8월-1일-월&quot;&gt;8월 1일 (월)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;8월달의 시작. 새롭게 합류한 프로젝트의 결과가 잘 될 수 있게 기여해야 한다.&lt;/li&gt;
-  &lt;li&gt;여의도 - 아현식자재마트&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-2일-화&quot;&gt;8월 2일 (화)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;empirical rule: 전날에 당류를 많이 먹으면 아침에 몸이 피곤하다.&lt;/li&gt;
-  &lt;li&gt;굉장히 오랜만에 누군가와 직접적으로 같이 하게 될 일에 대해서 대화를 하게 되었다. 오랜만에 느낀 같은 문제를 같이 해결해나간다는 느낌에서 오는 유대감. 예전에 이게 큰 것이라고 생각하지 않았는데, 오랫동안 혼자 일하고 나니 이런 사소해 보일 수 있는 것들도 사실은 살면서 느낄 수 있는 몇 안되는 좋은 경험이라고 생각이 든다.&lt;/li&gt;
-  &lt;li&gt;비슷한 분야이지만 다른 일을 하는 경험 많은 새로운 사람들과 대화한 날.&lt;/li&gt;
-  &lt;li&gt;내가 몰랐던 부분과 현실에 대해서 많이 듣는 것은 실질적인 도움도 되지만 그 시간안에 있는 것 자체가 즐거움을 준다.&lt;/li&gt;
-  &lt;li&gt;그래도 과거에 남들보다 열심히 살아 보려고 노력했던 것이 어느정도는 현재의 나에게 도움을 주는 것인가?&lt;/li&gt;
-  &lt;li&gt;여수 - 화치공장 - 양치… - 김복남 맥주&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-3일-수&quot;&gt;8월 3일 (수)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;세상은 생각보다 남을 이용해 자기의 이익을 최대화 하려는 사람들이 많다. 사람을 볼때 나에게 하는 말이 아니라 그 사람이 자기 이익과 관련되어 하는 행동들을 보고 그 사람을 가늠 해야 한다. 기본적으로 모든 사람들은 높은 확률로 선하다고 생각 한다. 소수의 사람들 때문에 다수의 좋은 사람일 가능성이 높은 사람들도 모르는 상태에서는 100% 솔직하고 투명하게 대하지 못한다는 것이, 이 소수가 사회와 공동체에 끼치는 가장 큰 피해가 아닐까 생각이 든다.&lt;/li&gt;
-  &lt;li&gt;내가 누군가에게 이용당했다는 사실에서 오는 분노와 다른 좋은 사람들에게 피해를 줄 수도 있다는 걱정이 합쳐진 날. 너무 강력해서 나의 attention이 의식과 생각에 빠지는 것을 알면서도 전혀 컨트롤 하지 못한 날. 그래도 옆에 있는 사람과의 대화를 통해 어느정도 평정심을 찾을 수 있었다.&lt;/li&gt;
-  &lt;li&gt;여수 - 마양설 - 여의도 오복수산 - 더현대&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-4일-목&quot;&gt;8월 4일 (목)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사람으로 사는 것은 즐거움은 사람이 올바른 일들에 있다. 여기서 올바른 일들이란 다른 사람에게 친절하게 대하는 것, 감정의 동요를 거부하는 것, 신뢰를 줄 수 있는 것, 자연의 질서에 생각하고 일어나는 모든 일들과 이것을 일치시키는 것.&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;마르쿠스 아우렐리우스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;관심사와 사고가 오버랩 되는 부분이 있는 + 서로에 대해 많은 것을 잘 모르는 사람과 같이 대화하는 것 = 즐거움.&lt;/li&gt;
-  &lt;li&gt;내가 가지고 있는 역량으로 이 프로젝트에서 기여 할 수 있는 부분/기여하고 싶은 부분은 이미 어느정도 잘 진행되고 있는 포장 &amp;amp; 관리가 아니라 실질적인 프로덕트와 서비스의 “진짜 퀄리티”를 높이는 것.&lt;/li&gt;
-  &lt;li&gt;요즘 새로운 환경에 들어오게 되면서 습관 달성률이 현저히 낮아졌다. 내일부터 다시 제대로 시작하자. begin agin.&lt;/li&gt;
-  &lt;li&gt;여의도 - IFC 영풍문고&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-5일-금&quot;&gt;8월 5일 (금)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;현 내 수준에서 볼 때 쉽지는 않으면서 약간은 챌린징한 일을 하는 것이 집중력과 몰입하기에는 제일 좋은 것 같다.&lt;/li&gt;
-  &lt;li&gt;나는 딱히 아무것도 기여하지 않고 있는데 댓가는 받는 상황을 상상했을때 뭔가 기분이 좋지 않다.&lt;/li&gt;
-  &lt;li&gt;모방 욕구를 막는 방법 중의 하나는 나의 가치체계의 &lt;strong&gt;우선순위&lt;/strong&gt;를 명확하게 확립하는 것. 그래야 어떠한 상황에서 모방하지 않고 내 진짜 욕구를 선택할 수 있다. 그렇지 않으면 모방 욕구에 따라 모방의 모델이 욕구하는 것을 나도 욕구하게 된다.&lt;/li&gt;
-  &lt;li&gt;딱히 어떤 삶에 대한 욕구가 없다고 느껴진 날. 나는 무엇을 위해서 사는가.&lt;/li&gt;
-  &lt;li&gt;여의도 - 여의도공원&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-6일-토&quot;&gt;8월 6일 (토)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;르네 지라르의 모방욕구를 실제 1.5살의 아기의 행동을 관찰하면서 실감한날.&lt;/li&gt;
-  &lt;li&gt;종로 스타벅스 R - 영등포구청&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-7일-일&quot;&gt;8월 7일 (일)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;특정 논문을 읽으면서 나와 있는 여러가지 기본적인 내용들이 100% 이해 되지 않는게 보여서 찾아서 공부. 이렇게 하나씩 제대로 알아가는 과정이 몰입도 잘되고 과정 안에 즐거움도 있다.&lt;/li&gt;
-  &lt;li&gt;종로 스타벅스 R&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-21일-일&quot;&gt;8월 21일 (일)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;한동안 일기를 쓰지 못했다. 그 만큼 내 삶에 정해놓은 루틴을 실천할 만큼의 여유가 없었던 것 같다. 새로운 환경에 적응하고, 그 환경에서 나를 입증하려는 본능이 다른 모든 것을 제쳐 두고 특정한 일에만 몰두하게 한다. 장단점이 있지만, 내가 유지해온 좋은 루틴들을 실천하지 않는 것은 나쁜 영향이다. 앞으로 다시 좋은 습관과 루틴을 꾸준히 실천할 수 있게 노력하자.&lt;/li&gt;
-  &lt;li&gt;신체건강 #1: 근육량을 높이기 위한 꾸준한 홈 트레이닝&lt;/li&gt;
-  &lt;li&gt;신체건강 #2: 건강한 식단 (샐러드, 야채, 양질의 단백질과 지방, 당류 및 정제 탄수화물 최소화)&lt;/li&gt;
-  &lt;li&gt;정신건강 #1: 꾸준한 명상 및 샘해리스 웨이킹업의 좋은 내용들 집중해서 듣는 것.&lt;/li&gt;
-  &lt;li&gt;정신건강 #2: 꾸준한 독서 및 나쁜 컨텐츠를 멀리하는 것.&lt;/li&gt;
-  &lt;li&gt;필요한 소프트 에셋을 개발하기 위해 최대한 노력하는 것. S급의 능력은 세계 최고 수준이 되기위해 높여야 한다.&lt;/li&gt;
-  &lt;li&gt;청량리 - 여의도 트윈타워 - 파트원 투썸&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8월-28일-일&quot;&gt;8월 28일 (일)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;현재에 느끼는 경험을 더 명료하게 느끼는 것. 생각에 빠져있음을 자각하는 것. 세속적인 행복의 방향성과는 수직적인 방향성도 존재한다는 사실에 대한 깨달음.&lt;/li&gt;
-  &lt;li&gt;그래도, 미래에 대한 걱정과 특정 종류의 희망과 기대는 계속 남아있어 그것을 위한 현재의 행동을 생각하게 한다.&lt;/li&gt;
-  &lt;li&gt;광화문 - 명동 하이디라오 - 종로 R - 노랑통닭&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Sony</name></author><category term="일기" /><category term="2022년 8월" /><summary type="html">8월 1일 (월) 8월달의 시작. 새롭게 합류한 프로젝트의 결과가 잘 될 수 있게 기여해야 한다. 여의도 - 아현식자재마트</summary></entry><entry><title type="html">공급망관리(Supply Chain Management, SCM) 프로세스</title><link href="http://localhost:4000/blog/2022/07/16/%EA%B3%B5%EA%B8%89%EB%A7%9D%EA%B4%80%EB%A6%AC(Supply-Chain-Management)-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.html" rel="alternate" type="text/html" title="공급망관리(Supply Chain Management, SCM) 프로세스" /><published>2022-07-16T00:00:00+09:00</published><updated>2022-07-16T00:00:00+09:00</updated><id>http://localhost:4000/blog/2022/07/16/%EA%B3%B5%EA%B8%89%EB%A7%9D%EA%B4%80%EB%A6%AC(Supply-Chain-Management)-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/blog/2022/07/16/%EA%B3%B5%EA%B8%89%EB%A7%9D%EA%B4%80%EB%A6%AC(Supply-Chain-Management)-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.html">&lt;h1 id=&quot;공급망관리-프로세스&quot;&gt;공급망관리 프로세스&lt;/h1&gt;
-
-&lt;p&gt;실제 팀별 현업들의 업무를 통해 파악하는 실제 공급망관리 프로세스에 대한 비유적인 설명.&lt;/p&gt;
-
-&lt;h2 id=&quot;회사의-구조&quot;&gt;회사의 구조&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;바나나 회사&lt;/li&gt;
-  &lt;li&gt;바나나 회사 티셔츠 사업부 상무&lt;/li&gt;
-  &lt;li&gt;티셔츠 사업부 해외영업팀 5개 - 미국, 중국, 유럽, 일본, 남미&lt;/li&gt;
-  &lt;li&gt;티셔츠 사업부 마케팅팀&lt;/li&gt;
-  &lt;li&gt;티셔츠 사업부 SCM팀&lt;/li&gt;
-  &lt;li&gt;티셔츠 사업부 생산팀&lt;/li&gt;
-  &lt;li&gt;티셔츠 사업부 물류팀&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;해외영업-미국팀---홍길동-사원&quot;&gt;해외영업 미국팀 - 홍길동 사원&lt;/h3&gt;
-&lt;p&gt;바나나 회사에 다니는 해외영업부서의 북미팀 홍길동 사원은 이번달(2022년 7월) 1일부터 영업 업무를 하기 시작했다. 바나나 회사의 티셔츠 사업부는 100여가지 이상의 다양한 품목의 바나나 티셔츠를 파는일을 한다. 홍길동이 해야하는 일은 미국 서부에 위치한 약 100개의 고객들과의 판매거래를 성사시키고 향후 수요를 예측하는 일이다. 바나나 회사는 항상 연초에 사업계획을 세운다. 이 사업계획은 올해 12개월 동안 각 팀별로 월간 목표 판매수량이 된다. 북미팀의 월간 목표 판매량은 10,000개이다. 이번달 홍길동 사원의 구체적인 업무는 크게 다음으로 나뉠 수 있다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;전월에 판매계획을 통해 발생한 주문들의 관리. (고객서비스 - 언제 주문한 제품을 받을 수 있는지 등의 문의와 관련된 고객대응)&lt;/li&gt;
-  &lt;li&gt;차월(2022년 8월)에 본인이 담당하는 100개의 고객들에게 바나나 티셔츠를 팔기 위한 영업활동을 하는 것. (판매계획)&lt;/li&gt;
-  &lt;li&gt;차차월 부터 3개월간(2022년 9월~11월)에 각 고객이 얼만큼의 티셔츠를 살것인지 수요예측을 하는 것. (수요계획)&lt;/li&gt;
-  &lt;li&gt;2,3에서 얻은 결과를 자료로 정리하여 취합 담당자에게 송부하는 것.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;이때 각 업무를 더 구체적으로 들여다 보면 다음의 사항들을 고려해야 한다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;고객서비스의 경우 고객이 언제 본인의 주문한 것을 받을 수 있는지 물어보면 다른 팀의 담당자들(SCM팀, 마케팅팀, 생산팀, 물류팀 등)과의 유선연락을 통해 상황을 파악해야 한다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;차월 영업활동을 할 때 항상 전체 팀내의 배분된 물량을 체크하면서 판매활동을 해야 한다. 팀에 10,000개가 할당 되었는데 어떤 큰 고객이 나타나 15,000개를 평균시세보다 1.2배에 산다고 해도 그걸 바로 수락할 수 없다. 전체 팀내의 영업활동이 이뤄지는 고객들간의 관계가 장기적으로 훨씬 중요하기 때문에 이러한 상황에서의 의사결정은 영업팀장님과의 회의를 통해 조율이 되어야 한다. 반대로 이번달 다른 팀원들의 판매성과가 좋지 않아 팀내 목표 판매 물량을 충족시키지 못할 확률이 높을때 본인의 고객들이 추가 구매의 여지가 있었다면 이들을 통해 기존보다 더 높은 수준의 물량을 특정 가격선까지 디스카운트를 적용해 판매해야 할 수도 있다. 즉, 홍길동의 2와 관련된 구체적인 업무목표는 해당 월에 팀내에 배분된 물량이 최대한 좋은가격에 팔릴 수 있게 팀의 일원으로 일조하는 것이다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;차차월의 미래 수요 예측은 고객들도 쉽게 하지 못한다. 따라서 이것에 대해서는 고객이 귀찮거나 대답을 안해주기 때문에 구체적인 괜찮은 예측값을 받는 것 자체가 쉽지 않다. 이것을 본인과 고객과의 관계 및 추후 판매되는 제품에 대한 가격 협상의 여지 등 여러가지 영업 노하우를 이용하여 최대한 구체적인 수요예측 값을 받는 것이 영업사원의 하나의 능력이다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;scm팀---이성계-사원&quot;&gt;SCM팀 - 이성계 사원&lt;/h3&gt;
-&lt;h3 id=&quot;생산팀---김유신-사원&quot;&gt;생산팀 - 김유신 사원&lt;/h3&gt;
-&lt;h3 id=&quot;마케팅팀---왕건-사원&quot;&gt;마케팅팀 - 왕건 사원&lt;/h3&gt;</content><author><name>Sony</name></author><summary type="html">공급망관리 프로세스</summary></entry><entry><title type="html">2022년 7월의 일기</title><link href="http://localhost:4000/blog/2022/07/02/7%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0.html" rel="alternate" type="text/html" title="2022년 7월의 일기" /><published>2022-07-02T06:00:00+09:00</published><updated>2022-07-02T06:00:00+09:00</updated><id>http://localhost:4000/blog/2022/07/02/7%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/blog/2022/07/02/7%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0.html">&lt;h2 id=&quot;7월-1일-금&quot;&gt;7월 1일 (금)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;행복해지는 것과 우리가 가지지 않은 것을 갈망하는 것을 동시에 하는 것은 불가능 하다. 행복은 원하는 것을 모두 갖고 있는 모든게 충족된 상태이다. 행복에 배고픔이나 목마름이 있으면 안된다.     &lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;에픽테투스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;벌써 올해 1년의 반이 정확하게 지났다. 지난 6개월 동안에 시간을 어떻게 보냈는지 한번 되돌아보고 앞으로의 행동을 교정해야 한다.&lt;/li&gt;
-  &lt;li&gt;어떠한 복잡한 시스템을 처음부터 하나하나씩 만들어 나가는 것에 큰 흥미를 느끼는 것 같다. 시스템을 구성하는 컴포넌트들을 하나하나 이해하고 각 컴포넌트들 간의 상호작용과 전체 시스템 안에서의 개별역할들 등을 고려하는 것 등 생각할 것은 많지만 하나라도 대충하고 싶거나 하기 싫지가 않다. 완벽하고 훌륭한 시스템이라는 나만의 하나의 예술작품을 만드는 느낌이 들어서 그런가?&lt;/li&gt;
-  &lt;li&gt;신촌 복성각 - 롯데리아 - 탑건2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-2일-토&quot;&gt;7월 2일 (토)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;부와 사회적 위치에 대한 욕구만이 우리를 저하시키고 복종시키는 것이 아니다. 평화, 여가, 여행, 그리고 배움에 대한 욕구도 그렇다. 어떤 외부적인 것인지는 중요하지 않다. 우리가 가치를 두는 것들이 우리를 다른 것에 예속시킨다. 우리가 마음을 두는 그곳이 바로 우리를 막는 장애물이 존재하는 곳이다.  &lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;에픽테투스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;현재에 더 집중하는 연습&lt;/li&gt;
-  &lt;li&gt;주어진 시간을 어떻게 보내야 하는지 고민하기 위해 사용해야 하는 시간들은 충분한 가치가 있다. 10분을 고민해 나머지 50분을 만족스럽게 시간을 보내는 것이 1시간을 그저 그렇게 보내는 것보다 훨씬 가치있다.&lt;/li&gt;
-  &lt;li&gt;서울 둘레길 3코스 (광나루~고덕) - 함흥본가면옥 - 여의도 폴바셋 - 외백&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-3일-일&quot;&gt;7월 3일 (일)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;당신은 주변 환경에게 당신을 화나게 할 힘을 주어서는 안된다. 왜냐하면 환경들은 우리의 감정을 전혀 신경쓰지 않기 때문이다.  &lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;마르크스 아우렐리우스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;독서의 즐거움&lt;/li&gt;
-  &lt;li&gt;목표를 설정하고 추구하는 가치를 재평가하고 그것을 누군가와 대화하는 것의 중요성.&lt;/li&gt;
-  &lt;li&gt;크린토피아 - 마포역 맥도날드 - 시청 스타벅스 - 광호문 포비&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-4일-월&quot;&gt;7월 4일 (월)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;패스트푸드를 감자튀김과 콜라 없이 먹으면 소식과 식단의 종류 제한을 동시에 할 수 있기 때문에 시간과 비용을 생각했을때 나쁘지 않은 한끼라고 생각한다. 하지만 뭔가 꺼림칙한 느낌은 지울 수 없다. 더 좋은 선택지는 없을까?&lt;/li&gt;
-  &lt;li&gt;목표의식이 없는 상태로 있으면 시간을 낭비하는 게 더 쉽다. 어떤 목표를 달성하고 싶은지를 명확하게 하는게 좋다. 하루의 계획을 미리 세워 놓는 것은 더더욱 좋다.&lt;/li&gt;
-  &lt;li&gt;여의도 - IFC 맥도날드 - 공덕 맘스터치&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-5일-화&quot;&gt;7월 5일 (화)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;목표롤 달성하기 위해 무엇을 해야 할지 명확하게 알고 있으면서 실천에 옮기지 못할때는 실천력을 단련하는 것이 필요하다.&lt;/li&gt;
-  &lt;li&gt;일상생활에서 느낄 수 있는 순간순간들과 현재 내가 운이 좋아서 가질 수 있는 모든 것들에 대해 감사하고 그 순간에 느껴지는 감각과 현상들을 있는 그대로 최대한 느낄 수 있게 노력하는 것.&lt;/li&gt;
-  &lt;li&gt;계림원 - 올드상해&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-6일-수&quot;&gt;7월 6일 (수)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;철학을 시작하기 위한 중요한 장소는 한 사람을 지배하는 원리에 대한 명확한 인식이다.&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;에픽테투스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;최근에 필즈상을 수상한 허준 교수에 대한 글을 인상 깊게 읽었다. 자기가 원하는 것을 계속해서 찾으려고 어렸을때 부터 부단히 노력했던 것 같은데 결국에 현재는 자기가 갖고 있는 재능이 빛날 수 있고 동시에 본인이 진짜로 하고싶은 일을 찾은 모습이었다. 유전자 및 가정환경 &amp;amp; 성장환경들이 다른 일반적인 사람들보다 훨씬 좋은 것은 사실이지만 단지 그것만으로는 현재의 모습을 설명하지 못한다고 생각한다. 나머지 팩터들 중 큰 부분은 어렸을때 부터 계속해서 하고싶은 일을 찾아 나가려고 했던 삶에 대한 태도가 아니었을까.&lt;/li&gt;
-  &lt;li&gt;뭔가에 쫓기거나 성급할 필요 없다. 과거에 가졌던 결과를 많이 내야 하는 생각을 점점 버릴 수 있게 된 것 같다. 어떠한 결과가 큰 임팩트를 갖기 위해서 중요한 것은 양이 아니라 퀄리티 라는 것을 이제는 명확하게 말할 수 있다.&lt;/li&gt;
-  &lt;li&gt;커리어든 관계든 투자든 건강이든 그 무엇이든 간에 장기적인 관점에서 생각하는 사람은 남들에 비해 굉장히 큰 상대우위를 갖게 된다고 생각한다. 누군가가 지혜란 장기적인 관점에서 생각하고 그에 따라 행동하는 것이라고 했는데 굉장히 좋은 말이라고 느꼈다.&lt;/li&gt;
-  &lt;li&gt;버거킹 - 마포 마라정통회관 - 연남동&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-7일-목&quot;&gt;7월 7일 (목)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;요즘들어 습관 달성률이 약간씩 떨어지는 것 같다. 중요한 것은 무엇인가를 꾸준히 하는 것이다.&lt;/li&gt;
-  &lt;li&gt;훌륭한 것을 만들기 위해서는 사소한 것 하나라도 제대로 해야 한다.&lt;/li&gt;
-  &lt;li&gt;신촌 교촌치킨 - 호밀밭&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-8일-금&quot;&gt;7월 8일 (금)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;만약 어떤 사람이 당신의 신체를 지나가는 사람에게 줘버린다면 당신은 화가 날 것이다. 하지만 당신의 정신을 다른 사람에게 주고 그들이 그것을 남용하여 정신이 방해받고 골치아프게 만든다. 그렇게 하는 것에 아무 부끄러움이 없는가?&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;에픽테투스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;나의 시간과 에너지를 어디에 써야 할지 분명하게 결정해야 한다. 이것들을 낭비하는 것은 최악.&lt;/li&gt;
-  &lt;li&gt;몇 분 후 몇 시간 후가 아니라 최소 1년 이상의 장기적인 관점으로 생각하는 훈련.&lt;/li&gt;
-  &lt;li&gt;회현 유가 - 명동 - 충무로 - 동대입구 태극당&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-9일-토&quot;&gt;7월 9일 (토)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;나에게 당신이 누구와 어울리는지 알려주기만 하면 당신이 누구인지 말해줄 수 있다. 또한 만약 당신이 시간을 어떻게 쓰는지 내가 안다면, 당신이 어떤 사람이 될 것인지도 말해줄 수 있다.&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;괴테&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;꾸준하고 성실하게 노력하면 어떠한 원하는 결과를 얻을 것이라는 믿음&lt;/li&gt;
-  &lt;li&gt;공원 같이 사람이 많은 지나다니는 곳에서 산책을 할 때 집중해서 샘 해리스의 명상 앱의 내용을 듣는 것이 굉장히 어렵다. 그만큼 나의 집중력의 낮음과 의식에 나타나는 새로운 내용에 빠지는 것에 얼마나 취약한지를 보여주는 단적인 예.&lt;/li&gt;
-  &lt;li&gt;빵을 집다 - 공덕 아펠가모 - 양평역 블루밍 APT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-10일-일&quot;&gt;7월 10일 (일)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;다른 사람을 통해 좋은 자극을 받는 것은 나에게 굉장히 발전적인 일이다.&lt;/li&gt;
-  &lt;li&gt;더 좋은 효율적이고 임팩트 있는 행동들만 골라해도 좋지만 그게 아니더라도 시간낭비 하지 않을 수 있는 디폴트 행동양식을 따라가면 최소한 후회하지 않게 시간을 보낼 수 있다.&lt;/li&gt;
-  &lt;li&gt;청량리 - 청량리 KFC - 을지로 센터원 커피빈 - 인천집&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-11일-월&quot;&gt;7월 11일 (월)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;무엇인가를 제대로 했다고 “느꼈을때” 얻는 스스로에 대한 뿌듯함. 건강한 식단을 먹었다거나, 깊은 이해를 기반으로 어떤 것을 만들어 냈다거나, 하지 말아야 하는 안좋은 습관을 하지 않았거나. 이러한 경험들이 미래에 단기적으로는 하기 쉽지 않은 좋은 행동들을 하게 만들어주는 인센티브 역할을 한다.&lt;/li&gt;
-  &lt;li&gt;나의 모든 면들을 객관화 해서 볼 수 있는 능력을 길러야 한다.&lt;/li&gt;
-  &lt;li&gt;Rethinking, 다양한 곳에 있는 증거들을 면밀히 검토하고 모아서 진실을 찾으려고 하는 태도.&lt;/li&gt;
-  &lt;li&gt;습관적인 확률적 사고.&lt;/li&gt;
-  &lt;li&gt;여의도 - 여의도 공원&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-12일-화&quot;&gt;7월 12일 (화)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;우리는 우리가 싫어하는 사람들에게 인상적으로 보이기 위해 우리가 필요 없는 것을 구매한다&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;파이트클럽&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;나에게 소중한 사람일 수록 행동과 말을 하기 전에 한번 더 생각해야 한다.&lt;/li&gt;
-  &lt;li&gt;내가 제어할 수 있는 것조차 스스로 제어하지 못한다면 내가 제어할 수 없는 것에 대한 영향력을 더 크게 받을 수 밖에 없다. 스스로 제어할 수 있는 것은 제어할 수 있는 행동력과 의지력을 훈련해야 한다.&lt;/li&gt;
-  &lt;li&gt;여의도 - 맘스터치 - 또래오래 - 경의선숲길 - 홍대 - 중부발전소&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-13일-수&quot;&gt;7월 13일 (수)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;당신의 정신은 당신이 생각에 자주 품고있었던 것들의 모습을 갖게 될 것이다. 왜냐하면 인간의 정신은 자신의 생각들에 의해 색칠되기 때문이다.&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;마르쿠스 아우렐리우스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;최근 들어서 오늘 습관을 가장 많이 하지 못한 날. 이로 인해 기분이 굉장히 찝찝하고 별로다. 지나간 과거는 어쩔 수 없으니 지금 이 시간부터라도 할 수 있는 습관을 최대한 하고 잠자리에 들어야 한다.&lt;/li&gt;
-  &lt;li&gt;미리 세워놓았던 계획과 행동양식대로 행동하지 못하고 내가 기본적으로 태어날때 부터 갖고 있는 습성과 무릎반사와 같은 방식으로 행동하는 것을 스스로 지켜보는 것은 굉장히 불쾌하다. 계획과 실제 행동사이의 behavior gap을 최대한 좁힐 수 있게 열심히 노력해야 한다.&lt;/li&gt;
-  &lt;li&gt;파네트 - 이대/대흥/공덕&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-14일-목&quot;&gt;7월 14일 (목)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;아침일찍 습관들을 많이 한 뿌듯함을 기반으로 보낸 전반적인 기분 좋은 하루.&lt;/li&gt;
-  &lt;li&gt;GraphQL의 뛰어남을 깨달은 날. 제대로 된 best practice를 알고 있지 못할 경우 개발시 시간도 많이 걸리고 완성했을때에도 오류가 나거나 쓸데없는 복잡성을 가지는 부분이 깔끔하게 만들어질 수 있다는 것이 인상적이었다.&lt;/li&gt;
-  &lt;li&gt;인생은 언제나 현재이고 현재는 언제나 자신이 정해놓은 어떠한 목표를 향해가는 과정 중의 일부분이다. 따라서 과정을 진정으로 즐기고 음미할 수 있는 것이 인생의 유일한 목표가 되어야 한다.&lt;/li&gt;
-  &lt;li&gt;서울역 - 후암동 곽대리꼼장어&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-15일-금&quot;&gt;7월 15일 (금)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;어떤 팀의 팀장님과 인터뷰를 진행한 날. 팀장님이 같이 하고 싶어했던 사람의 능력과 내가 갖고 있는 능력이 꽤 다르다는 것을 느꼈다. 그것을 솔직하고 캐쥬얼하게 전달해주시는 모습을 보고 괜찮은 분이신 것 같다는 느낌이 들었다. 나를 강력 추천해주시는 분이 없었다면 아마 그 자리에서 결정을 내리셨을 것 같은데, 그 분의 추천에 다시 한번 더 생각을 해보시겠다고 얘기하셨는데 내 느낌으로는 안될 가능성이 95% 이상이라고 생각한다. 만약에 5% 이하의 낮은 확률로 된다면 그 팀장님이 생각하고 있었던 목표를 이룰 수 있게 더 열심히 해야겠다는 생각이 들었다. 또한 나를 추천해주셨던 분의 명성과 신뢰도에도 흠이 가지 않고 피해가 가지 않도록 열심히 해야 한다고 느낀다. 어떻게 보면 큰 부담감으로 작용할 수도 있지만 긍정적으로 생각하면 내가 더 많이 배우고 성장할 수 있는 환경이 될 수도 있다고 생각한다.&lt;/li&gt;
-  &lt;li&gt;좋은 사람들과 보내는 행복한 시간&lt;/li&gt;
-  &lt;li&gt;DMC역 - 행신역&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-16일-토&quot;&gt;7월 16일 (토)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;1999일 기념으로 같이 즐거운 시간을 보낸 날.&lt;/li&gt;
-  &lt;li&gt;파네트 - 광화문 강남교자 - 종로타워 스타벅스 - 안국역 - 혜화역 하이디라오 - 낙산공원 - 동대문역사문화공원 - 청계천 - 광화문 - 시청&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-17일-일&quot;&gt;7월 17일 (일)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;현직 컨설턴트가 쓴 SCM 관련 서적을 읽었다. SCM 프로젝트를 하면서 부분적으로 그리고 내 스스로의 이해로만 알게된 내용들이 하나로 합쳐지고 잘못된 내용은 교정되고 전체적으로 잘 정리되었다. 어떠한 경험많은 전문가가 자신의 분야에서 쌓은 좋은 지식을 남들에게 공유해줄 수 있는 책을 쓴다는 것은 그 자체로 굉장히 고마운 일이라고 생각한다. 책이라는 것인 인류에게 있어 얼마나 중요한 것인지 깨닫게 되는 것과 동시에 나도 이렇게 받은 것들을 다른 사람들에게 되돌려 줄 수 있는 사람이 되어야 겠다는 생각이 동시에 든다.&lt;/li&gt;
-  &lt;li&gt;습관은 하루 이틀만 하지 않아도 다시 시작 하기가 상당히 어렵다.&lt;/li&gt;
-  &lt;li&gt;공덕 좋은아침 - 대흥역 미가 - 애오개역 깐부치킨&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-18일-월&quot;&gt;7월 18일 (월)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;오늘은 몇 가지 내가 지키고 싶었했던 것들을 지키면서 행동한 날이다. 그 행동을 통해 뭔가 엄청난 것을 결과로 얻은 것은 아니지만, 실행에 옮기기 어려운 행동이었지만 계획한대로 실행했다는 것 자체에 뿌듯함을 느낀다.&lt;/li&gt;
-  &lt;li&gt;누군가와 대화를 할때나 협상을 할때나 항상 common ground를 먼저 찾아서 그것을 기반으로 이야기를 전개해 나가는 전략이 굉장히 좋게 생각된다. 7가지 습관에서도 나온 것처럼 우리편과 적으로의 프레임이 아니라 서로 같은 편으로서 윈윈의 관계를 추구하는 것이 더 좋지 아니한가?&lt;/li&gt;
-  &lt;li&gt;파네트 - 치즈밥 이슈 - 우리동네 양조장&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-19일-화&quot;&gt;7월 19일 (화)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;당신의 자만심 가득찬 의견들은 모두 던져버려야 한다. 사람은 본인이 이미 안다고 생각하는 것을 배우는 것은 불가능하다. &lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;에픽테투스&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;내일 있을 SCM 체계에 대한 발표 준비. 오랜만에 긴장되는 발표가 될 것 같다. 긴장될 것 같으면서 한편으로는 재미도 있을것 같은 느낌이 든다. 언제 내가 이런 낯선 사람들 앞에서 이런 내용을 가지고 발표를 해보겠는가?&lt;/li&gt;
-  &lt;li&gt;내용을 이해하는 것은 자신있는데 이것을 구두로 설명하여 전달하는 것은 자신이 있다고 생각이 들지 않는다. 내용을 잘 전달하는 커뮤니케이션과 관련된 연습을 따로 해야 할까?&lt;/li&gt;
-  &lt;li&gt;필요한 상황이 되어서만 어떤 것을 학습하고 준비하는 것은 어쩔수 없는것 같다. 단기간에 현재에는 크게 중요하지 않게 느껴지지만, 더 장기간의 관점에서 나에게 굉장히 중요한 것을 꾸준히 학습하고 준비하는 것을 스스로 떠올려서 행동으로 실천해야 한다.&lt;/li&gt;
-  &lt;li&gt;여의도&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-20일-수&quot;&gt;7월 20일 (수)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;드디어 오늘 내 미래의 시나리오를 결정짓는 중요한 발표를 했다. 전반적으로 발표는 만족스럽게 한 것 같다. 그것보다 발표자리에서 있었던 분들이 같이 대화하는 것을 들으면서 이 분야의 전문가들이 내가 설명한 부분을 어떻게 이해하는지 그리고 어떻게 표현하는지를 지켜보는게 상당한 재미가 있었다. 결과적으로 지난주 금요일에 예측한 것 처럼 안될 가능성이 95% 아니 99% 이상이지만, 이 발표를 준비하는 과정 안에서 꽤 많은 것을 배울수 있었다고 생각한다.&lt;/li&gt;
-  &lt;li&gt;오늘 얘기를 같이 하면서 스스로를 포장하는 능력을 키워야 하는가? 라는 생각이 문득 들었다.&lt;/li&gt;
-  &lt;li&gt;여의도 - 경의선숲길 - 서강대역&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-21일-목&quot;&gt;7월 21일 (목)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;오늘 갑작스럽게 향후 나의 거처가 결정되었다. 신뢰를 주는 사람들에게 그 신뢰를 저버리지 않도록 맡은 일에 대해서 책임감을 갖고 더 열심히 해야한다.&lt;/li&gt;
-  &lt;li&gt;특정분야가 어떤 방식으로 움직이는지 이제 약간은 알 것 같다.&lt;/li&gt;
-  &lt;li&gt;여의도 - 염리동 생활맥주&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-22일-금&quot;&gt;7월 22일 (금)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;몇 번의 사소한 우연으로 일어났을수도 있는 경우들을 통해 너무 큰 오만감을 가지고 원칙을 무시하고 행동하게 되었다. 어느 상황에 있더라도 절대 오만하면 안되고 겸손함을 갖고 원칙을 가지고 현명한 의사결정을 통해 행동을 결정해야 한다.&lt;/li&gt;
-  &lt;li&gt;소중한 사람과 함께한 즐거운 시간&lt;/li&gt;
-  &lt;li&gt;여의도 IFC - 여의도 신승반점 - 신촌 장군주먹고기 - 광화문 상인정신&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-23일-토&quot;&gt;7월 23일 (토)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;오늘 오후 2시30분 부터 3일 단식 시작. 화요일 오후 2시30분까지&lt;/li&gt;
-  &lt;li&gt;좋아하는 사람과 자연에서 산책을 하며 대화하는 활동은 인생에서 느낄 수 있는 가장 행복한 일 중 하나.&lt;/li&gt;
-  &lt;li&gt;서울 둘레길 7코스 - 맛있는 칼국수 증산역&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-24일-일&quot;&gt;7월 24일 (일)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The distance between who you are by tendency moment to moment and who you want to be can be painful to experience&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sam Haris&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;열심히 인생을 사는 사람을 만나면서 받는 긍정적인 자극&lt;/li&gt;
-  &lt;li&gt;시간과 더불어 나의 attention이 가장 중요한 내 자산이라는 것을 기억해야 한다. 다른 쓸모없는 것에 쉽게 빼앗기면 안된다.&lt;/li&gt;
-  &lt;li&gt;청량리 - 청량리 김가네 - 종로타워 스타벅스&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-25일-월&quot;&gt;7월 25일 (월)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;오늘 오전시간에는 계획한대로 중요한 활동들을 실천한 후 큰 만족감을 얻었다.&lt;/li&gt;
-  &lt;li&gt;8월부터 12월까지의 5개월 동안 새로운 일을 하면서 어떤 일이 일어날것인지에 대한 기대반 설렘반의반 걱정반의반.&lt;/li&gt;
-  &lt;li&gt;여의도 - 광화문 화목순대국 - 태극당 본점&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-26일-화&quot;&gt;7월 26일 (화)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;일, 주, 월, 년, 5년, 10년의 계획을 명확하게 설정해놓고 업데이트 하면서 생활의 중심을 잡아야 한다.&lt;/li&gt;
-  &lt;li&gt;습관의 중요성. 계획한 대로 실천하는 능력의 중요성.&lt;/li&gt;
-  &lt;li&gt;처음에 아무리 어렵게 느껴지는 개념이라도 기본적인 내용부터 정확하게 이해해서 학습해 나간다면 특정 수준 이상의 이해도에 도달할 수 있다.&lt;/li&gt;
-  &lt;li&gt;염리동 군자네 - 공덕 계림원 - 경의선숲길 산책(공덕-연남동-신촌기차역-애오개)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-27일-수&quot;&gt;7월 27일 (수)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;어려운 개념으로 이루어진 라이브러리를 이해하여 성공적으로 적용했을때 얻을 수 있는 희열.&lt;/li&gt;
-  &lt;li&gt;현재 시점에 하기 쉬운 행동을 인내하고 하기 어려운 장기적 관점에서 긍정적인 행동들을 실천할 수 있는 능력&lt;/li&gt;
-  &lt;li&gt;파네트&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-28일-목&quot;&gt;7월 28일 (목)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;어렵거나 난해한 문제에 봉착했을때에는 문제와 관련된 기본 내용 중 제대로 이해하지 못한 부분이 있는지 다시한번 확인할 필요가 있다.&lt;/li&gt;
-  &lt;li&gt;우연히 교수님 만난날&lt;/li&gt;
-  &lt;li&gt;내가 가진 attention을 더 잘 쓰는 방법&lt;/li&gt;
-  &lt;li&gt;파네트 - 황금콩밭&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-29일-금&quot;&gt;7월 29일 (금)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;기존 프로젝트 공식적인 마지막 출근날. 총괄님과 같이 저녁을 먹으면서 얘기하며 후일을 도모.&lt;/li&gt;
-  &lt;li&gt;박찬욱 감독이 만드는 미쟝센이 이토록 매혹적이었나…&lt;/li&gt;
-  &lt;li&gt;한 두 번의 만남으로 사랑에 빠질 수 있는 것인지? 있다면 그것을 사랑이라고 말할 수 있는 것인지?&lt;/li&gt;
-  &lt;li&gt;여의도 - 진가와 - 신촌 아트레온 헤어질 결심&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-30일-토&quot;&gt;7월 30일 (토)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;넓고 층고높은 카페에서 읽고 싶은 글과 책들을 읽는 활동은 인생에서 할 수 있는 하나의 행복하고 만족스러운 활동.&lt;/li&gt;
-  &lt;li&gt;르네 지라르의 모방욕구에 대한 이론을 알 수 있는 책을 읽기 시작 - Wanted by Luke Burgis. 내가 욕구하는 것들을 내가 왜 욕구하는가? 진짜 내가 원하는 Authentic 한 욕구는 어떻게 파악할 수 있는가?에 대한 질문의 답을 찾을 수 있으면 좋겠다.&lt;/li&gt;
-  &lt;li&gt;파네트 - 종로 스타벅스 R - 파파존스&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7월-31일-일&quot;&gt;7월 31일 (일)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;오전에 비가 약간 왔지만 그래도 즐거웠던 둘레길 트래킹. 다음부터는 반드시는 벌레를 쫓을 수 있는 아이템을 장착하고 오리라.&lt;/li&gt;
-  &lt;li&gt;겉으로 보기에 위생과 내부상태가 깔끔하지 못헐 것 같은 음식적은 이제 가지 않는 것으로&lt;/li&gt;
-  &lt;li&gt;나와는 다른 세계와 세상에 사는 사람들을 모델로하는 모방욕구(Celebristan)와 나와 같은세계에 사는 사람들을 모델로하는 모방욕구를 구분해서 생각해야 한다.(Freshmanistan)&lt;/li&gt;
-  &lt;li&gt;서울둘레길 5코스 (사당-관악산입구) - 공덕역 탕후쿵푸 마라탕 - 종로 스타벅스 R - 서촌 체부동 잔치집&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Sony</name></author><category term="일기" /><category term="2022년 7월" /><summary type="html">7월 1일 (금)</summary></entry></feed>
+&lt;p&gt;I think these are some of the most important questions human beings ever asked. So waking up isn’t just mental fitness app in the usual sense. The point isn’t just add another arrow to your quiver in your bed all for self-improvements. Of coures, it is nothing wrong with dieting and getting in shape and tracking your sleep and setting goals or doing any of other things that people do to improve their lives. But I have much deeper interest myself and I have much deeper hopes for you. The point of waking up is to realize specific things about the nature of your mind that very few peopl ever realized and to be changed by this discoveries. And then the point is to integrate this new ways of seeing and being with a growing commitment to making the world better than it was yesterday. So the goal of waking up is to offer a scientifically and phillosophically sound resonponse to the mysteries of our being in the world. For me this journey starts years ago, and I’m still on it and I built waking up so that you can join me anytime you like.&lt;/p&gt;</content><author><name>Sony</name></author><category term="명상" /><category term="2022년 8월" /><summary type="html">샘해리스가 말하는 명상 There are many approaches to meditation. There are thousands upon thousands books on the topic now hundreads of meditation app to help you practice. So how is waking up different? Well, for someone say that everything that is in waking up is here because I think it helps you understand the nature of your mind and experience greater freedom in your life. But waking up is not a conventional meditation app. Whatever your expectation were in downloading the app, its purpose is to radically transform your sense of what life is about.</summary></entry></feed>

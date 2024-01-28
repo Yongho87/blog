@@ -1,0 +1,587 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE) | Knowledge for Growth</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE)" />
+<meta name="author" content="Sony" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="열역학 상태방정식으로 기액평형을 계산하는 구체적인 방법" />
+<meta property="og:description" content="열역학 상태방정식으로 기액평형을 계산하는 구체적인 방법" />
+<link rel="canonical" href="http://localhost:4000/blog/2024/01/28/EOS-VLE.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2024/01/28/EOS-VLE.html" />
+<meta property="og:site_name" content="Knowledge for Growth" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-01-28T21:30:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Sony"},"dateModified":"2024-01-28T21:30:00+09:00","datePublished":"2024-01-28T21:30:00+09:00","description":"열역학 상태방정식으로 기액평형을 계산하는 구체적인 방법","headline":"열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2024/01/28/EOS-VLE.html"},"url":"http://localhost:4000/blog/2024/01/28/EOS-VLE.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/feed.xml" title="Knowledge for Growth" /><meta name="google-site-verification" content="UDKc8BVPBm5ciVP9YjzI-8wT0R30WHW-_-3meiARcyo" />
+    
+    
+  </head>
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/blog/">
+          Knowledge for Growth
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/blog/about/">About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Sony</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Be calm and clear. Whenever you notice you are distracted, gently bring your attention back and be mindfulness.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:sssonly87@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+
+  
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc"></label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            <ul> 📂 전체 글 수 46개 </ul>
+      </li>
+      <li>
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                        <li><a href="/blog/categories/decision" class="">의사결정 (1)</a></li>
+                    
+                    
+                
+                    
+                    
+                        <li><a href="/blog/categories/health" class="">건강 (2)</a></li>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            </ul>
+      </li>
+  </ul>
+</nav>
+  
+
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE)">
+    <meta itemprop="description" content="열역학 상태방정식으로 기액평형을 계산하는 구체적인 방법">
+    <meta itemprop="datePublished" content="2024-01-28T21:30:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">열역학 상태방정식과 기액평형 (Equation of State, EOS, and Vapor Liquid Equilibrium, VLE)
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-01-28T21:30:00+09:00">January 28, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="열역학-상태방정식으로-기액평형을-계산하는-구체적인-방법">열역학 상태방정식으로 기액평형을 계산하는 구체적인 방법</h1>
+
+<h2 id="개요">개요</h2>
+
+<p>석유화학분야에서 사용하는 다양한 화학공정들 중에는 물질을 분리하는 공정들이 많다. 이 중에서 <code class="language-plaintext highlighter-rouge">증류탑</code>이라는 공정은 물질들이 같은 조건(=온도와 압력)에서 얼만큼 기체가 잘 되는지(=물질의 끓는점 차이, 상대 휘발도)의 특성에 따라서 물질을 분리하는 공정이다. 예를 들어, 물과 에탄올이 50%씩 섞여있는 액체 혼합물에서 물과 에탄올을 분리하고 싶은 경우, 이 혼합물을 어떤 통에 넣고 열을 가해 온도를 높이게 되면 기체상으로 된 물질들 중에는 더 기체가 잘되는 에탄올의 양이 물보다 더 많아진다. 이 기체를 냉각시켜 다시 액체로 만들면 에탄올의 농도가 50%보다 더 높은 액체 혼합물을 얻을 수 있다. 이러한 방식으로 여러번 끓이고 냉각시키는 것을 반복하면 에탄올의 농도를 거의 100% 가깝게 얻을 수 있다.</p>
+
+<p>위의 예에서 1:1로 섞여 있는 에탄올/물 액체 혼합물을 임의의 압력하에서 어떤 온도로 만들었을때, 그때 생성되는 기체내의 에탄올/물 혼합물의 비율과 액체내의 에탄올/물 혼합물의 비율을 미리 계산할 수 있는데, 이것을 위해 알아야 하는 것이 바로 열역학이다. 이 글에서 어떻게 이것이 계산되는지, 그 구체적인 과정을 설명한다.</p>
+
+<h2 id="1단계-열역학적-평형">1단계: 열역학적 평형</h2>
+
+<p><code class="language-plaintext highlighter-rouge">열역학적 평형</code>이라는 개념은 직관적으로 어떠한 조건하에서 물질들의 상태와 조성이 변하지 않고 안정적인 상태로 존재하는 것을 뜻한다. 위의 에탄올/물의 액체 혼합물을 통에 넣고 끓이는 예를 생각해보면, 처음에 통의 온도를 특정 온도로 상승시키고 유지하게 되면 이를 통해 만들어지는 기체 혼합물의 양과 조성, 액체 혼합물의 양과 조성이 처음에는 급격하게 변하다가 그 다음에는 어떠한 값으로 수렴하게 된다. 이 수렴된 상태를 열역학적 평형 상태라고 한다.</p>
+
+<p>이를 열역학적으로 표현하면, 기체와 액체가 구성하는 전체 시스템의 <code class="language-plaintext highlighter-rouge">깁스에너지의 변화량이 0</code>이라는 의미(열역학적으로 가장 안정적인 상태에서는 깁스에너지가 최소값을 갖기 때문에 = 아래로 볼록한 2차 함수의 최소값에서의 미분값이 0인 것과 동일한 논리) 이고 이것은 결국 기체 상과 액체 상의 깁스에너지 변화량이 같다는 것을 의미 한다. 깁스에너지는 <code class="language-plaintext highlighter-rouge">화학 포텐셜(chemical potential)</code>에 직접적으로 비례하고, 화학포텐셜은 <code class="language-plaintext highlighter-rouge">퓨가시티(fugacity)</code>라는 열역학적 성질과 비례한다. 최종적으로 열역학적 평형상태에서는 기체에서의 성분i와 액체에서의 성분i의 퓨가시티가 같다는 하나의 근본적인 식을 도출할 수 있다.</p>
+
+<p>이 퓨가시티는 열역학을 통해서 물질의 온도, 압력, 부피의 함수로 표현이 될 수 있고 수치적인 계산이 가능하다. 특정 상(phase)에서 물질의 종류를 알고, 온도와 압력이 결정되면 부피는 자동으로 결정된다. 따라서, 이 관계식, 즉 온도와 압력의 함수로 표현되는 부피를 정의해줘야 한다. 이때 사용해야되는 식이 바로 상태방정식이다.</p>
+
+<h2 id="2단계-각-상의-조성을-계산하는-구체적인-방법">2단계: 각 상의 조성을 계산하는 구체적인 방법</h2>
+
+<p><code class="language-plaintext highlighter-rouge">성분i의 기체 퓨가시티</code>는 기체 상의 i성분의 몰분율 yi, 기체 상의 전체압력, 기체 상의 혼합물 퓨가시티 계수의 곱으로 계산할 수 있다. <code class="language-plaintext highlighter-rouge">기체 상의 혼합물 퓨가시티 계수</code>는 해당 조건에서의 온도, 압력, 부피로 계산할 수 있는 대수식으로 표현 할 수 있다. 이때, 알고 있는 온도와 압력으로 부피를 계산하기 위해 상태방정식을 사용한다. <strong>이때 중요한 것은, <code class="language-plaintext highlighter-rouge">혼합물 퓨가시티 계수를 계산</code>하기 위해서는 순수물질의 상태방정식이 아니라 <code class="language-plaintext highlighter-rouge">혼합물의 상태방정식</code>을 사용해야 한다는 것이다</strong>. 혼합물의 상태방정식은 상태방정식의 종류(SRK, PR, IDEAL, …), 순수물질의 상태방정식에 포함되는 파라미터들, 반데르발스의 혼합 규칙(Mixing rule), 관련된 성분들의 2성분 상호작용 계수(binary interaction parameter/coefficient)들을 통해 얻을 수 있다. 이를 통해 기체 상의 혼합물 퓨가시티 계수를 계산하게 된다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">성분i의 액체 퓨가시티</code>는 액체 상의 i성분의 몰분율 xi, 액체 상의 온도에서의 포화증기압력, 액체 상의 혼합물 퓨가시티 계수의 곱으로 계산한다. <strong>이때 중요한 것은, <code class="language-plaintext highlighter-rouge">액체 상의 혼합물 퓨가시티 계수</code>는 기체와 같이 혼합물의 상태방정식으로는 계산할 수가 없다</strong>. 따라서 액체 상에서는 이것을 해결하기 위해 <code class="language-plaintext highlighter-rouge">순수물질의 퓨가시티 계수</code>를 사용하는 대신, <code class="language-plaintext highlighter-rouge">활동도 계수(activity coefficient)</code>라는 개념을 도입하고 이것을 순수물질의 퓨가시티 계수에 곱하여 액체 혼합물의 퓨가시티 계수를 계산한다. 활동도 계수의 경우 여러가지 모델(Wilson, NRTL, …)을 통해 계산할 수 있다. 액체의 경우 비응축기체로 인해서 실제 시스템의 전체압력이 포화증기압력보다 큰 경우가 있는데, 이러한 상황에서는 액체 혼합물 퓨가시티가 달라지는 경우가 생긴다. 이를 보정하기 위해 <code class="language-plaintext highlighter-rouge">포인팅 보정(poynting correction)</code>을 해준다.</p>
+
+<p>위에서 설명한 각 기체 상고 액체 상에서 계산한 퓨가시티가 같다라는 개념을 통해 xi, yi를 구하면 열역학적 평형상태에서의 해당 상의 물질의 조성을 얻을 수 있다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-01-28T21:30:00+09:00">January 28, 2024</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%EC%97%B4%EC%97%AD%ED%95%99+%EC%83%81%ED%83%9C%EB%B0%A9%EC%A0%95%EC%8B%9D%EA%B3%BC+%EA%B8%B0%EC%95%A1%ED%8F%89%ED%98%95+%28Equation+of+State%2C+EOS%2C+and+Vapor+Liquid+Equilibrium%2C+VLE%29%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2024%2F01%2F28%2FEOS-VLE.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2024%2F01%2F28%2FEOS-VLE.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2024%2F01%2F28%2FEOS-VLE.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/2024/01/14/diary.html" class="pagination--pager" title="하워드 막스와 쇼펜하우어 행복론, 1월 13일 (토) 일기
+">Previous</a>
+    
+    
+      <a href="/blog/2024/01/28/Kalman-Filter.html" class="pagination--pager" title="칼만필터 (Kalman Filter)
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2024/01/28/Kalman-Filter.html" rel="permalink">칼만필터 (Kalman Filter)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-01-28T21:30:00+09:00">January 28, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">칼만필터
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2024/01/14/diary.html" rel="permalink">하워드 막스와 쇼펜하우어 행복론, 1월 13일 (토) 일기
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-01-14T06:39:00+09:00">January 14, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">1월 13일 (토)
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2024/01/07/diary.html" rel="permalink">2024년 1월7일 (일)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-01-07T19:00:00+09:00">January 7, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">1월 7일 (일)
+
+  기억하라, 만약 당신이 그 본질이 노예적인 것을 자유라고 생각하고, 당신 것이 아닌것을 당신 것이라고 생각하면, 당신은 족쇄가 채워지고 비참해질 것이다. 신과 타인을 모두 비난할 것이다. 하지만, 당신이 당신이 가진것만을 당신것이라고 생각하고, 다른 사람이 ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2024/01/02/1%EC%9B%94%EC%9D%98-%EC%9D%BC%EA%B8%B0.html" rel="permalink">2024년 1월2일과 1월4일
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-01-02T19:00:00+09:00">January 2, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">1월 2일 (화)
+
+  나는 당신이 불행하다고 판단한다 왜냐하면 당신은 불행을 한번도 겪어보지 못했기 때문이다. 당신은 인생을 살면서 한명의 적도 만난적이 없다. 그렇기 때문에 아무도 당신이 얼만큼의 역량을 갖고 있는지 모른다. 심지어 당신조차도.
+세네카
+
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/blog/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Knowledge for Growth. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/blog/assets/js/main.min.js"></script>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1CQ63P7HR5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1CQ63P7HR5');
+</script>
+
+
+
+
+
+  </body>
+</html>
