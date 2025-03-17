@@ -3,8 +3,6 @@ layout: single
 author: Yongho
 title:  "축적될 수 있는 것을 하는 것"
 date:  2025-03-17 21:00:00 +0000
-tags:
-  - Thinking
 ---
 
 # 축적가능성
